@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Sidebar 01</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="p-4 pt-5">
+		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
+	        <ul class="list-unstyled components mb-5">
+	          <li>
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Documentation</a>
+	            <ul class="collapse list-unstyled" id="homeSubmenu">
+                <li>
+                   <a href="#">Internal Project 2</a>
+                </li>
+                <li>
+                    <a href="#">Internal Project 2</a>
+                </li>
+                <li>
+                    <a href="#">Internal Project 2</a>
+                </li>
+				 <li>
+                    <a href="#">Internal Project 2</a>
+                </li>
+	            </ul>
+	          </li>
+			   <li>
+	            <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Reports</a>
+	            <ul class="collapse list-unstyled" id="homeSubmenu2">
+                <li>
+                    <a href="#">20WT0001 - Wyndham Hotels</a>
+                </li>
+                <li>
+                    <a href="#">Internal Project 2</a>
+                </li>
+                <li>
+                    <a href="#">Internal Project 3</a>
+                </li>
+				 <li>
+                    <a href="#">Internal Project 4</a>
+                </li>
+	            </ul>
+	          </li>
+	         
+			 <li>
+              <a href="#homeSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Customer Environment</a>
+              <ul class="collapse list-unstyled" id="homeSubmenu3">
+                <li>
+                    <a href="#">Page 1</a>
+                </li>
+                <li>
+                    <a href="#">Page 2</a>
+                </li>
+                <li>	
+                    <a href="#">Page 3</a>
+                </li>
+              </ul>
+	          </li>
+	          
+	        </ul>
+
+	        <div class="footer" >
+	        	<p style="color:#024f05;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
+						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+	        </div>
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5">
+
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+              <i class="fa fa-bars"></i>
+              <span class="sr-only">Toggle Menu</span>
+            </button>
+            <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav> -->
+
+        <h2 class="mb-4">20WT0001 Wyndham Project</h2>
+        <p>In this page you will find all non-Avaya project documentation</p>
+        <p>Scope of work
+1  Scope
+This proposal describes the professional services to be provided by Certius for the Wyndham project, in relation to the voice self-service application specifications received from Waterfield on December 30, 2019.
+• WVO call flow draft.pdf
+This application has a multilingual directed-dialog ASR (Automated Speech Recognition) user interface.
+
+1.1 Services
+The following professional services would be provided by Certius within the scope of this project:
+• Translation of the application audio messages texts to Spanish and Portuguese
+o Deliverable: Excel spreadsheet containing the original messages in English provided by Waterfield, and the corresponding translated messages, one column for each language. Translations would be performed by native speakers
+• Provision of ASR grammar files for each interaction state in the application: menus and Prompt&Collects, for Spanish and Portuguese
+o Deliverable: Lumenvox grammar files (uncompiled)
+• Self-service application QA testing for Spanish and Portuguese through the performance of phone calls to the application, with the objective of verifying the audio messages and the correct performance of the ASR grammars.
+o Prerequisite: Waterfield should first perform the application QA testing in English
+o Deliverable: test cases performance report (Excel)
+• UAT support for end-customer testing in all issues related to Spanish and Portuguese audio messages and grammars
+o It is assumed that the UAT testing process for the entire application would last two weeks.
+
+Unless otherwise indicated in this proposal, all services will be provided by Certius remotely from its offices in Buenos Aires, during normal working hours only: Monday to Friday (excluding national holidays in Argentina) from 9 am to 6 pm Argentina time.
+
+1.1.1 SERVICES EXCLUSIONS
+The following services are explicitly excluded from this proposal:
+• Services related to ASR tuning
+• Any warranty on ASR performance levels
+• Services of any kind once the UAT process has been completed
+• Deploy of files or performance of configurations in the execution environments
+
+1.2 Requirements
+This proposal assumes that Waterfield would provide the following items/services: 
+• Final version of the self-service application specification, containing:
+o All application messages, including messages related to retries and error states
+o English vocabulary list for each interaction state
+• English ASR grammars (for sample purposes only)
+• Testing environment
+• Deploy of grammar files to the testing environment
+• DID phone number for making phone calls to the application
+• Required test data for navigating the self-service application
+
+Participants</p>
+        
+      </div>
+		</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
