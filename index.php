@@ -23,10 +23,10 @@
 				<div class="p-4 pt-5">
 		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
 				
-				<?if (($_SESSION['login']) != 'validated')): var_dump($_SESSION['login'])?>
-				<?elseif (($_SESSION['login']) = 'validated')): var_dump($_SESSION['login'])?>
-				<?else: var_dump($_SESSION['login'])?>
-				<?endif; ?>
+				<?if (($_SESSION['login']) != 'validated')): var_dump($_SESSION['login'])
+				elseif (($_SESSION['login']) = 'validated')): var_dump($_SESSION['login'])
+				else: var_dump($_SESSION['login'])
+				endif; ?>
 				
 	        <ul class="list-unstyled components mb-5">
 	          <li>
