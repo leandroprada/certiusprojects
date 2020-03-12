@@ -25,7 +25,7 @@ $email = $_SESSION['email'];
 				$_SESSION['email'] = $email;
 				$result = mysqli_stmt_get_result($stmt);
 				$result_row =  mysqli_stmt_fetch($stmt);
-			   	$result = mysqli_stmt_get_result($stmt);
+			   	
 				
 				echo $result
 				
