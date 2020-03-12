@@ -22,7 +22,6 @@ $email = $_SESSION['email'];
 		  if ($resultCheck >= 1) {
 			  
 				$result = mysqli_stmt_get_result($stmt);
-				
 				while ($row = $result->fetch_assoc()) 
         {
 
@@ -32,12 +31,12 @@ $email = $_SESSION['email'];
 
         
 				$_SESSION['login'] = "validated";
-				$_SESSION['email'] = $email;
 				
-			   header("Location: ../index.php?login=validated");
+				
+			  
 		  }
 		  else {
-			  header("Location: ../index.php?error=sqlcouldnotexecute");
+			  
 		  }
 
 	  }
