@@ -7,6 +7,7 @@ require 'dbconn.inc.php';
  $email = $_POST['email'];
  $password = $_POST['password'];
  $sql = "SELECT email FROM usr WHERE email=?";
+ $name = "SELECT name FROM usr WHERE email=?";
  $stmt = mysqli_stmt_init($conn);
 
  if (!mysqli_stmt_prepare($stmt, $sql)){
@@ -23,7 +24,8 @@ require 'dbconn.inc.php';
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
-				$_SESSION['email'] = $email;
+				$_SESSION['name'] = $name;
+				
 			   header("Location: ../index.php?login=validated");
 		  }
 		  else {
