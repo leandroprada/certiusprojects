@@ -22,10 +22,10 @@ require 'dbconn.inc.php';
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
-			   header("Location: ../anses_ivr.php?login=validated");
+			   header("Location: ../index.php?login=validated");
 		  }
 		  else {
-			  header("Location: login.php?error=sqlcouldnotexecute");
+			  header("Location: index.php?error=sqlcouldnotexecute");
 		  }
 
 	  }
