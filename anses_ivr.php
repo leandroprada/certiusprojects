@@ -20,10 +20,10 @@ $_SESSION['login'] = "validated";
   </head>
   <body>
   
-		<? if (($_SESSION['login']) != "validated"): ?>
+		<? if (($_SESSION['login']) != "validated"): 
 			<p>You are not authenticated, please <a href="./login/index.php">login here</a></p>
-		
-		<? else: ?>	
+		?>
+		<? else: 	
 		
 		<div class="wrapper d-flex align-items-stretch">
 												
@@ -217,6 +217,8 @@ $_SESSION['login'] = "validated";
 	  
 	  
 		</div>
+		
+		?>
 	<? endif; ?>
 	
     <script src="js/jquery.min.js"></script>
