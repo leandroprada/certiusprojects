@@ -18,11 +18,15 @@ $_SESSION['email'] = $_POST['email'];
 		<link rel="stylesheet" href="./css/styleprojects.css">
   </head>
   <body>
-		
+  
+
+		<?php
+												 if (($_SESSION['login']) != "validated") {
+												 echo <div class="wrapper d-flex align-items-stretch">Invalid Email - Please try again -Click <a href="./login/index.php" >&nbsp;Here</a></div>;}
 													
-		<div class="wrapper d-flex align-items-stretch">
-			
-			
+	
+												else echo {
+		<div class="wrapper d-flex align-items-stretch">			
 			<nav id="sidebar">
 				<div class="p-4 pt-5">
 		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
@@ -158,13 +162,7 @@ $_SESSION['email'] = $_POST['email'];
         </nav> -->
 
         <h2 class="mb-4">18tp0001 Wyndham Project
-		<?php
-		echo $_SESSION['login'];
-		echo $_SESSION['email'];
-													 if (($_SESSION['login']) != "validated") {
-													 echo '<span style="font-size:0.3em;"> Invalid Email - Please try again</span>';}
-
-													?></h2>
+		</h2>
         <p>In this page you will find all documentation for Wyndham hotels</p>
 		<h2>Scope of work</h2>
 
@@ -217,7 +215,7 @@ $_SESSION['email'] = $_POST['email'];
         
       </div>
 		</div>
-
+}?>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
