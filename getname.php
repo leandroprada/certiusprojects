@@ -27,7 +27,7 @@ $email = $_SESSION['email'];
 				$result_row =  mysqli_stmt_fetch($stmt);
 			   	$result = mysqli_stmt_get_result($stmt);
 				
-				echo ("%s (%s)\n", $name, $code);
+				echo $result
 				
 				mysqli_stmt_close($stmt);
         
