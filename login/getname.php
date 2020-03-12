@@ -20,13 +20,15 @@ echo "este es el valor que viene de session ".$email;
 		  mysqli_stmt_bind_param ($stmt, "s", $email);
 		  mysqli_stmt_execute($stmt);
 		  mysqli_stmt_store_result($stmt);
+		  mysqli_stmt_fetch($stmt);
+		  $resultofthequery = mysqli_stmt_fetch($stmt);
 		  $result = mysqli_stmt_store_result($stmt);
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
-				$resultofthequery = mysqli_stmt_fetch($stmt);
+				
 				$userloggedname = $_SESSION['name'];
-				echo "este es el valor que viene del query ".$result;
+				echo "este es el valor que viene del query ".$resultofthequery;
 				echo $userloggedname;
 			   // header("Location: getname.php");
 		  }
