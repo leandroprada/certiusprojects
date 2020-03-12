@@ -20,12 +20,12 @@ $_SESSION['login'] = "validated";
   </head>
   <body>
   
-		<?php if (($_SESSION['login']) != "validated") { 
+		<?php if ($_SESSION['login'] != "validated") { 
 			<p>You are not authenticated, please <a href="./login/index.php">login here</a></p>
-		}
-		else { 	
+		;}
 		
-		<div class="wrapper d-flex align-items-stretch">
+		else { 	
+			<div class="wrapper d-flex align-items-stretch">
 												
 			<nav id="sidebar">
 				<div class="p-4 pt-5">
