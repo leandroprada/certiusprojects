@@ -1,6 +1,6 @@
 <?php
  session_start();
-$_SESSION['username'] = $_POST['username'];
+$_SESSION['email'] = $_POST['username'];
 
 
 ?>
@@ -48,10 +48,10 @@ $_SESSION['username'] = $_POST['username'];
 					</span>
 
 					<span class="txt1 p-b-11">
-						Username
+						Email
 					</span>
-					<div class="wrap-input100 validate-input m-b-36" data-validate = "Username is required">
-						<input class="input100" type="text" name="username" >
+					<div class="wrap-input100 validate-input m-b-36" data-validate = "Email is required">
+						<input class="input100" type="text" name="email" >
 						<span class="focus-input100"></span>
 					</div>
 
