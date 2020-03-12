@@ -22,7 +22,7 @@ require 'dbconn.inc.php';
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
 				$_SESSION['email'] = $email;
-				
+				mysqli_free_result();
 			   header("Location: getname.php");
 		  }
 		  else {
