@@ -19,9 +19,8 @@ echo "este es el valor que viene de session ".$email;
 		  
 		  mysqli_stmt_bind_param ($stmt, "s", $email);
 		  mysqli_stmt_execute($stmt);
-		  mysqli_stmt_store_result($stmt);
-		  mysqli_stmt_fetch($stmt);
-		  $resultofthequery = mysqli_stmt_fetch($stmt);
+		  mysqli_stmt_get_result($stmt);
+		  
 		  $result = mysqli_stmt_get_result($stmt);
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
