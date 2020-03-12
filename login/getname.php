@@ -26,7 +26,7 @@ echo "este es el valor que viene de session ".$email;
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
 				echo "probando conseguir el nombre";
-				$nombredelabase = mysqli_stmt_store_result($stmt)->fetch();
+				$nombredelabase = "no se como se hace";
 				var_dump ($nombredelabase); 
 				echo "aca va el vardump de result";
 				var_dump ($result); 
