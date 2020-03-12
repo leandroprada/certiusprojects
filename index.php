@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="./css/styleprojects.css">
   </head>
   <body>
-		<? if (($_SESSION['login']) != "validated")): ?>
+		<? if (($_SESSION['login']) != "validated")): echo?>
   
 	<div class="wrapper d-flex align-items-stretch">
 			<nav id="sidebar">
@@ -66,7 +66,7 @@
   
   
   
-<? elseif (($_SESSION['login']) != "validated")): ?>
+<? elseif (($_SESSION['login']) = "validated")): echo?>
 		
 		<div class="wrapper d-flex align-items-stretch">
 			<nav id="sidebar">
@@ -174,7 +174,7 @@
       </div>
 		</div>
 		
-	<? else: ?>
+	<? else: echo?>
   <p>Default Content</p>
 	<? endif; ?>
 
