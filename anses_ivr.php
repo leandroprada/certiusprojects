@@ -19,14 +19,14 @@ $_SESSION['email'] = $_POST['email'];
   </head>
   <body>
 		<?php
-													 if (($_SESSION['login']) != "validated") {
+													 if (($_SESSION['login']) = "validated") {
 													 echo '<span style="font-size:0.3em;"> Invalid Email - Please try again</span>';}
 
 													?>
 													
 		<div class="wrapper d-flex align-items-stretch">
 			
-			if (($_SESSION['login']) != "validated")
+			
 			<nav id="sidebar">
 				<div class="p-4 pt-5">
 		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
