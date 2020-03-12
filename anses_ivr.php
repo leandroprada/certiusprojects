@@ -21,7 +21,7 @@ $_SESSION['email'] = $_POST['email'];
   <body>
   
 		<?php if (($_SESSION['login'] != "validated")) { 
-			echo <p>You are not authenticated, please <a href="./login/index.php">login here</a></p>;
+			echo '<p>You are not authenticated, please <a href="./login/index.php">login here</a></p>';
 		}
 		?>
 			
