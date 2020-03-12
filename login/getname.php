@@ -14,7 +14,7 @@ $query2 = '"'.$email.'";';
 
 $query = $query1.$query2;
 
-$queryResult = $conn->query($query)->fetch();
+$queryResult = $conn->query($query);
 $queryrow = $queryResult->fetch();
 echo $queryrow;
 
