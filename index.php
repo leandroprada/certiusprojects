@@ -27,6 +27,7 @@
 			<nav id="sidebar">
 				<div class="p-4 pt-5">
 		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
+				<p>You are logged in as ' . $userlogged . '</p>
 						
 	        <ul class="list-unstyled components mb-5">
 	          <li>
