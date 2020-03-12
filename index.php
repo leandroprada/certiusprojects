@@ -25,10 +25,12 @@
 				<div class="p-4 pt-5">
 		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
 				
-				<? if ($userlogged == null): echo <p>Not Logged In</p>?>
+				<? if ($userlogged == null): echo <p>.Not Logged In</p>;?>
+				<? var_dump($userlogged);?>
+				
 				  
-				<? elseif ($userlogged != null): echo "<p>".$userlogged."is Logged in"</p>?>
-				  
+				<? elseif ($userlogged != null): echo <p>.$userlogged."is Logged in"</p>;?>
+				<? var_dump($userlogged);?>  
 				<? else: ?>
 				  <p>Default Content</p>
 				<? endif; ?>
