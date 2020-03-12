@@ -25,6 +25,8 @@ $email = $_SESSION['email'];
 		  mysqli_stmt_fetch($stmt);
 		  echo "luego de statement fetch";
 		  var_dump ($stmt);
+		  $row = $stmt[1];
+		  var_dump ($row);
 		  
 //  end of test code for debugging		  
 		  if ($resultCheck >= 1) {
