@@ -42,7 +42,7 @@ $_SESSION['email'] = $_POST['username'];
 		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(../images/logo.jpg);"></a>
 	        <ul class="list-unstyled components mb-5">
 	          <li>
-	            <a href="./index.html" aria-expanded="false" >Go back to Certius Projects</a>
+	            <a href="../index.php" aria-expanded="false" >Go back to Certius Projects</a>
 	          </li>
 			            
 	        </ul>
