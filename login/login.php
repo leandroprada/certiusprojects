@@ -63,13 +63,14 @@ $_SESSION['email'] = $_POST['email'];
 						<div class="container-login100">
 							<div class="wrap-login100 p-l-85 p-r-85 p-t-55 p-b-55">
 								<form class="login100-form validate-form flex-sb flex-w" action="signup.php" method="post">
-									<span class="login100-form-title p-b-32">
+										<span class="login100-form-title p-b-32">
 										Login - <?php
 																	 if (($_SESSION['login']) != "validated") {
-																	 echo '<span style="font-size:0.3em;"> Invalid User - Please try again</span>';}
+																	 echo '<span style="font-size:0.5em; color:"red""> You are not validated</span>';}
 
 																	?>
 									</span>
+
 
 									<span class="txt1 p-b-11">
 										Email

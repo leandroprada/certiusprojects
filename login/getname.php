@@ -7,17 +7,11 @@ $email = $_SESSION['email'];
 
 
 $query1 = "SELECT name FROM usr WHERE email=";
-
-
 $query2 = '"'.$email.'";';
-
-
 $query = $query1.$query2;
-echo $query;
-
 $result = mysqli_query($conn,$query);
 $row = mysqli_fetch_row($result);
-echo $row[0];
+$_SESSION['name'] = $row[0];
 
 ?>
 
