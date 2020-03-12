@@ -4,7 +4,16 @@ require 'dbconn.inc.php';
  $email = $_POST['email'];
  $password = $_POST['password'];
  $sql = "SELECT email FROM usr WHERE email=?";
+ 
+ //this code is to get the user name
+	$query1 = "SELECT name FROM usr WHERE email=";
+	$query2 = '"'.$email.'";';
+	$query = $query1.$query2;
+	$result = mysqli_query($conn,$query);
+	$row = mysqli_fetch_row($result);
+	$_SESSION['name'] = $row[0];
 
+ 
  $stmt = mysqli_stmt_init($conn);
 
  if (!mysqli_stmt_prepare($stmt, $sql)){
@@ -23,13 +32,14 @@ require 'dbconn.inc.php';
 				$_SESSION['login'] = "validated";
 				$_SESSION['email'] = $email;
 				
-			   header("Location: getname.php");
+			   header("Location: ../index.php?userlogon=true");
 		  }
 		  else {
 			  header("Location: ../index.php?error=sqlcouldnotexecute");
 		  }
 
 	  }
+	  
 
 
 ?>
