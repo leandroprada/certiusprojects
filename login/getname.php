@@ -25,7 +25,11 @@ echo "este es el valor que viene de session ".$email;
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
-				echo "probando conseguir el nombre";
+				
+				while ($stmt->fetch()) {
+        printf ("%s (%s)\n", $name);
+    }
+				/* echo "probando conseguir el nombre";
 				$nombredelabase = "no se como se hace";
 				var_dump ($nombredelabase); 
 				echo "aca va el vardump de result";
@@ -34,7 +38,7 @@ echo "este es el valor que viene de session ".$email;
 				var_dump ($resultCheck);
 				$userloggedname = $_SESSION['name'];
 				echo "este es el valor que viene del query ".$resultofthequery;
-				echo $userloggedname;
+				echo $userloggedname; */
 			   // header("Location: getname.php");
 		  }
 		  else {
