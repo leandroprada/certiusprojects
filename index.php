@@ -27,7 +27,7 @@
 				
 				<? if ($userlogged == null): echo <p>Not Logged In</p>?>
 				  
-				<? elseif ($userlogged != null): echo <p>$userlogged."is Logged in"</p>?>
+				<? elseif ($userlogged != null): echo "<p>".$userlogged."is Logged in"</p>?>
 				  
 				<? else: ?>
 				  <p>Default Content</p>
