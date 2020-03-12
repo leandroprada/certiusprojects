@@ -24,7 +24,7 @@ $_SESSION['email'] = $_POST['email'];
 			<p>You are not authenticated, please <a href="./login/index.php">login here</a></p>;
 		}
 		?>
-		<?php else { 	
+			
 			<div class="wrapper d-flex align-items-stretch">
 												
 			<nav id="sidebar">
@@ -217,7 +217,7 @@ $_SESSION['email'] = $_POST['email'];
 	  
 	  
 		</div>
-		;} endif;?>
+		<? endif;?>
 		
 		
 	
