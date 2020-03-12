@@ -22,10 +22,7 @@
 		
 		<div class="wrapper d-flex align-items-stretch">
 			
-			<?php if (isset($userlogged))  {echo 'user is logged in';}
-			
-			else  {echo 'user is not logged in';} ?>
-			
+			<?php if (isset($userlogged))  {echo '
 			
 			<nav id="sidebar">
 				<div class="p-4 pt-5">
@@ -133,6 +130,20 @@
       </div>
 	  
 	 
+			
+			
+			
+			
+			
+			
+			
+			
+		';}
+			
+			else  {echo 'user is not logged in';} ?>
+			
+			
+			
 	  
 		</div>
 		
