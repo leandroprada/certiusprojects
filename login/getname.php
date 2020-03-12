@@ -4,7 +4,7 @@
 
 require 'dbconn.inc.php';
 $email = $_SESSION['email'];
-
+echo "este es el valor que viene de session ".$email;
  // $sql = "SELECT email FROM usr WHERE email=?";
  $sql = "SELECT name FROM usr WHERE email=?";
  $stmt = mysqli_stmt_init($conn);
@@ -23,9 +23,9 @@ $email = $_SESSION['email'];
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
-				$_SESSION['name'] = $email;
+				$resultofthequery = mysqli_stmt_fetch($stmt);
 				$userloggedname = $_SESSION['name'];
-				
+				echo "este es el valor que viene del query ".$resultofthequery;
 				echo $userloggedname;
 			   // header("Location: getname.php");
 		  }
@@ -71,7 +71,7 @@ $email = $_SESSION['email'];
 <body>
 
 	<div class="limiter">
-		<?php echo $userloggedname ?>
+		
 	</div>
 
 
