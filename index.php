@@ -86,7 +86,7 @@
 	        </ul>
 
 	        <div class="footer" >
-	        	<p>' . $userlogged . '<a href="./login/logout.php" class = "btn-xs btn-primary" >Log Out</a></p>
+	        	<p>' . $userlogged . '<a href="./login/logout.php" class = "btn-xs btn-primary-xs" >Log Out</a></p>
 				<p style="color:#024f05;"><!-- Link back to Colorlib cant be removed. Template is licensed under CC BY 3.0. -->
 						  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
 						  <!-- Link back to Colorlib cant be removed. Template is licensed under CC BY 3.0. --></p>
