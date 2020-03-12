@@ -7,15 +7,17 @@ $email = $_SESSION['email'];
 
 
 $query1 = "SELECT name FROM usr WHERE email=";
-echo $query1;
+
 
 $query2 = '"'.$email.'";';
-echo $query2;
+
 
 $query = $query1.$query2;
-echo $query;
+
 $queryResult = $conn->query($query)->fetch();
-var_dump ($queryResult['name');
+$queryrow = $queryResult->fetch();
+echo $queryrow;
+
 ?>
 
  
