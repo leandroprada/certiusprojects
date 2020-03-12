@@ -12,7 +12,7 @@ require 'dbconn.inc.php';
 
  if (!mysqli_stmt_prepare($stmt, $sql)){
 	  header("Location: login.php?error=wrongusername");
-	  echo "no estas conectado";
+	  echo "Cannot access database";
 	  exit();
 	  }
 	  else {
@@ -24,9 +24,9 @@ require 'dbconn.inc.php';
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
-				$_SESSION['name'] = $email;
+				$_SESSION['email'] = $email;
 				
-			   header("Location: ../index.php?login=validated");
+			   header("Location: ../getname.php");
 		  }
 		  else {
 			  header("Location: ../index.php?error=sqlcouldnotexecute");

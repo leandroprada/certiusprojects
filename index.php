@@ -1,6 +1,8 @@
 <?php
  session_start();
- $userlogged = $_SESSION['name'];
+ $userlogged = $_SESSION['email'];
+ 
+ 
  
 ?>
 
