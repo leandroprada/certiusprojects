@@ -5,7 +5,7 @@
 require 'dbconn.inc.php';
 $email = $_SESSION['email'];
 
-<?php
+
 $query1 = "SELECT name FROM usr WHERE email=";
 echo $query1;
 
