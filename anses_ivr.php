@@ -20,7 +20,7 @@ $_SESSION['email'] = $_POST['email'];
   </head>
   <body>
   
-		<?php if ($_SESSION['login'] != "validated") { 
+		<?php if (($_SESSION['login'] != "validated")) { 
 			<p>You are not authenticated, please <a href="./login/index.php">login here</a></p>;
 		}
 		?>
@@ -217,7 +217,6 @@ $_SESSION['email'] = $_POST['email'];
 	  
 	  
 		</div>
-		<? endif;?>
 		
 		
 	
