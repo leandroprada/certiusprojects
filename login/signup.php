@@ -26,7 +26,7 @@ require 'dbconn.inc.php';
 				$_SESSION['login'] = "validated";
 				$_SESSION['email'] = $email;
 				
-			   header("Location: ../getname.php");
+			   header("Location: getname.php");
 		  }
 		  else {
 			  header("Location: ../index.php?error=sqlcouldnotexecute");
