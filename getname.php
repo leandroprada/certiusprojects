@@ -23,9 +23,9 @@ $email = $_SESSION['email'];
 			$result_row =  mysqli_stmt_fetch($stmt);
 		  
 				
-				echo $result;
+				var_dump ($result);
 				
-				mysqli_stmt_close($stmt);
+				
         
 				$_SESSION['login'] = "validated";
 				
