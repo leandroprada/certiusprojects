@@ -23,9 +23,12 @@ $_SESSION['email'] = $_POST['email'];
 		<?php
 												 if (($_SESSION['login']) != "validated") {
 												 echo '<div class="wrapper d-flex align-items-stretch">Invalid Email - Please try again -Click <a href="./login/index.php" >&nbsp;Here</a></div>';}
+												
+												
 												?>
 	
-		<?php										else echo {
+			<?php
+			else echo 			
 		'<div class="wrapper d-flex align-items-stretch">			
 			<nav id="sidebar">
 				<div class="p-4 pt-5">
