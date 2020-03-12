@@ -26,7 +26,8 @@ echo "este es el valor que viene de session ".$email;
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
-				
+				echo "aca va el vardump de result";
+				var_dump ($result);
 				$userloggedname = $_SESSION['name'];
 				echo "este es el valor que viene del query ".$resultofthequery;
 				echo $userloggedname;
