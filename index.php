@@ -184,9 +184,9 @@
             </div>
           </div>
         </nav>
-
-        <p class="mb-4">You need to be logged in
-        <a class="btn btn-dark" href="./login/login.php" > Login</a></p>
+		<h2>This is a restricted area - Only Authorized Accounts</h2>
+        <p class="mb-4">Please login
+        <a class="btn btn-dark" href="./login/login.php" > Here </a></p>
 		
 		
       </div>
