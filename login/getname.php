@@ -20,7 +20,7 @@ $result = mysqli_query($conn,$query);
 
 
 
-echo $result;
+var_dump ($result);
 
 ?>
 
