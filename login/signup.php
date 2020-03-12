@@ -23,6 +23,7 @@ require 'dbconn.inc.php';
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
+				$_SESSION['email'] = $email;
 			   header("Location: login.php?login=validated");
 		  }
 		  else {
