@@ -23,8 +23,8 @@ $_SESSION['email'] = $_POST['email'];
 		<?php if (($_SESSION['login'] != "validated")) { 
 			echo '<p>You are not authenticated, please <a href="./login/index.php">login here</a></p>';
 		}
-		?>
-			
+			else { 
+			echo '
 			<div class="wrapper d-flex align-items-stretch">
 												
 			<nav id="sidebar">
@@ -218,8 +218,10 @@ $_SESSION['email'] = $_POST['email'];
 	  
 		</div>
 		
-		
-	
+		';
+		}
+		endif;
+	?>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
