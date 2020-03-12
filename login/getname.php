@@ -19,9 +19,9 @@ echo "este es el valor que viene de session ".$email;
 		  
 		  mysqli_stmt_bind_param ($stmt, "s", $email);
 		  mysqli_stmt_execute($stmt);
-		  mysqli_stmt_get_result($stmt);
+		  mysqli_stmt_use_result($stmt);
 		  
-		  $result = mysqli_stmt_get_result($stmt);
+		  $result = mysqli_stmt_use_result($stmt);
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
@@ -45,7 +45,7 @@ echo "este es el valor que viene de session ".$email;
 
 
 ?>
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
