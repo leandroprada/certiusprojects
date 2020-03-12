@@ -27,7 +27,7 @@
 			<nav id="sidebar">
 				<div class="p-4 pt-5">
 		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
-				<p>You are logged in as ' . $userlogged . '</p>
+				
 						
 	        <ul class="list-unstyled components mb-5">
 	          <li>
@@ -86,7 +86,8 @@
 	        </ul>
 
 	        <div class="footer" >
-	        	<p style="color:#024f05;"><!-- Link back to Colorlib cant be removed. Template is licensed under CC BY 3.0. -->
+	        	<p>You are logged in as ' . $userlogged . ' you may log out <a href="./login/logout.php" class = "btn btn-primary" >here</a></p>
+				<p style="color:#024f05;"><!-- Link back to Colorlib cant be removed. Template is licensed under CC BY 3.0. -->
 						  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
 						  <!-- Link back to Colorlib cant be removed. Template is licensed under CC BY 3.0. --></p>
 	        </div>
