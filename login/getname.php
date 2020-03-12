@@ -20,15 +20,14 @@ echo "este es el valor que viene de session ".$email;
 		  mysqli_stmt_bind_param ($stmt, "s", $email);
 		  mysqli_stmt_execute($stmt);
 		  mysqli_stmt_store_result($stmt);
-		  
+		  mysqli_fetch_all();
+		  $all = mysqli_fetch_all();
 		  $result = mysqli_stmt_store_result($stmt);
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
+				var_dump ($all);
 				
-				while ($stmt->fetch()) {
-        printf ("%s (%s)\n", $email);
-    }
 				/* echo "probando conseguir el nombre";
 				$nombredelabase = "no se como se hace";
 				var_dump ($nombredelabase); 
