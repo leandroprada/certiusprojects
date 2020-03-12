@@ -18,19 +18,12 @@ require 'dbconn.inc.php';
 		  mysqli_stmt_bind_param ($stmt, "s", $email);
 		  mysqli_stmt_execute($stmt);
 		  mysqli_stmt_store_result($stmt);
-		  
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
 				$_SESSION['email'] = $email;
 				
-				mysqli_stmt_fetch($stmt);
-		  $all = mysqli_stmt_fetch($stmt);
-				
-				var_dump ($all);
-				
-				
-			   //header("Location: getname.php");
+			   header("Location: getname.php");
 		  }
 		  else {
 			  header("Location: ../index.php?error=sqlcouldnotexecute");

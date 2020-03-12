@@ -6,7 +6,7 @@ require 'dbconn.inc.php';
 $email = $_SESSION['email'];
 echo "este es el valor que viene de session ".$email;
  // $sql = "SELECT email FROM usr WHERE email=?";
- $sql = "SELECT name FROM usr WHERE email=?";
+ $sql = "SELECT * FROM usr WHERE email=?";
  $stmt = mysqli_stmt_init($conn);
 
  if (!mysqli_stmt_prepare($stmt, $sql)){
