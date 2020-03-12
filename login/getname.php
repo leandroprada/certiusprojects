@@ -27,7 +27,7 @@ echo "este es el valor que viene de session ".$email;
 				$_SESSION['login'] = "validated";
 				
 				while ($stmt->fetch()) {
-        printf ("%s (%s)\n", $name);
+        printf ("%s (%s)\n", $email);
     }
 				/* echo "probando conseguir el nombre";
 				$nombredelabase = "no se como se hace";
