@@ -19,7 +19,9 @@ $_SESSION['email'] = $_POST['email'];
   </head>
   <body>
 		<?php
-													 if (($_SESSION['login']) = "validated") {
+		echo $_SESSION['login'];
+		echo $_SESSION['email'];
+													 if (($_SESSION['login']) != "validated") {
 													 echo '<span style="font-size:0.3em;"> Invalid Email - Please try again</span>';}
 
 													?>
