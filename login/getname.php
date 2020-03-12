@@ -29,7 +29,7 @@ echo "este es el valor que viene de session ".$email;
 				$nombredelabase = "no se como se hace";
 				var_dump ($nombredelabase); 
 				echo "aca va el vardump de result";
-				var_dump ($result); 
+				echo $result; 
 				echo "aca va el vardump de resultCheck rows";
 				var_dump ($resultCheck);
 				$userloggedname = $_SESSION['name'];
