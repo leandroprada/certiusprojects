@@ -21,15 +21,16 @@
 
 		
 		<div class="wrapper d-flex align-items-stretch">
+			
+			<?php if ($userlogged != NULL) : {echo "user is logged in";}
+			
+			else : {echo "
+			
+			
 			<nav id="sidebar">
 				<div class="p-4 pt-5">
 		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
-				
-				<p><?php var_dump($userlogged);echo "este valor es userlogged";?></p>
-				<p><?php var_dump($_SESSION['email']);echo "este valor es $_SESSION email ";?></p>
-				<p><?php var_dump($_SESSION);echo "este valor es $_SESSION  ";?></p>
-				<p><?php var_dump($userlogged);echo "este valor es userlogged";?></p>
-				
+						
 	        <ul class="list-unstyled components mb-5">
 	          <li>
 	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Internal Projects</a>
@@ -130,6 +131,9 @@
         <p>In this page you will find all non-Avaya project documentation</p>
         
       </div>
+	  
+	  <?php ";}?>
+	  
 		</div>
 		
 
