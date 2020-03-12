@@ -6,7 +6,7 @@ require 'dbconn.inc.php';
 $email = $_SESSION['email'];
 
 <?php
-$query = "'SELECT name FROM usr WHERE email=?'.$email";
+$query = 'SELECT name FROM usr WHERE email=".$email';
 echo $query;
 $queryResult = $conn->query($query);
 echo $queryResult;
