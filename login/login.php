@@ -1,6 +1,6 @@
 <?php
  session_start();
-$_SESSION['username'] = $_POST['username'];
+$_SESSION['email'] = $_POST['email'];
 
 
 ?>
@@ -42,7 +42,7 @@ $_SESSION['username'] = $_POST['username'];
 					<span class="login100-form-title p-b-32">
 						Login - <?php
 													 if (($_SESSION['login']) != "validated") {
-													 echo '<span style="font-size:0.3em;"> Invalid User - Please try again</span>';}
+													 echo '<span style="font-size:0.3em;"> Invalid Email - Please try again</span>';}
 
 													?>
 					</span>
