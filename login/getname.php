@@ -8,7 +8,8 @@ echo "este es el valor que viene de session ".$email;
  // $sql = "SELECT email FROM usr WHERE email=?";
  $sql = "SELECT * FROM usr WHERE email=?";
  $stmt = mysqli_stmt_init($conn);
-
+echo "stmt antes del if";
+var_dump ($stmt);
  if (!mysqli_stmt_prepare($stmt, $sql)){
 	  header("Location: login.php?error=wrongusername");
 	  echo "Cannot access database";
@@ -18,17 +19,24 @@ echo "este es el valor que viene de session ".$email;
 		  $hashedPwd = password_hash($password, PASSWORD_DEFAULT);
 		  
 		  mysqli_stmt_bind_param ($stmt, "s", $email);
+		  echo "luego de bind parameters";
+		  var_dump ($stmt);
 		  mysqli_stmt_execute($stmt);
+		  echo "luego de execute";
+		  var_dump ($stmt);
 		  mysqli_stmt_store_result($stmt);
-		  mysqli_fetch_all();
-		  $all = mysqli_fetch_all();
+		  echo "luego de store result";
+		  var_dump ($stmt);
+		  
 		  $result = mysqli_stmt_store_result($stmt);
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
 				var_dump ($all);
-				
-				/* echo "probando conseguir el nombre";
+					echo "dentro del if check row mayor a 1";
+		  var_dump ($stmt);
+		  
+				 echo "probando conseguir el nombre";
 				$nombredelabase = "no se como se hace";
 				var_dump ($nombredelabase); 
 				echo "aca va el vardump de result";
@@ -37,7 +45,8 @@ echo "este es el valor que viene de session ".$email;
 				var_dump ($resultCheck);
 				$userloggedname = $_SESSION['name'];
 				echo "este es el valor que viene del query ".$resultofthequery;
-				echo $userloggedname; */
+				echo $userloggedname;
+				
 			   // header("Location: getname.php");
 		  }
 		  else {
