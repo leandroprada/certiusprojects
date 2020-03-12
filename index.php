@@ -161,7 +161,7 @@
 	        <div class="footer" >
 	        	<p style="color:#024f05;"><!-- Link back to Colorlib cant be removed. Template is licensed under CC BY 3.0. -->
 						  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
-						  <!-- Link back to Colorlib cant be removed. Template is licensed under CC BY 3.0. --></p>
+						  <!-- Link back to Colorlib cant be removed. Template is licensed under CC BY 3.0 --></p>
 	        </div>
 
 	      </div>
@@ -193,7 +193,8 @@
         </nav>
 
         <h2 class="mb-4">You need to be logged in</h2>
-        <a class="nav-link" href="./login/login.php" >Please Login</a>
+        <a class="btn btn-dark" href="./login/login.php" > Login</a>
+		
 		
       </div>
 	  
