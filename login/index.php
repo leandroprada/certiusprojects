@@ -39,94 +39,12 @@ $_SESSION['email'] = $_POST['username'];
 	<div class="wrapper d-flex align-items-stretch">
 			<nav id="sidebar">
 				<div class="p-4 pt-5">
-		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
+		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(../images/logo.jpg);"></a>
 	        <ul class="list-unstyled components mb-5">
 	          <li>
 	            <a href="./index.html" aria-expanded="false" >Go back to Certius Projects</a>
 	          </li>
-			  
-			  <li>
-	            <li>
-	            <a href="#home18tp0001" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">18TP0001 - Teleperformance Anses IVR</a>
-	            <ul class="collapse list-unstyled" id="home18tp0001">
-                <li>
-                    <a href="./wyndham.html">Documentation</a>
-                </li>
-                <li>
-                    <a href="#">Customer Environment</a>
-                </li>
-                <li>
-                    <a href="#">Remote Access</a>
-                </li>
-				 <li>
-                    <a href="#reports_18tp0001" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">18TP0001 Reports</a>
-					<ul class="collapse list-unstyled" id="reports_18tp0001">
-						<li>
-						<a href="#">Report 1</a>
-						</li>
-						<li>
-						<a href="#">Report 2</a>
-						</li>
-						<li>
-						<a href="#">Report 3</a>
-						</li>
-					</ul>
-                </li>
-	            </li>
-	          
-                <li>
-                    <a href="#">Internal Project 2</a>
-                </li>
-                <li>
-                    <a href="#">Internal Project 2</a>
-                </li>
-				 <li>
-                    <a href="#">Internal Project 2</a>
-                </li>
-	            </ul>
-	          </li>
-			  
-	         
-			<li>
-	            <a href="#home18tp0002" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">18TP0002 - TBD</a>
-	            <ul class="collapse list-unstyled" id="home18tp0002">
-                <li>
-                    <a href="./wyndham.html">Documentation</a>
-                </li>
-                <li>
-                    <a href="#">Customer Environment</a>
-                </li>
-                <li>
-                    <a href="#">Remote Access</a>
-                </li>
-				 <li>
-                    <a href="#reports_18tp0002" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">18tp0002 Reports</a>
-					<ul class="collapse list-unstyled" id="reports_18tp0002">
-						<li>
-						<a href="#">Report 1</a>
-						</li>
-						<li>
-						<a href="#">Report 2</a>
-						</li>
-						<li>
-						<a href="#">Report 3</a>
-						</li>
-					</ul>
-                </li>
-	            </li>
-	          
-                <li>
-                    <a href="#">Internal Project 2</a>
-                </li>
-                <li>
-                    <a href="#">Internal Project 2</a>
-                </li>
-				 <li>
-                    <a href="#">Internal Project 2</a>
-                </li>
-	            </ul>
-	          </li>
-	          
+			            
 	        </ul>
 
 	        <div class="footer" >
