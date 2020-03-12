@@ -66,7 +66,7 @@
 									<span class="login100-form-title p-b-32">
 										Login - <?php
 																	 if (($_SESSION['login']) != "validated") {
-																	 echo '<span style="font-size:0.3em;"> Invalid User - Please try again</span>';}
+																	 echo '<span style="font-size:0.5em; color:"red""> You are not validated</span>';}
 
 																	?>
 									</span>
