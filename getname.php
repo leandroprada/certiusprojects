@@ -30,7 +30,7 @@ $email = $_SESSION['email'];
 
         }
 
-        $stmt->free_result();
+        
 				$_SESSION['login'] = "validated";
 				$_SESSION['email'] = $email;
 				
