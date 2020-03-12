@@ -7,9 +7,8 @@ require 'dbconn.inc.php';
  $email = $_POST['email'];
  $password = $_POST['password'];
  $sql = "SELECT email FROM usr WHERE email=?";
- $sql2 = "SELECT name FROM usr WHERE email=?";
+ $name = "SELECT name FROM usr WHERE email=?";
  $stmt = mysqli_stmt_init($conn);
- $stmt2 = mysqli_stmt_init($conn);
 
  if (!mysqli_stmt_prepare($stmt, $sql)){
 	  header("Location: login.php?error=wrongusername");
@@ -27,38 +26,12 @@ require 'dbconn.inc.php';
 				$_SESSION['login'] = "validated";
 				$_SESSION['name'] = $name;
 				
+			   header("Location: ../index.php?login=validated");
 		  }
 		  else {
-			  
+			  header("Location: ../index.php?error=sqlcouldnotexecute");
 		  }
 
-	  }
-	  
-if (!mysqli_stmt_prepare($stmt2, $sql2)){
-	  header("Location: login.php?error=wrongusername");
-	  echo "no estas conectado";
-	  exit();
-	  }
-	  else {
-		  mysqli_stmt_bind_param ($stmt2, "s", $email);
-		  mysqli_stmt_execute($stmt2);
-		  mysqli_stmt_store_result($stmt2);
-		  $queryresult =mysqli_stmt_store_result($stmt2);
-		  var_dump ($queryresult);
-		  echo ($queryresult);
-		  $resultCheck = mysqli_stmt_num_rows($stmt2);
-		  if ($resultCheck >= 1) {
-				echo "hay más de un resultado";
-				
-			   
-		  }
-		  else {
-			  
-		  }
-
-	  }
-	  
-	  
 	  }
 
 
@@ -67,7 +40,7 @@ if (!mysqli_stmt_prepare($stmt2, $sql2)){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Certius Login</title>
+	<title>Login V14</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
