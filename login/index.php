@@ -39,9 +39,109 @@ $_SESSION['email'] = $_POST['username'];
 	<div class="wrapper d-flex align-items-stretch">
 			<nav id="sidebar">
 				<div class="p-4 pt-5">
-		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(../images/logo.jpg);"></a>
-	        
-				<div class="limiter">
+		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
+	        <ul class="list-unstyled components mb-5">
+	          <li>
+	            <a href="./index.html" aria-expanded="false" >Go back to Certius Projects</a>
+	          </li>
+			  
+			  <li>
+	            <li>
+	            <a href="#home18tp0001" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">18TP0001 - Teleperformance Anses IVR</a>
+	            <ul class="collapse list-unstyled" id="home18tp0001">
+                <li>
+                    <a href="./wyndham.html">Documentation</a>
+                </li>
+                <li>
+                    <a href="#">Customer Environment</a>
+                </li>
+                <li>
+                    <a href="#">Remote Access</a>
+                </li>
+				 <li>
+                    <a href="#reports_18tp0001" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">18TP0001 Reports</a>
+					<ul class="collapse list-unstyled" id="reports_18tp0001">
+						<li>
+						<a href="#">Report 1</a>
+						</li>
+						<li>
+						<a href="#">Report 2</a>
+						</li>
+						<li>
+						<a href="#">Report 3</a>
+						</li>
+					</ul>
+                </li>
+	            </li>
+	          
+                <li>
+                    <a href="#">Internal Project 2</a>
+                </li>
+                <li>
+                    <a href="#">Internal Project 2</a>
+                </li>
+				 <li>
+                    <a href="#">Internal Project 2</a>
+                </li>
+	            </ul>
+	          </li>
+			  
+	         
+			<li>
+	            <a href="#home18tp0002" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">18TP0002 - TBD</a>
+	            <ul class="collapse list-unstyled" id="home18tp0002">
+                <li>
+                    <a href="./wyndham.html">Documentation</a>
+                </li>
+                <li>
+                    <a href="#">Customer Environment</a>
+                </li>
+                <li>
+                    <a href="#">Remote Access</a>
+                </li>
+				 <li>
+                    <a href="#reports_18tp0002" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">18tp0002 Reports</a>
+					<ul class="collapse list-unstyled" id="reports_18tp0002">
+						<li>
+						<a href="#">Report 1</a>
+						</li>
+						<li>
+						<a href="#">Report 2</a>
+						</li>
+						<li>
+						<a href="#">Report 3</a>
+						</li>
+					</ul>
+                </li>
+	            </li>
+	          
+                <li>
+                    <a href="#">Internal Project 2</a>
+                </li>
+                <li>
+                    <a href="#">Internal Project 2</a>
+                </li>
+				 <li>
+                    <a href="#">Internal Project 2</a>
+                </li>
+	            </ul>
+	          </li>
+	          
+	        </ul>
+
+	        <div class="footer" >
+	        	<p style="color:#024f05;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
+						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+	        </div>
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5">
+
+        <div class="limiter">
 						<div class="container-login100">
 							<div class="wrap-login100 p-l-85 p-r-85 p-t-55 p-b-55">
 								<form class="login100-form validate-form flex-sb flex-w" action="signup.php" method="post">
@@ -97,12 +197,9 @@ $_SESSION['email'] = $_POST['username'];
 							</div>
 						</div>
 					</div>
-					
-
-				</div>
-    	</nav>
-
-	</div>
+        
+			</div>
+		</div>
 
 	
 
