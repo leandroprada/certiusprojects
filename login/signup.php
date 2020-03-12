@@ -21,7 +21,7 @@ require 'dbconn.inc.php';
 		  mysqli_stmt_store_result($stmt);
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
-				$_SESSION['login'] = 'validated';
+				$_SESSION['login'] = "validated";
 			   header("Location: ../anses_ivr.php?login=validated");
 		  }
 		  else {
