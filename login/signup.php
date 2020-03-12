@@ -3,7 +3,7 @@
 
 require 'dbconn.inc.php';
 
- $username = $_POST['email'];
+ $email = $_POST['email'];
  $password = $_POST['password'];
  $sql = "SELECT email FROM usr WHERE email=?";
  $stmt = mysqli_stmt_init($conn);
@@ -16,7 +16,7 @@ require 'dbconn.inc.php';
 	  else {
 		  $hashedPwd = password_hash($password, PASSWORD_DEFAULT);
 		  
-		  mysqli_stmt_bind_param ($stmt, "s", $username);
+		  mysqli_stmt_bind_param ($stmt, "s", $email);
 		  mysqli_stmt_execute($stmt);
 		  mysqli_stmt_store_result($stmt);
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
