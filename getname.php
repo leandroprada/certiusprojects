@@ -36,9 +36,7 @@ $email = $_SESSION['email'];
 				
 			  
 		  }
-		  else {
-			  
-		  }
+		 
 
 	  }
 
