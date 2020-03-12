@@ -1,15 +1,12 @@
 <?php
  session_start();
 require 'dbconn.inc.php';
-
-$email = $_SESSION['email'];
-echo $email;
-
- // $sql = "SELECT email FROM usr WHERE email=?";
+$email = $_POST['email'];
+$password = $_POST['password'];
  $sql = "SELECT name FROM usr WHERE email=?";
- echo $sql;
+
  $stmt = mysqli_stmt_init($conn);
- echo $stmt;
+ 
 
  if (!mysqli_stmt_prepare($stmt, $sql)){
 	  header("Location: login.php?error=wrongusername");
@@ -17,19 +14,22 @@ echo $email;
 	  exit();
 	  }
 	  else {
+		 $hashedPwd = password_hash($password, PASSWORD_DEFAULT);
 		  mysqli_stmt_bind_param ($stmt, "s", $email);
 		  mysqli_stmt_execute($stmt);
 		  mysqli_stmt_store_result($stmt);
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
-		  $result = mysqli_stmt_get_result($stmt);
-			
-			
-			var_dump ($result);
-				
-        
+		  if ($resultCheck >= 1) {
+  
 				$_SESSION['login'] = "validated";
-			}
-
+				$_SESSION['name'] = $email;
+				$userlogged = $_SESSION['name'];
+				
+				echo $userlogged;
+								}
+		  else {
+			  header("Location: ../index.php?error=sqlcouldnotexecute");
+		  }
 
 ?>
 

@@ -14,29 +14,29 @@ $email = $_SESSION['email'];
 	  echo "Cannot access database";
 	  exit();
 	  }
-	  else {
+	  	  else {
+		  $hashedPwd = password_hash($password, PASSWORD_DEFAULT);
+		  
 		  mysqli_stmt_bind_param ($stmt, "s", $email);
 		  mysqli_stmt_execute($stmt);
 		  mysqli_stmt_store_result($stmt);
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
-		  $result = mysqli_stmt_get_result($stmt);
-			$result_row =  mysqli_stmt_fetch($stmt);
-		  
-				
-				var_dump ($result);
-				
-				
-        
+		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
+				$_SESSION['name'] = $email;
+				$userloggedname = $_SESSION['name'];
 				
-				
-			  
+				echo $userloggedname;
+			   // header("Location: getname.php");
 		  }
-		 
+		  else {
+			  header("Location: ../index.php?error=sqlcouldnotexecute");
+		  }
 
 	  }
 
 
+?>
 ?>
 
 <!DOCTYPE html>

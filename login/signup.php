@@ -1,13 +1,10 @@
 <?php
- session_start();
-
-
+ session_start();		
 require 'dbconn.inc.php';
-
  $email = $_POST['email'];
  $password = $_POST['password'];
  $sql = "SELECT email FROM usr WHERE email=?";
- // $name = "SELECT name FROM usr WHERE email=?";
+
  $stmt = mysqli_stmt_init($conn);
 
  if (!mysqli_stmt_prepare($stmt, $sql)){
