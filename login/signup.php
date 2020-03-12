@@ -24,10 +24,10 @@ require 'dbconn.inc.php';
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
 				$_SESSION['email'] = $email;
-			   header("Location: login.php?login=validated");
+			   header("Location: ../index.php?login=validated");
 		  }
 		  else {
-			  header("Location: login.php?error=sqlcouldnotexecute");
+			  header("Location: ../index.php?error=sqlcouldnotexecute");
 		  }
 
 	  }
