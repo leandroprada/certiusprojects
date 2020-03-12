@@ -7,7 +7,7 @@ require 'dbconn.inc.php';
  $email = $_POST['email'];
  $password = $_POST['password'];
  $sql = "SELECT email FROM usr WHERE email=?";
- $name = "SELECT name FROM usr WHERE email=?";
+ // $name = "SELECT name FROM usr WHERE email=?";
  $stmt = mysqli_stmt_init($conn);
 
  if (!mysqli_stmt_prepare($stmt, $sql)){
@@ -21,14 +21,12 @@ require 'dbconn.inc.php';
 		  mysqli_stmt_bind_param ($stmt, "s", $email);
 		  mysqli_stmt_execute($stmt);
 		  mysqli_stmt_store_result($stmt);
-		  $result = mysqli_stmt_store_result($stmt);
-		  
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
-				$_SESSION['name'] = $name;
+				$_SESSION['name'] = $email;
 				
-			   var_dump ($result);
+			   header("Location: ../index.php?login=validated");
 		  }
 		  else {
 			  header("Location: ../index.php?error=sqlcouldnotexecute");
