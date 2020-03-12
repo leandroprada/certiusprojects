@@ -24,7 +24,7 @@
 			
 			<?php if ($userlogged != NULL)  {echo 'user is logged in'}
 			
-			else  {echo 'user is not logged in'
+			else  {echo 'user is not logged in' ?>
 			
 			
 			<nav id="sidebar">
