@@ -29,13 +29,7 @@ echo $email;
 				
         
 				$_SESSION['login'] = "validated";
-				
-				
-			  
-		  }
-		 
-
-	  }
+			}
 
 
 ?>
