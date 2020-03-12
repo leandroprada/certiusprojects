@@ -23,13 +23,13 @@
 		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
 				
 				
-				<? if (($_SESSION['login']) != 'validated')): echo?>
+				<? if (($_SESSION['login']) != 'validated')): {echo?>
 				  <p>Not Logged In</p>
-				<? elseif (($_SESSION['login']) = 'validated')): echo?>
+				<?} elseif (($_SESSION['login']) = 'validated')): {echo?>
 				  <p>Logged in</p>
-				<? else: echo?>
+				<?} else: {echo?>
 				  <p>Default Content</p>
-				<? endif; ?>
+				<?} endif; ?>
 								
 	        
 
