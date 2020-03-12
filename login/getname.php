@@ -14,8 +14,8 @@ echo $query2;
 
 $query = $query1.$query2;
 echo $query;
-$queryResult = $conn->query($query);
-var_dump ($queryResult);
+$queryResult = $conn->query($query)->fetch();
+var_dump ($queryResult['name');
 ?>
 
  
