@@ -22,10 +22,9 @@ echo $email;
 		  mysqli_stmt_store_result($stmt);
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  $result = mysqli_stmt_get_result($stmt);
-			$resultRow =  mysqli_stmt_fetch($stmt);
-			echo $resultCheck;
-			echo $result;
-			echo $resultRow;		  
+			
+			
+			var_dump ($result);
 				
         
 				$_SESSION['login'] = "validated";
