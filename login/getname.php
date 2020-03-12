@@ -16,11 +16,8 @@ $query = $query1.$query2;
 echo $query;
 
 $result = mysqli_query($conn,$query);
-
-
-
-
-var_dump ($result);
+$row = mysqli_fetch_row($result);
+echo $row[0];
 
 ?>
 
