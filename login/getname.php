@@ -71,7 +71,7 @@ $email = $_SESSION['email'];
 <body>
 
 	<div class="limiter">
-		<?php echo $result
+		<?php echo $result ?>
 	</div>
 
 
