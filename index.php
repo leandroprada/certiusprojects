@@ -1,5 +1,7 @@
 <?php
  session_start();
+ $userlogged= $SESSION['email'];
+ 
 ?>
 
 <!doctype html>
@@ -23,7 +25,13 @@
 				<div class="p-4 pt-5">
 		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
 				
-				<p><?php var_dump($_SESSION); ?></p>
+				<? if ($userlogged = null): ?>
+				  <p>Not Logged In</p>
+				<? elseif ($userlogged != null): ?>
+				  <p><? echo $userlogged?> is Logged in</p>
+				<? else: ?>
+				  <p>Default Content</p>
+				<? endif; ?>
 				
 	        <ul class="list-unstyled components mb-5">
 	          <li>
