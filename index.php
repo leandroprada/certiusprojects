@@ -149,14 +149,7 @@
 				<div class="p-4 pt-5">
 		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
 						
-	        <ul class="list-unstyled components mb-5">
-	          <li>
-	            
-                    <a class = "btn btn-primary" href="./login/login.php" >Login</a>
-                </li>
-				
-	          
-	        </ul>
+	      
 
 	        <div class="footer" >
 	        	<p style="color:#024f05;"><!-- Link back to Colorlib cant be removed. Template is licensed under CC BY 3.0. -->
@@ -192,8 +185,8 @@
           </div>
         </nav>
 
-        <h2 class="mb-4">You need to be logged in</h2>
-        <a class="btn btn-dark" href="./login/login.php" > Login</a>
+        <p class="mb-4">You need to be logged in
+        <a class="btn btn-dark" href="./login/login.php" > Login</a></p>
 		
 		
       </div>
