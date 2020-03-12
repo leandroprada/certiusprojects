@@ -1,5 +1,6 @@
 <?php
  session_start();
+$_SESSION['email'] = $_POST['email'];
 
 require 'dbconn.inc.php';
 
@@ -22,10 +23,10 @@ require 'dbconn.inc.php';
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
-			   header("Location: ../index.php?login=validated");
+			   header("Location: login.php?login=validated");
 		  }
 		  else {
-			  header("Location: index.php?error=sqlcouldnotexecute");
+			  header("Location: login.php?error=sqlcouldnotexecute");
 		  }
 
 	  }
