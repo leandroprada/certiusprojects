@@ -13,10 +13,14 @@ $query2 = '"'.$email.'";';
 
 
 $query = $query1.$query2;
+echo $query;
 
-$queryResult = $conn->query($query);
-$queryrow = $queryResult->fetch();
-echo $queryrow;
+$result = mysqli_query($conn,$query);
+
+
+
+
+echo $result;
 
 ?>
 
