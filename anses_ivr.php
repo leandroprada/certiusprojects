@@ -19,17 +19,11 @@ $_SESSION['email'] = $_POST['email'];
   </head>
   <body>
   
-
-		<?php
-												 if (($_SESSION['login']) != "validated") {
-												 echo <div class="wrapper d-flex align-items-stretch">Invalid Email - Please try again -Click <a href="./login/index.php" >&nbsp;Here</a></div>;}
-												
-												
-												?>
-	
+c			
+		<div class="wrapper d-flex align-items-stretch">
 			<?php
-			else echo 			
-		<div class="wrapper d-flex align-items-stretch">			
+												 if (($_SESSION['login']) != "validated") {
+												 echo
 			<nav id="sidebar">
 				<div class="p-4 pt-5">
 		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
@@ -214,8 +208,10 @@ $_SESSION['email'] = $_POST['email'];
 <li>DID phone number for making phone calls to the application</li>
 <li>Required test data for navigating the self-service application</li>
 </ul>
-
-        
+												 ;}
+												 
+	else echo {
+        'Invalid Email - Please try again -Click <a href="./login/index.php" >&nbsp;Here</a>';}
       </div>
 		</div>
 
