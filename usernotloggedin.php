@@ -40,6 +40,6 @@ echo '	<nav id="sidebar">
         <p class="mb-4">Please login
         <a class="btn btn-dark" href="./login/login.php" > Here </a></p>
 		
-      </div>'
+      </div>';
 	  
 			?>
