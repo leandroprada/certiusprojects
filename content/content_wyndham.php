@@ -4,7 +4,7 @@
  $userlogged = $_SESSION['name'];
  
 	echo '
-	 <h2 class="mb-4">18tp0001 Wyndham Project</h2>
+	 <h2 class="mb-4">20WT0001 Wyndham Project</h2>
         
         <p>In this page you will find all documentation for Wyndham hotels</p>
 		<h2>Scope of work</h2>

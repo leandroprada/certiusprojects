@@ -1,14 +1,22 @@
-<nav id="sidebar">
+<?php
+
+ session_start();
+ $userlogged = $_SESSION['name'];
+ 
+	echo '<nav id="sidebar">
 				<div class="p-4 pt-5">
-		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
+		  		<a href="./index.php" class="img logo rounded-circle mb-5" style="background-image: url(images/logo.jpg);"></a>
 				
 						
 	        <ul class="list-unstyled components mb-5">
 	          <li>
+	            <a href="./index.php" aria-expanded="false" >Home &nbsp; <i class="fa fa-home"></i></a>
+	          </li>
+			  <li>
 	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Internal Projects</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu">
                 <li>
-                    <a href="./lumenvox.html" target="_blank">Lumenvox</a>
+                    <a href="./lumenvox.php">Lumenvox</a>
                 </li>
 				<li>
                     <a href="https://sites.google.com/view/certiusprojects/home/internalprojects/2018-1-crm" target="_blank">2018-1 CRM</a>
@@ -28,7 +36,7 @@
 	            <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Waterfield Projects</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu2">
                 <li>
-                    <a href="./wyndham.html">20WT0001 - Wyndham Hotels</a>
+                    <a href="./wyndham.php">20WT0001 - Wyndham Hotels</a>
                 </li>
                 <li>
                     <a href="#">Internal Project 2</a>
@@ -46,7 +54,7 @@
               <a href="#homeSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Teleperformance Projects</a>
               <ul class="collapse list-unstyled" id="homeSubmenu3">
                 <li>
-                    <a href="./anses_ivr.html">18TP0001 - Teleperformance Anses IVR</a>
+                    <a href="./anses_ivr.php">18TP0001 - Teleperformance Anses IVR</a>
                 </li>
                 <li>
                     <a href="#">Page 2</a>
@@ -68,39 +76,6 @@
 
 	      </div>
     	</nav>
-
-        <!-- Page Content  -->
-      <div id="content" class="p-4 p-md-5">
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-
-            <button type="button" id="sidebarCollapse" class="btn btn-primary">
-              <i class="fa fa-bars"></i>
-              <span class="sr-only">Toggle Menu</span>
-            </button>
-            <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="./lumenvox.html" target="_blank">Lumenvox</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./wyndham.html">Waterfield</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./anses_ivr.html">Teleperformance</a>
-                </li>
-                
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-        <h2 class="mb-4">Certius Projects</h2>
-        <p>In this page you will find all non-Avaya project documentation</p>
-        
-      </div>
+		
+		  ';
+	  ?>

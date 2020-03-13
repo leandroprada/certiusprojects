@@ -17,13 +17,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="./lumenvox.html" target="_blank">Lumenvox</a>
+                    <a class="nav-link" href="../index.php">Home &nbsp; <i class="fa fa-home"></i></a>
+                </li>
+                
+				<li class="nav-item">
+                    <a class="nav-link" href="../lumenvox.php">Lumenvox</a>
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="../wyndham.php">Waterfield</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./wyndham.html">Waterfield</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./anses_ivr.html">Teleperformance</a>
+                    <a class="nav-link" href="../anses_ivr.php">Teleperformance</a>
                 </li>
                 
               </ul>

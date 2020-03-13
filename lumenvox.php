@@ -25,16 +25,16 @@
 		<div class="wrapper d-flex align-items-stretch">
 			
 			<?php if (isset($userlogged))  {
-				include 'sidebar_logged_in.php';
+				include './content/sidebar_logged_in.php';
 				echo '<div id="content" class="p-4 p-md-5">';
-				include 'content_topnavbar.php';
-				include 'content_lumenvox.php';
+				include './content/content_topnavbar.php';
+				include './content/content_lumenvox.php';
 				echo '</div>';
 				
 			}
 			
 			elseif (!isset($userlogged))  {
-				include 'usernotloggedin.php';
+				include './content/usernotloggedin.php';
 					}
 			?>
 			
