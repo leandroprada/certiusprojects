@@ -165,7 +165,7 @@
         <!-- Page Content  -->
       <div id="content" class="p-4 p-md-5">
 
-        /* <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
 
             <button type="button" id="sidebarCollapse" class="btn btn-primary">
@@ -185,7 +185,7 @@
               </ul>
             </div>
           </div>
-        </nav> */
+        </nav> -->
 		<h2>This is a restricted area - Only Authorized Accounts</h2>
         <p class="mb-4">Please login
         <a class="btn btn-dark" href="./login/login.php" > Here </a></p>
