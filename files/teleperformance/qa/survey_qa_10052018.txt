@@ -1,0 +1,700 @@
+
+[2018-05-10 13:56:12] VERBOSE[1804][C-00000009] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 13:56:12] VERBOSE[1804][C-00000009] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 13:56:12] VERBOSE[13915][C-00000009] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000008", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=4c90856c") in new stack
+[2018-05-10 13:56:12] VERBOSE[13915][C-00000009] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000008", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=4c90856c") in new stack
+[2018-05-10 13:56:12] VERBOSE[13915][C-00000009] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000008", "HelloWorld2") in new stack
+[2018-05-10 13:56:13] VERBOSE[13915][C-00000009] file.c: <SIP/102-00000008> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 13:56:15] VERBOSE[13915][C-00000009] file.c: <SIP/102-00000008> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 13:56:17] NOTICE[13915][C-00000009] res_stasis_playback.c: 1525971372.8: Playback stopped for sound:custom/welcome
+[2018-05-10 13:56:17] VERBOSE[13915][C-00000009] file.c: <SIP/102-00000008> Playing 'custom/intro1.slin' (language 'es')
+[2018-05-10 13:56:21] VERBOSE[13915][C-00000009] file.c: <SIP/102-00000008> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 13:56:34] WARNING[13915][C-00000009] file.c: File custom/introCielo does not exist in any format
+[2018-05-10 13:56:34] WARNING[13915][C-00000009] file.c: Unable to open custom/introCielo (format (ulaw)): No such file or directory
+[2018-05-10 13:56:34] WARNING[13915][C-00000009] res_stasis_playback.c: 1525971372.8: Playback failed for sound:custom/introCielo
+[2018-05-10 13:56:34] VERBOSE[13915][C-00000009] file.c: <SIP/102-00000008> Playing 'custom/Q2.slin' (language 'es')
+[2018-05-10 13:56:40] VERBOSE[13915][C-00000009] file.c: <SIP/102-00000008> Playing 'custom/Q3.slin' (language 'es')
+[2018-05-10 13:56:49] VERBOSE[13915][C-00000009] file.c: <SIP/102-00000008> Playing 'custom/goodbye.slin' (language 'es')
+[2018-05-10 13:56:52] VERBOSE[13915][C-00000009] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000008", "hangupcall") in new stack
+[2018-05-10 13:56:52] VERBOSE[13915][C-00000009] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000008", "1?theend") in new stack
+[2018-05-10 13:56:52] VERBOSE[13915][C-00000009] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 13:56:52] VERBOSE[13915][C-00000009] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000008", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 13:56:52] VERBOSE[13915][C-00000009] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000008", "") in new stack
+[2018-05-10 13:56:52] VERBOSE[13915][C-00000009] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000008' in macro 'hangupcall'
+[2018-05-10 13:56:52] VERBOSE[13915][C-00000009] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000008'
+[2018-05-10 14:19:21] VERBOSE[1804][C-0000000a] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:19:21] VERBOSE[1804][C-0000000a] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:19:21] VERBOSE[15915][C-0000000a] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000009", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=4451dc54") in new stack
+[2018-05-10 14:19:21] VERBOSE[15915][C-0000000a] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000009", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=4451dc54") in new stack
+[2018-05-10 14:19:21] VERBOSE[15915][C-0000000a] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000009", "HelloWorld2") in new stack
+[2018-05-10 14:19:25] VERBOSE[15915][C-0000000a] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000009", "hangupcall") in new stack
+[2018-05-10 14:19:25] VERBOSE[15915][C-0000000a] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000009", "1?theend") in new stack
+[2018-05-10 14:19:25] VERBOSE[15915][C-0000000a] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:19:25] VERBOSE[15915][C-0000000a] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000009", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:19:25] VERBOSE[15915][C-0000000a] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000009", "") in new stack
+[2018-05-10 14:19:25] VERBOSE[15915][C-0000000a] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000009' in macro 'hangupcall'
+[2018-05-10 14:19:25] VERBOSE[15915][C-0000000a] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000009'
+[2018-05-10 14:19:29] VERBOSE[1804][C-0000000b] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:19:29] VERBOSE[1804][C-0000000b] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:19:29] VERBOSE[15916][C-0000000b] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-0000000a", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=1baf8f7c") in new stack
+[2018-05-10 14:19:29] VERBOSE[15916][C-0000000b] pbx.c: Executing [801@from-internal:2] Set("SIP/102-0000000a", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=1baf8f7c") in new stack
+[2018-05-10 14:19:29] VERBOSE[15916][C-0000000b] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-0000000a", "HelloWorld2") in new stack
+[2018-05-10 14:19:43] VERBOSE[15918] stasis/app.c: Replacing Stasis app 'HelloWorld2'
+[2018-05-10 14:19:43] VERBOSE[15918] res_http_websocket.c: WebSocket connection from '192.168.0.106:15507' for protocol '' accepted using version '13'
+[2018-05-10 14:19:43] VERBOSE[15918] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 14:19:49] VERBOSE[15916][C-0000000b] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-0000000a", "hangupcall") in new stack
+[2018-05-10 14:19:49] VERBOSE[15916][C-0000000b] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-0000000a", "1?theend") in new stack
+[2018-05-10 14:19:49] VERBOSE[15916][C-0000000b] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:19:49] VERBOSE[15916][C-0000000b] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-0000000a", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:19:49] VERBOSE[15916][C-0000000b] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-0000000a", "") in new stack
+[2018-05-10 14:19:49] VERBOSE[15916][C-0000000b] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-0000000a' in macro 'hangupcall'
+[2018-05-10 14:19:49] VERBOSE[15916][C-0000000b] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-0000000a'
+[2018-05-10 14:19:56] VERBOSE[1804][C-0000000c] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:19:56] VERBOSE[1804][C-0000000c] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:19:56] VERBOSE[15934][C-0000000c] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-0000000b", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=149a4d02") in new stack
+[2018-05-10 14:19:56] VERBOSE[15934][C-0000000c] pbx.c: Executing [801@from-internal:2] Set("SIP/102-0000000b", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=149a4d02") in new stack
+[2018-05-10 14:19:56] VERBOSE[15934][C-0000000c] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-0000000b", "HelloWorld2") in new stack
+[2018-05-10 14:19:56] VERBOSE[15934][C-0000000c] file.c: <SIP/102-0000000b> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 14:19:59] VERBOSE[15934][C-0000000c] file.c: <SIP/102-0000000b> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 14:20:03] VERBOSE[15934][C-0000000c] file.c: <SIP/102-0000000b> Playing 'custom/intro1.slin' (language 'es')
+[2018-05-10 14:20:07] VERBOSE[15934][C-0000000c] file.c: <SIP/102-0000000b> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 14:20:11] NOTICE[15934][C-0000000c] res_stasis_playback.c: 1525972796.11: Playback stopped for sound:custom/Q1
+[2018-05-10 14:20:11] WARNING[15934][C-0000000c] file.c: File custom/introCielo does not exist in any format
+[2018-05-10 14:20:11] WARNING[15934][C-0000000c] file.c: Unable to open custom/introCielo (format (ulaw)): No such file or directory
+[2018-05-10 14:20:11] WARNING[15934][C-0000000c] res_stasis_playback.c: 1525972796.11: Playback failed for sound:custom/introCielo
+[2018-05-10 14:20:11] VERBOSE[15934][C-0000000c] file.c: <SIP/102-0000000b> Playing 'custom/Q2.slin' (language 'es')
+[2018-05-10 14:20:15] VERBOSE[15934][C-0000000c] file.c: <SIP/102-0000000b> Playing 'custom/Q3.slin' (language 'es')
+[2018-05-10 14:20:23] VERBOSE[15934][C-0000000c] file.c: <SIP/102-0000000b> Playing 'custom/goodbye.slin' (language 'es')
+[2018-05-10 14:20:27] VERBOSE[15934][C-0000000c] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-0000000b", "hangupcall") in new stack
+[2018-05-10 14:20:27] VERBOSE[15934][C-0000000c] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-0000000b", "1?theend") in new stack
+[2018-05-10 14:20:27] VERBOSE[15934][C-0000000c] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:20:27] VERBOSE[15934][C-0000000c] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-0000000b", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:20:27] VERBOSE[15934][C-0000000c] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-0000000b", "") in new stack
+[2018-05-10 14:20:27] VERBOSE[15934][C-0000000c] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-0000000b' in macro 'hangupcall'
+[2018-05-10 14:20:27] VERBOSE[15934][C-0000000c] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-0000000b'
+[2018-05-10 14:20:31] VERBOSE[1804][C-0000000d] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:20:31] VERBOSE[1804][C-0000000d] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:20:31] VERBOSE[16035][C-0000000d] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-0000000c", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=a929f87b") in new stack
+[2018-05-10 14:20:31] VERBOSE[16035][C-0000000d] pbx.c: Executing [801@from-internal:2] Set("SIP/102-0000000c", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=a929f87b") in new stack
+[2018-05-10 14:20:31] VERBOSE[16035][C-0000000d] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-0000000c", "HelloWorld2") in new stack
+[2018-05-10 14:20:32] VERBOSE[16035][C-0000000d] file.c: <SIP/102-0000000c> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 14:20:34] VERBOSE[16035][C-0000000d] file.c: <SIP/102-0000000c> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 14:20:37] NOTICE[16035][C-0000000d] res_stasis_playback.c: 1525972831.12: Playback stopped for sound:custom/welcome
+[2018-05-10 14:20:37] VERBOSE[16035][C-0000000d] file.c: <SIP/102-0000000c> Playing 'custom/intro1.slin' (language 'es')
+[2018-05-10 14:20:41] VERBOSE[16035][C-0000000d] file.c: <SIP/102-0000000c> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 14:20:43] NOTICE[16035][C-0000000d] res_stasis_playback.c: 1525972831.12: Playback stopped for sound:custom/Q1
+[2018-05-10 14:20:43] WARNING[16035][C-0000000d] file.c: File custom/introCielo does not exist in any format
+[2018-05-10 14:20:43] WARNING[16035][C-0000000d] file.c: Unable to open custom/introCielo (format (ulaw)): No such file or directory
+[2018-05-10 14:20:43] WARNING[16035][C-0000000d] res_stasis_playback.c: 1525972831.12: Playback failed for sound:custom/introCielo
+[2018-05-10 14:20:44] VERBOSE[16035][C-0000000d] file.c: <SIP/102-0000000c> Playing 'custom/Q2.slin' (language 'es')
+[2018-05-10 14:20:46] NOTICE[16035][C-0000000d] res_stasis_playback.c: 1525972831.12: Playback stopped for sound:custom/Q2
+[2018-05-10 14:20:46] VERBOSE[16035][C-0000000d] file.c: <SIP/102-0000000c> Playing 'custom/Q3.slin' (language 'es')
+[2018-05-10 14:20:54] VERBOSE[16035][C-0000000d] file.c: <SIP/102-0000000c> Playing 'custom/goodbye.slin' (language 'es')
+[2018-05-10 14:20:55] WARNING[16035][C-0000000d] res_stasis_playback.c: 1525972831.12: Playback failed for sound:custom/goodbye
+[2018-05-10 14:20:55] VERBOSE[16035][C-0000000d] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-0000000c", "hangupcall") in new stack
+[2018-05-10 14:20:55] VERBOSE[16035][C-0000000d] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-0000000c", "1?theend") in new stack
+[2018-05-10 14:20:55] VERBOSE[16035][C-0000000d] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:20:55] VERBOSE[16035][C-0000000d] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-0000000c", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:20:55] VERBOSE[16035][C-0000000d] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-0000000c", "") in new stack
+[2018-05-10 14:20:55] VERBOSE[16035][C-0000000d] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-0000000c' in macro 'hangupcall'
+[2018-05-10 14:20:55] VERBOSE[16035][C-0000000d] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-0000000c'
+[2018-05-10 14:20:56] VERBOSE[1804][C-0000000e] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:20:56] VERBOSE[1804][C-0000000e] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:20:56] VERBOSE[16060][C-0000000e] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-0000000d", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=f6030800") in new stack
+[2018-05-10 14:20:56] VERBOSE[16060][C-0000000e] pbx.c: Executing [801@from-internal:2] Set("SIP/102-0000000d", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=f6030800") in new stack
+[2018-05-10 14:20:56] VERBOSE[16060][C-0000000e] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-0000000d", "HelloWorld2") in new stack
+[2018-05-10 14:20:56] VERBOSE[16060][C-0000000e] file.c: <SIP/102-0000000d> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 14:20:59] VERBOSE[16060][C-0000000e] file.c: <SIP/102-0000000d> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 14:21:00] NOTICE[16060][C-0000000e] res_stasis_playback.c: 1525972856.13: Playback stopped for sound:custom/welcome
+[2018-05-10 14:21:00] VERBOSE[16060][C-0000000e] file.c: <SIP/102-0000000d> Playing 'custom/intro1.slin' (language 'es')
+[2018-05-10 14:21:04] VERBOSE[16060][C-0000000e] file.c: <SIP/102-0000000d> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 14:21:07] NOTICE[16060][C-0000000e] res_stasis_playback.c: 1525972856.13: Playback stopped for sound:custom/Q1
+[2018-05-10 14:21:07] WARNING[16060][C-0000000e] file.c: File custom/introCielo does not exist in any format
+[2018-05-10 14:21:07] WARNING[16060][C-0000000e] file.c: Unable to open custom/introCielo (format (ulaw)): No such file or directory
+[2018-05-10 14:21:07] WARNING[16060][C-0000000e] res_stasis_playback.c: 1525972856.13: Playback failed for sound:custom/introCielo
+[2018-05-10 14:21:07] VERBOSE[16060][C-0000000e] file.c: <SIP/102-0000000d> Playing 'custom/Q2.slin' (language 'es')
+[2018-05-10 14:21:09] NOTICE[16060][C-0000000e] res_stasis_playback.c: 1525972856.13: Playback stopped for sound:custom/Q2
+[2018-05-10 14:21:09] VERBOSE[16060][C-0000000e] file.c: <SIP/102-0000000d> Playing 'custom/Q4.slin' (language 'es')
+[2018-05-10 14:21:16] VERBOSE[16060][C-0000000e] file.c: <SIP/102-0000000d> Playing 'custom/goodbye.slin' (language 'es')
+[2018-05-10 14:21:17] WARNING[16060][C-0000000e] res_stasis_playback.c: 1525972856.13: Playback failed for sound:custom/goodbye
+[2018-05-10 14:21:17] VERBOSE[16060][C-0000000e] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-0000000d", "hangupcall") in new stack
+[2018-05-10 14:21:17] VERBOSE[16060][C-0000000e] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-0000000d", "1?theend") in new stack
+[2018-05-10 14:21:17] VERBOSE[16060][C-0000000e] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:21:17] VERBOSE[16060][C-0000000e] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-0000000d", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:21:17] VERBOSE[16060][C-0000000e] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-0000000d", "") in new stack
+[2018-05-10 14:21:17] VERBOSE[16060][C-0000000e] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-0000000d' in macro 'hangupcall'
+[2018-05-10 14:21:17] VERBOSE[16060][C-0000000e] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-0000000d'
+[2018-05-10 14:21:19] VERBOSE[1804][C-0000000f] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:21:19] VERBOSE[1804][C-0000000f] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:21:19] VERBOSE[16158][C-0000000f] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-0000000e", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=43baaf68") in new stack
+[2018-05-10 14:21:19] VERBOSE[16158][C-0000000f] pbx.c: Executing [801@from-internal:2] Set("SIP/102-0000000e", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=43baaf68") in new stack
+[2018-05-10 14:21:19] VERBOSE[16158][C-0000000f] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-0000000e", "HelloWorld2") in new stack
+[2018-05-10 14:21:20] VERBOSE[16158][C-0000000f] file.c: <SIP/102-0000000e> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 14:21:22] VERBOSE[16158][C-0000000f] file.c: <SIP/102-0000000e> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 14:21:24] NOTICE[16158][C-0000000f] res_stasis_playback.c: 1525972879.14: Playback stopped for sound:custom/welcome
+[2018-05-10 14:21:24] VERBOSE[16158][C-0000000f] file.c: <SIP/102-0000000e> Playing 'custom/intro1.slin' (language 'es')
+[2018-05-10 14:21:28] VERBOSE[16158][C-0000000f] file.c: <SIP/102-0000000e> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 14:21:31] NOTICE[16158][C-0000000f] res_stasis_playback.c: 1525972879.14: Playback stopped for sound:custom/Q1
+[2018-05-10 14:21:31] WARNING[16158][C-0000000f] file.c: File custom/introCielo does not exist in any format
+[2018-05-10 14:21:31] WARNING[16158][C-0000000f] file.c: Unable to open custom/introCielo (format (ulaw)): No such file or directory
+[2018-05-10 14:21:31] WARNING[16158][C-0000000f] res_stasis_playback.c: 1525972879.14: Playback failed for sound:custom/introCielo
+[2018-05-10 14:21:32] VERBOSE[16158][C-0000000f] file.c: <SIP/102-0000000e> Playing 'custom/Q2.slin' (language 'es')
+[2018-05-10 14:21:35] VERBOSE[16158][C-0000000f] file.c: <SIP/102-0000000e> Playing 'custom/Q4.slin' (language 'es')
+[2018-05-10 14:21:42] VERBOSE[16158][C-0000000f] file.c: <SIP/102-0000000e> Playing 'custom/goodbye.slin' (language 'es')
+[2018-05-10 14:21:43] WARNING[16158][C-0000000f] res_stasis_playback.c: 1525972879.14: Playback failed for sound:custom/goodbye
+[2018-05-10 14:21:43] VERBOSE[16158][C-0000000f] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-0000000e", "hangupcall") in new stack
+[2018-05-10 14:21:43] VERBOSE[16158][C-0000000f] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-0000000e", "1?theend") in new stack
+[2018-05-10 14:21:43] VERBOSE[16158][C-0000000f] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:21:43] VERBOSE[16158][C-0000000f] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-0000000e", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:21:43] VERBOSE[16158][C-0000000f] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-0000000e", "") in new stack
+[2018-05-10 14:21:43] VERBOSE[16158][C-0000000f] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-0000000e' in macro 'hangupcall'
+[2018-05-10 14:21:43] VERBOSE[16158][C-0000000f] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-0000000e'
+[2018-05-10 14:21:45] VERBOSE[1804][C-00000010] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:21:45] VERBOSE[1804][C-00000010] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:21:45] VERBOSE[16194][C-00000010] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-0000000f", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=3d2f674f") in new stack
+[2018-05-10 14:21:45] VERBOSE[16194][C-00000010] pbx.c: Executing [801@from-internal:2] Set("SIP/102-0000000f", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=3d2f674f") in new stack
+[2018-05-10 14:21:45] VERBOSE[16194][C-00000010] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-0000000f", "HelloWorld2") in new stack
+[2018-05-10 14:21:45] VERBOSE[16194][C-00000010] file.c: <SIP/102-0000000f> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 14:21:48] VERBOSE[16194][C-00000010] file.c: <SIP/102-0000000f> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 14:21:48] NOTICE[16194][C-00000010] res_stasis_playback.c: 1525972905.15: Playback stopped for sound:custom/welcome
+[2018-05-10 14:21:49] VERBOSE[16194][C-00000010] file.c: <SIP/102-0000000f> Playing 'custom/intro1.slin' (language 'es')
+[2018-05-10 14:21:53] VERBOSE[16194][C-00000010] file.c: <SIP/102-0000000f> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 14:22:01] VERBOSE[16194][C-00000010] file.c: <SIP/102-0000000f> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 14:22:10] WARNING[16194][C-00000010] file.c: File custom/introCielo does not exist in any format
+[2018-05-10 14:22:10] WARNING[16194][C-00000010] file.c: Unable to open custom/introCielo (format (ulaw)): No such file or directory
+[2018-05-10 14:22:10] WARNING[16194][C-00000010] res_stasis_playback.c: 1525972905.15: Playback failed for sound:custom/introCielo
+[2018-05-10 14:22:10] VERBOSE[16194][C-00000010] file.c: <SIP/102-0000000f> Playing 'custom/Q2.slin' (language 'es')
+[2018-05-10 14:22:15] VERBOSE[16194][C-00000010] file.c: <SIP/102-0000000f> Playing 'custom/Q3.slin' (language 'es')
+[2018-05-10 14:22:24] VERBOSE[16194][C-00000010] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-0000000f", "hangupcall") in new stack
+[2018-05-10 14:22:24] VERBOSE[16194][C-00000010] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-0000000f", "1?theend") in new stack
+[2018-05-10 14:22:24] VERBOSE[16194][C-00000010] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:22:24] VERBOSE[16194][C-00000010] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-0000000f", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:22:24] VERBOSE[16194][C-00000010] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-0000000f", "") in new stack
+[2018-05-10 14:22:24] VERBOSE[16194][C-00000010] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-0000000f' in macro 'hangupcall'
+[2018-05-10 14:22:24] VERBOSE[16194][C-00000010] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-0000000f'
+[2018-05-10 14:22:50] VERBOSE[1804][C-00000011] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:22:50] VERBOSE[1804][C-00000011] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:22:51] VERBOSE[16302][C-00000011] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000010", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=1a797530") in new stack
+[2018-05-10 14:22:51] VERBOSE[16302][C-00000011] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000010", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=1a797530") in new stack
+[2018-05-10 14:22:51] VERBOSE[16302][C-00000011] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000010", "HelloWorld2") in new stack
+[2018-05-10 14:22:51] VERBOSE[16302][C-00000011] file.c: <SIP/102-00000010> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 14:22:53] VERBOSE[16302][C-00000011] file.c: <SIP/102-00000010> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 14:22:58] VERBOSE[16302][C-00000011] file.c: <SIP/102-00000010> Playing 'custom/intro1.slin' (language 'es')
+[2018-05-10 14:23:02] VERBOSE[16302][C-00000011] file.c: <SIP/102-00000010> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 14:23:18] VERBOSE[16302][C-00000011] file.c: <SIP/102-00000010> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 14:23:34] WARNING[16302][C-00000011] file.c: File custom/introCielo does not exist in any format
+[2018-05-10 14:23:34] WARNING[16302][C-00000011] file.c: Unable to open custom/introCielo (format (ulaw)): No such file or directory
+[2018-05-10 14:23:34] WARNING[16302][C-00000011] res_stasis_playback.c: 1525972970.16: Playback failed for sound:custom/introCielo
+[2018-05-10 14:23:34] VERBOSE[16302][C-00000011] file.c: <SIP/102-00000010> Playing 'custom/Q2.slin' (language 'es')
+[2018-05-10 14:23:45] VERBOSE[16302][C-00000011] file.c: <SIP/102-00000010> Playing 'custom/Q2.slin' (language 'es')
+[2018-05-10 14:23:57] VERBOSE[16302][C-00000011] file.c: <SIP/102-00000010> Playing 'custom/goodbye.slin' (language 'es')
+[2018-05-10 14:24:00] VERBOSE[16302][C-00000011] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000010", "hangupcall") in new stack
+[2018-05-10 14:24:00] VERBOSE[16302][C-00000011] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000010", "1?theend") in new stack
+[2018-05-10 14:24:00] VERBOSE[16302][C-00000011] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:24:00] VERBOSE[16302][C-00000011] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000010", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:24:00] VERBOSE[16302][C-00000011] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000010", "") in new stack
+[2018-05-10 14:24:00] VERBOSE[16302][C-00000011] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000010' in macro 'hangupcall'
+[2018-05-10 14:24:00] VERBOSE[16302][C-00000011] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000010'
+[2018-05-10 14:24:24] VERBOSE[1804][C-00000012] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:24:24] VERBOSE[1804][C-00000012] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:24:24] VERBOSE[16456][C-00000012] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000011", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=2dfa0632") in new stack
+[2018-05-10 14:24:24] VERBOSE[16456][C-00000012] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000011", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=2dfa0632") in new stack
+[2018-05-10 14:24:24] VERBOSE[16456][C-00000012] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000011", "HelloWorld2") in new stack
+[2018-05-10 14:24:25] VERBOSE[16456][C-00000012] file.c: <SIP/102-00000011> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 14:24:27] VERBOSE[16456][C-00000012] file.c: <SIP/102-00000011> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 14:24:31] VERBOSE[16456][C-00000012] file.c: <SIP/102-00000011> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 14:24:45] VERBOSE[16456][C-00000012] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000011", "hangupcall") in new stack
+[2018-05-10 14:24:45] VERBOSE[16456][C-00000012] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000011", "1?theend") in new stack
+[2018-05-10 14:24:45] VERBOSE[16456][C-00000012] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:24:45] VERBOSE[16456][C-00000012] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000011", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:24:45] VERBOSE[16456][C-00000012] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000011", "") in new stack
+[2018-05-10 14:24:45] VERBOSE[16456][C-00000012] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000011' in macro 'hangupcall'
+[2018-05-10 14:24:45] VERBOSE[16456][C-00000012] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000011'
+[2018-05-10 14:25:03] VERBOSE[1720] asterisk.c: Remote UNIX connection
+[2018-05-10 14:25:03] VERBOSE[16539] asterisk.c: Remote UNIX connection disconnected
+[2018-05-10 14:25:03] VERBOSE[1720] asterisk.c: Remote UNIX connection
+[2018-05-10 14:25:03] VERBOSE[16541] asterisk.c: Remote UNIX connection disconnected
+[2018-05-10 14:25:03] VERBOSE[1720] asterisk.c: Remote UNIX connection
+[2018-05-10 14:25:03] VERBOSE[16543] asterisk.c: Remote UNIX connection disconnected
+[2018-05-10 14:25:31] VERBOSE[1804][C-00000013] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:25:31] VERBOSE[1804][C-00000013] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:25:31] VERBOSE[16583][C-00000013] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000012", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=96cd6c3e") in new stack
+[2018-05-10 14:25:31] VERBOSE[16583][C-00000013] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000012", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=96cd6c3e") in new stack
+[2018-05-10 14:25:31] VERBOSE[16583][C-00000013] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000012", "HelloWorld2") in new stack
+[2018-05-10 14:25:31] VERBOSE[16583][C-00000013] file.c: <SIP/102-00000012> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 14:25:34] VERBOSE[16583][C-00000013] file.c: <SIP/102-00000012> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 14:25:38] VERBOSE[16583][C-00000013] file.c: <SIP/102-00000012> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 14:25:49] VERBOSE[16605] stasis/app.c: Replacing Stasis app 'HelloWorld2'
+[2018-05-10 14:25:49] VERBOSE[16605] res_http_websocket.c: WebSocket connection from '192.168.0.106:15732' for protocol '' accepted using version '13'
+[2018-05-10 14:25:49] VERBOSE[16605] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 14:25:51] VERBOSE[16583][C-00000013] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000012", "hangupcall") in new stack
+[2018-05-10 14:25:51] VERBOSE[16583][C-00000013] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000012", "1?theend") in new stack
+[2018-05-10 14:25:51] VERBOSE[16583][C-00000013] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:25:51] VERBOSE[16583][C-00000013] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000012", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:25:51] VERBOSE[16583][C-00000013] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000012", "") in new stack
+[2018-05-10 14:25:51] VERBOSE[16583][C-00000013] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000012' in macro 'hangupcall'
+[2018-05-10 14:25:51] VERBOSE[16583][C-00000013] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000012'
+[2018-05-10 14:26:02] VERBOSE[1804][C-00000014] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:26:02] VERBOSE[1804][C-00000014] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:26:02] VERBOSE[16649][C-00000014] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000013", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=9a201649") in new stack
+[2018-05-10 14:26:02] VERBOSE[16649][C-00000014] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000013", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=9a201649") in new stack
+[2018-05-10 14:26:02] VERBOSE[16649][C-00000014] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000013", "HelloWorld2") in new stack
+[2018-05-10 14:26:02] VERBOSE[16649][C-00000014] file.c: <SIP/102-00000013> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 14:26:05] VERBOSE[16649][C-00000014] file.c: <SIP/102-00000013> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 14:26:09] VERBOSE[16649][C-00000014] file.c: <SIP/102-00000013> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 14:26:15] WARNING[16649][C-00000014] res_stasis_playback.c: 1525973162.19: Playback failed for sound:custom/Q1
+[2018-05-10 14:26:15] VERBOSE[16649][C-00000014] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000013", "hangupcall") in new stack
+[2018-05-10 14:26:15] VERBOSE[16649][C-00000014] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000013", "1?theend") in new stack
+[2018-05-10 14:26:15] VERBOSE[16649][C-00000014] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:26:15] VERBOSE[16649][C-00000014] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000013", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:26:15] VERBOSE[16649][C-00000014] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000013", "") in new stack
+[2018-05-10 14:26:15] VERBOSE[16649][C-00000014] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000013' in macro 'hangupcall'
+[2018-05-10 14:26:15] VERBOSE[16649][C-00000014] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000013'
+[2018-05-10 14:26:26] VERBOSE[16692] stasis/app.c: Replacing Stasis app 'HelloWorld2'
+[2018-05-10 14:26:26] VERBOSE[16692] res_http_websocket.c: WebSocket connection from '192.168.0.106:15787' for protocol '' accepted using version '13'
+[2018-05-10 14:26:26] VERBOSE[16692] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 14:26:35] VERBOSE[1804][C-00000015] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:26:35] VERBOSE[1804][C-00000015] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:26:35] VERBOSE[16694][C-00000015] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000014", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=524e0c52") in new stack
+[2018-05-10 14:26:35] VERBOSE[16694][C-00000015] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000014", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=524e0c52") in new stack
+[2018-05-10 14:26:35] VERBOSE[16694][C-00000015] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000014", "HelloWorld2") in new stack
+[2018-05-10 14:26:36] VERBOSE[16694][C-00000015] file.c: <SIP/102-00000014> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 14:26:38] WARNING[16694][C-00000015] res_stasis_playback.c: 1525973195.20: Playback failed for sound:custom/buenastardes
+[2018-05-10 14:26:38] VERBOSE[16694][C-00000015] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000014", "hangupcall") in new stack
+[2018-05-10 14:26:38] VERBOSE[16694][C-00000015] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000014", "1?theend") in new stack
+[2018-05-10 14:26:38] VERBOSE[16694][C-00000015] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:26:38] VERBOSE[16694][C-00000015] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000014", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:26:38] VERBOSE[16694][C-00000015] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000014", "") in new stack
+[2018-05-10 14:26:38] VERBOSE[16694][C-00000015] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000014' in macro 'hangupcall'
+[2018-05-10 14:26:38] VERBOSE[16694][C-00000015] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000014'
+[2018-05-10 14:27:57] VERBOSE[16789] stasis/app.c: Replacing Stasis app 'HelloWorld2'
+[2018-05-10 14:27:57] VERBOSE[16789] res_http_websocket.c: WebSocket connection from '192.168.0.106:15837' for protocol '' accepted using version '13'
+[2018-05-10 14:27:57] VERBOSE[16789] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 14:28:16] VERBOSE[1804][C-00000016] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:28:16] VERBOSE[1804][C-00000016] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:28:16] VERBOSE[16845][C-00000016] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000015", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=1f838712") in new stack
+[2018-05-10 14:28:16] VERBOSE[16845][C-00000016] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000015", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=1f838712") in new stack
+[2018-05-10 14:28:16] VERBOSE[16845][C-00000016] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000015", "HelloWorld2") in new stack
+[2018-05-10 14:28:17] VERBOSE[16845][C-00000016] file.c: <SIP/102-00000015> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 14:28:19] VERBOSE[16845][C-00000016] file.c: <SIP/102-00000015> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 14:28:21] WARNING[16845][C-00000016] res_stasis_playback.c: 1525973296.21: Playback failed for sound:custom/welcome
+[2018-05-10 14:28:21] VERBOSE[16845][C-00000016] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000015", "hangupcall") in new stack
+[2018-05-10 14:28:21] VERBOSE[16845][C-00000016] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000015", "1?theend") in new stack
+[2018-05-10 14:28:21] VERBOSE[16845][C-00000016] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:28:21] VERBOSE[16845][C-00000016] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000015", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:28:21] VERBOSE[16845][C-00000016] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000015", "") in new stack
+[2018-05-10 14:28:21] VERBOSE[16845][C-00000016] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000015' in macro 'hangupcall'
+[2018-05-10 14:28:21] VERBOSE[16845][C-00000016] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000015'
+[2018-05-10 14:33:22] VERBOSE[1804][C-00000017] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:33:22] VERBOSE[1804][C-00000017] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:33:22] VERBOSE[17286][C-00000017] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000016", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=f5a23f7f") in new stack
+[2018-05-10 14:33:22] VERBOSE[17286][C-00000017] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000016", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=f5a23f7f") in new stack
+[2018-05-10 14:33:22] VERBOSE[17286][C-00000017] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000016", "HelloWorld2") in new stack
+[2018-05-10 14:33:22] VERBOSE[17286][C-00000017] file.c: <SIP/102-00000016> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 14:33:24] VERBOSE[17286][C-00000017] file.c: <SIP/102-00000016> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 14:33:28] WARNING[17286][C-00000017] res_stasis_playback.c: 1525973602.22: Playback failed for sound:custom/welcome
+[2018-05-10 14:33:28] VERBOSE[17286][C-00000017] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000016", "hangupcall") in new stack
+[2018-05-10 14:33:28] VERBOSE[17286][C-00000017] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000016", "1?theend") in new stack
+[2018-05-10 14:33:28] VERBOSE[17286][C-00000017] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:33:28] VERBOSE[17286][C-00000017] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000016", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:33:28] VERBOSE[17286][C-00000017] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000016", "") in new stack
+[2018-05-10 14:33:28] VERBOSE[17286][C-00000017] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000016' in macro 'hangupcall'
+[2018-05-10 14:33:28] VERBOSE[17286][C-00000017] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000016'
+[2018-05-10 14:33:48] ERROR[12627] res_http_websocket.c: Error reading from web socket: Connection reset by peer
+[2018-05-10 14:33:48] WARNING[12627] ari/ari_websockets.c: WebSocket read error: Connection reset by peer
+[2018-05-10 14:33:48] ERROR[12627] utils.c: fwrite() returned error: Broken pipe
+[2018-05-10 14:33:48] VERBOSE[12627] res_http_websocket.c: WebSocket connection from '192.168.0.106:14981' forcefully closed due to fatal write error
+[2018-05-10 14:33:48] ERROR[15918] res_http_websocket.c: Error reading from web socket: Connection reset by peer
+[2018-05-10 14:33:48] WARNING[15918] ari/ari_websockets.c: WebSocket read error: Connection reset by peer
+[2018-05-10 14:33:48] ERROR[15918] utils.c: fwrite() returned error: Broken pipe
+[2018-05-10 14:33:48] VERBOSE[15918] res_http_websocket.c: WebSocket connection from '192.168.0.106:15507' forcefully closed due to fatal write error
+[2018-05-10 14:33:48] ERROR[16789] res_http_websocket.c: Error reading from web socket: Connection reset by peer
+[2018-05-10 14:33:48] WARNING[16789] ari/ari_websockets.c: WebSocket read error: Connection reset by peer
+[2018-05-10 14:33:48] VERBOSE[16789] stasis/app.c: Deactivating Stasis app 'HelloWorld2'
+[2018-05-10 14:33:48] VERBOSE[16789] res_stasis.c: Shutting down application 'HelloWorld2'
+[2018-05-10 14:33:48] ERROR[16789] utils.c: fwrite() returned error: Broken pipe
+[2018-05-10 14:33:48] VERBOSE[16789] res_http_websocket.c: WebSocket connection from '192.168.0.106:15837' forcefully closed due to fatal write error
+[2018-05-10 14:33:48] VERBOSE[12628] stasis/app.c: Destroying Stasis app HelloWorld2
+[2018-05-10 14:33:48] ERROR[16605] res_http_websocket.c: Error reading from web socket: Connection reset by peer
+[2018-05-10 14:33:48] WARNING[16605] ari/ari_websockets.c: WebSocket read error: Connection reset by peer
+[2018-05-10 14:33:48] ERROR[16605] utils.c: fwrite() returned error: Broken pipe
+[2018-05-10 14:33:48] VERBOSE[16605] res_http_websocket.c: WebSocket connection from '192.168.0.106:15732' forcefully closed due to fatal write error
+[2018-05-10 14:33:48] ERROR[16692] res_http_websocket.c: Error reading from web socket: Connection reset by peer
+[2018-05-10 14:33:48] WARNING[16692] ari/ari_websockets.c: WebSocket read error: Connection reset by peer
+[2018-05-10 14:33:48] ERROR[16692] utils.c: fwrite() returned error: Broken pipe
+[2018-05-10 14:33:48] VERBOSE[16692] res_http_websocket.c: WebSocket connection from '192.168.0.106:15787' forcefully closed due to fatal write error
+[2018-05-10 14:42:32] VERBOSE[18042] stasis/app.c: Creating Stasis app 'HelloWorld2'
+[2018-05-10 14:42:32] VERBOSE[18042] res_http_websocket.c: WebSocket connection from '192.168.0.106:16037' for protocol '' accepted using version '13'
+[2018-05-10 14:42:32] VERBOSE[18042] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 14:42:41] VERBOSE[1804][C-00000018] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:42:41] VERBOSE[1804][C-00000018] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:42:41] VERBOSE[18060][C-00000018] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000017", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=f3c1eb16") in new stack
+[2018-05-10 14:42:41] VERBOSE[18060][C-00000018] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000017", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=f3c1eb16") in new stack
+[2018-05-10 14:42:41] VERBOSE[18060][C-00000018] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000017", "HelloWorld2") in new stack
+[2018-05-10 14:42:41] VERBOSE[18060][C-00000018] file.c: <SIP/102-00000017> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 14:42:43] VERBOSE[18060][C-00000018] file.c: <SIP/102-00000017> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 14:42:45] WARNING[18060][C-00000018] res_stasis_playback.c: 1525974161.23: Playback failed for sound:custom/welcome
+[2018-05-10 14:42:45] VERBOSE[18060][C-00000018] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000017", "hangupcall") in new stack
+[2018-05-10 14:42:46] VERBOSE[18060][C-00000018] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000017", "1?theend") in new stack
+[2018-05-10 14:42:46] VERBOSE[18060][C-00000018] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:42:46] VERBOSE[18060][C-00000018] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000017", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:42:46] VERBOSE[18060][C-00000018] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000017", "") in new stack
+[2018-05-10 14:42:46] VERBOSE[18060][C-00000018] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000017' in macro 'hangupcall'
+[2018-05-10 14:42:46] VERBOSE[18060][C-00000018] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000017'
+[2018-05-10 14:44:07] ERROR[18042] res_http_websocket.c: Error reading from web socket: Connection reset by peer
+[2018-05-10 14:44:07] WARNING[18042] ari/ari_websockets.c: WebSocket read error: Connection reset by peer
+[2018-05-10 14:44:07] VERBOSE[18042] stasis/app.c: Deactivating Stasis app 'HelloWorld2'
+[2018-05-10 14:44:07] VERBOSE[18042] res_stasis.c: Shutting down application 'HelloWorld2'
+[2018-05-10 14:44:07] ERROR[18042] utils.c: fwrite() returned error: Broken pipe
+[2018-05-10 14:44:07] VERBOSE[18042] res_http_websocket.c: WebSocket connection from '192.168.0.106:16037' forcefully closed due to fatal write error
+[2018-05-10 14:44:07] VERBOSE[18043] stasis/app.c: Destroying Stasis app HelloWorld2
+[2018-05-10 14:45:21] VERBOSE[18292] stasis/app.c: Creating Stasis app 'HelloWorld2'
+[2018-05-10 14:45:21] VERBOSE[18292] res_http_websocket.c: WebSocket connection from '192.168.0.106:16097' for protocol '' accepted using version '13'
+[2018-05-10 14:45:21] VERBOSE[18292] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 14:45:27] VERBOSE[1804][C-00000019] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:45:27] VERBOSE[1804][C-00000019] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:45:27] VERBOSE[18297][C-00000019] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000018", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=4649a475") in new stack
+[2018-05-10 14:45:27] VERBOSE[18297][C-00000019] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000018", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=4649a475") in new stack
+[2018-05-10 14:45:27] VERBOSE[18297][C-00000019] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000018", "HelloWorld2") in new stack
+[2018-05-10 14:45:27] VERBOSE[18297][C-00000019] file.c: <SIP/102-00000018> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 14:45:30] VERBOSE[18297][C-00000019] file.c: <SIP/102-00000018> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 14:45:30] WARNING[18297][C-00000019] res_stasis_playback.c: 1525974327.24: Playback failed for sound:custom/welcome
+[2018-05-10 14:45:30] VERBOSE[18297][C-00000019] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000018", "hangupcall") in new stack
+[2018-05-10 14:45:30] VERBOSE[18297][C-00000019] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000018", "1?theend") in new stack
+[2018-05-10 14:45:30] VERBOSE[18297][C-00000019] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:45:30] VERBOSE[18297][C-00000019] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000018", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:45:30] VERBOSE[18297][C-00000019] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000018", "") in new stack
+[2018-05-10 14:45:30] VERBOSE[18297][C-00000019] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000018' in macro 'hangupcall'
+[2018-05-10 14:45:30] VERBOSE[18297][C-00000019] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000018'
+[2018-05-10 14:45:39] ERROR[18292] res_http_websocket.c: Error reading from web socket: Connection reset by peer
+[2018-05-10 14:45:39] WARNING[18292] ari/ari_websockets.c: WebSocket read error: Connection reset by peer
+[2018-05-10 14:45:39] VERBOSE[18292] stasis/app.c: Deactivating Stasis app 'HelloWorld2'
+[2018-05-10 14:45:39] VERBOSE[18292] res_stasis.c: Shutting down application 'HelloWorld2'
+[2018-05-10 14:45:39] ERROR[18292] utils.c: fwrite() returned error: Broken pipe
+[2018-05-10 14:45:39] VERBOSE[18292] res_http_websocket.c: WebSocket connection from '192.168.0.106:16097' forcefully closed due to fatal write error
+[2018-05-10 14:45:39] VERBOSE[18293] stasis/app.c: Destroying Stasis app HelloWorld2
+[2018-05-10 14:53:10] VERBOSE[1804][C-0000001a] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:53:10] VERBOSE[1804][C-0000001a] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:53:10] VERBOSE[18960][C-0000001a] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000019", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=c4ab083d") in new stack
+[2018-05-10 14:53:10] VERBOSE[18960][C-0000001a] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000019", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=c4ab083d") in new stack
+[2018-05-10 14:53:10] VERBOSE[18960][C-0000001a] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000019", "HelloWorld2") in new stack
+[2018-05-10 14:53:10] ERROR[18960][C-0000001a] res_stasis.c: Stasis app 'HelloWorld2' not registered
+[2018-05-10 14:53:10] VERBOSE[18960][C-0000001a] pbx.c: Executing [801@from-internal:4] Hangup("SIP/102-00000019", "") in new stack
+[2018-05-10 14:53:10] VERBOSE[18960][C-0000001a] pbx.c: Spawn extension (from-internal, 801, 4) exited non-zero on 'SIP/102-00000019'
+[2018-05-10 14:53:10] VERBOSE[18960][C-0000001a] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000019", "hangupcall") in new stack
+[2018-05-10 14:53:10] VERBOSE[18960][C-0000001a] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000019", "1?theend") in new stack
+[2018-05-10 14:53:10] VERBOSE[18960][C-0000001a] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:53:10] VERBOSE[18960][C-0000001a] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000019", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:53:10] VERBOSE[18960][C-0000001a] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000019", "") in new stack
+[2018-05-10 14:53:10] VERBOSE[18960][C-0000001a] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000019' in macro 'hangupcall'
+[2018-05-10 14:53:10] VERBOSE[18960][C-0000001a] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000019'
+[2018-05-10 14:53:24] VERBOSE[18999] stasis/app.c: Creating Stasis app 'HelloWorld2'
+[2018-05-10 14:53:24] VERBOSE[18999] res_http_websocket.c: WebSocket connection from '192.168.0.106:16211' for protocol '' accepted using version '13'
+[2018-05-10 14:53:24] VERBOSE[18999] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 14:53:34] VERBOSE[1804][C-0000001b] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 14:53:34] VERBOSE[1804][C-0000001b] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 14:53:34] VERBOSE[19004][C-0000001b] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-0000001a", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=b4d8fd76") in new stack
+[2018-05-10 14:53:34] VERBOSE[19004][C-0000001b] pbx.c: Executing [801@from-internal:2] Set("SIP/102-0000001a", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=b4d8fd76") in new stack
+[2018-05-10 14:53:34] VERBOSE[19004][C-0000001b] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-0000001a", "HelloWorld2") in new stack
+[2018-05-10 14:53:34] VERBOSE[19004][C-0000001b] file.c: <SIP/102-0000001a> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 14:53:37] VERBOSE[19004][C-0000001b] file.c: <SIP/102-0000001a> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 14:53:41] VERBOSE[19004][C-0000001b] file.c: <SIP/102-0000001a> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 14:53:43] WARNING[19004][C-0000001b] res_stasis_playback.c: 1525974814.26: Playback failed for sound:custom/Q1
+[2018-05-10 14:53:43] VERBOSE[19004][C-0000001b] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-0000001a", "hangupcall") in new stack
+[2018-05-10 14:53:43] VERBOSE[19004][C-0000001b] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-0000001a", "1?theend") in new stack
+[2018-05-10 14:53:43] VERBOSE[19004][C-0000001b] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 14:53:43] VERBOSE[19004][C-0000001b] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-0000001a", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 14:53:43] VERBOSE[19004][C-0000001b] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-0000001a", "") in new stack
+[2018-05-10 14:53:43] VERBOSE[19004][C-0000001b] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-0000001a' in macro 'hangupcall'
+[2018-05-10 14:53:43] VERBOSE[19004][C-0000001b] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-0000001a'
+[2018-05-10 14:56:49] VERBOSE[1804] chan_sip.c: Unregistered SIP '102'
+[2018-05-10 14:56:49] VERBOSE[1804] chan_sip.c: Registered SIP '102' at 192.168.0.106:62601
+[2018-05-10 14:58:34] VERBOSE[1804] chan_sip.c: Unregistered SIP '102'
+[2018-05-10 14:58:34] VERBOSE[1804] chan_sip.c: Registered SIP '102' at 192.168.0.106:62601
+[2018-05-10 15:04:25] VERBOSE[19960] stasis/app.c: Replacing Stasis app 'HelloWorld2'
+[2018-05-10 15:04:25] VERBOSE[19960] res_http_websocket.c: WebSocket connection from '192.168.0.118:4686' for protocol '' accepted using version '13'
+[2018-05-10 15:04:25] VERBOSE[19960] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 15:04:28] ERROR[19960] res_http_websocket.c: Error reading from web socket: Connection reset by peer
+[2018-05-10 15:04:28] WARNING[19960] ari/ari_websockets.c: WebSocket read error: Connection reset by peer
+[2018-05-10 15:04:28] VERBOSE[19960] stasis/app.c: Deactivating Stasis app 'HelloWorld2'
+[2018-05-10 15:04:28] VERBOSE[19960] res_stasis.c: Shutting down application 'HelloWorld2'
+[2018-05-10 15:04:28] ERROR[19960] utils.c: fwrite() returned error: Broken pipe
+[2018-05-10 15:04:28] VERBOSE[19960] res_http_websocket.c: WebSocket connection from '192.168.0.118:4686' forcefully closed due to fatal write error
+[2018-05-10 15:04:28] VERBOSE[19000] stasis/app.c: Destroying Stasis app HelloWorld2
+[2018-05-10 15:04:37] ERROR[18999] res_http_websocket.c: Error reading from web socket: Connection reset by peer
+[2018-05-10 15:04:37] WARNING[18999] ari/ari_websockets.c: WebSocket read error: Connection reset by peer
+[2018-05-10 15:04:37] ERROR[18999] utils.c: fwrite() returned error: Broken pipe
+[2018-05-10 15:04:37] VERBOSE[18999] res_http_websocket.c: WebSocket connection from '192.168.0.106:16211' forcefully closed due to fatal write error
+[2018-05-10 15:04:49] VERBOSE[19963] stasis/app.c: Creating Stasis app 'HelloWorld2'
+[2018-05-10 15:04:49] VERBOSE[19963] res_http_websocket.c: WebSocket connection from '192.168.0.106:16586' for protocol '' accepted using version '13'
+[2018-05-10 15:04:49] VERBOSE[19963] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 15:04:55] VERBOSE[1804][C-0000001c] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 15:04:55] VERBOSE[1804][C-0000001c] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 15:04:55] VERBOSE[19981][C-0000001c] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-0000001b", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=a503897d") in new stack
+[2018-05-10 15:04:55] VERBOSE[19981][C-0000001c] pbx.c: Executing [801@from-internal:2] Set("SIP/102-0000001b", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=a503897d") in new stack
+[2018-05-10 15:04:55] VERBOSE[19981][C-0000001c] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-0000001b", "HelloWorld2") in new stack
+[2018-05-10 15:04:56] VERBOSE[19981][C-0000001c] file.c: <SIP/102-0000001b> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 15:04:58] VERBOSE[19981][C-0000001c] file.c: <SIP/102-0000001b> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 15:05:02] WARNING[19981][C-0000001c] res_stasis_playback.c: 1525975495.27: Playback failed for sound:custom/welcome
+[2018-05-10 15:05:02] VERBOSE[19981][C-0000001c] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-0000001b", "hangupcall") in new stack
+[2018-05-10 15:05:02] VERBOSE[19981][C-0000001c] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-0000001b", "1?theend") in new stack
+[2018-05-10 15:05:02] VERBOSE[19981][C-0000001c] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 15:05:02] VERBOSE[19981][C-0000001c] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-0000001b", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 15:05:02] VERBOSE[19981][C-0000001c] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-0000001b", "") in new stack
+[2018-05-10 15:05:02] VERBOSE[19981][C-0000001c] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-0000001b' in macro 'hangupcall'
+[2018-05-10 15:05:02] VERBOSE[19981][C-0000001c] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-0000001b'
+[2018-05-10 15:05:13] ERROR[19963] res_http_websocket.c: Error reading from web socket: Connection reset by peer
+[2018-05-10 15:05:13] WARNING[19963] ari/ari_websockets.c: WebSocket read error: Connection reset by peer
+[2018-05-10 15:05:13] VERBOSE[19963] stasis/app.c: Deactivating Stasis app 'HelloWorld2'
+[2018-05-10 15:05:13] VERBOSE[19963] res_stasis.c: Shutting down application 'HelloWorld2'
+[2018-05-10 15:05:13] ERROR[19963] utils.c: fwrite() returned error: Broken pipe
+[2018-05-10 15:05:13] VERBOSE[19963] res_http_websocket.c: WebSocket connection from '192.168.0.106:16586' forcefully closed due to fatal write error
+[2018-05-10 15:05:13] VERBOSE[19964] stasis/app.c: Destroying Stasis app HelloWorld2
+[2018-05-10 15:06:05] VERBOSE[1804] chan_sip.c: Registered SIP '102' at 192.168.0.118:54219
+[2018-05-10 15:06:05] VERBOSE[1804] chan_sip.c: Unregistered SIP '102'
+[2018-05-10 15:06:05] VERBOSE[1804] chan_sip.c: Registered SIP '102' at 192.168.0.118:54219
+[2018-05-10 15:06:07] NOTICE[1804] chan_sip.c: Received SIP subscribe for peer without mailbox: 102
+[2018-05-10 15:06:18] VERBOSE[1804][C-0000001d] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 15:06:18] VERBOSE[1804][C-0000001d] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 15:06:18] VERBOSE[20142][C-0000001d] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-0000001c", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=5a44203b") in new stack
+[2018-05-10 15:06:18] VERBOSE[20142][C-0000001d] pbx.c: Executing [801@from-internal:2] Set("SIP/102-0000001c", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=5a44203b") in new stack
+[2018-05-10 15:06:18] VERBOSE[20142][C-0000001d] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-0000001c", "HelloWorld2") in new stack
+[2018-05-10 15:06:18] ERROR[20142][C-0000001d] res_stasis.c: Stasis app 'HelloWorld2' not registered
+[2018-05-10 15:06:18] VERBOSE[20142][C-0000001d] pbx.c: Executing [801@from-internal:4] Hangup("SIP/102-0000001c", "") in new stack
+[2018-05-10 15:06:18] VERBOSE[20142][C-0000001d] pbx.c: Spawn extension (from-internal, 801, 4) exited non-zero on 'SIP/102-0000001c'
+[2018-05-10 15:06:18] VERBOSE[20142][C-0000001d] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-0000001c", "hangupcall") in new stack
+[2018-05-10 15:06:18] VERBOSE[20142][C-0000001d] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-0000001c", "1?theend") in new stack
+[2018-05-10 15:06:18] VERBOSE[20142][C-0000001d] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 15:06:18] VERBOSE[20142][C-0000001d] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-0000001c", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 15:06:18] VERBOSE[20142][C-0000001d] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-0000001c", "") in new stack
+[2018-05-10 15:06:18] VERBOSE[20142][C-0000001d] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-0000001c' in macro 'hangupcall'
+[2018-05-10 15:06:18] VERBOSE[20142][C-0000001d] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-0000001c'
+[2018-05-10 15:08:04] VERBOSE[20305] stasis/app.c: Creating Stasis app 'HelloWorld2'
+[2018-05-10 15:08:04] VERBOSE[20305] res_http_websocket.c: WebSocket connection from '192.168.0.106:16648' for protocol '' accepted using version '13'
+[2018-05-10 15:08:04] VERBOSE[20305] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 15:08:10] VERBOSE[1804][C-0000001e] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 15:08:10] VERBOSE[1804][C-0000001e] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 15:08:10] VERBOSE[20310][C-0000001e] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-0000001d", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=c3cf3537") in new stack
+[2018-05-10 15:08:10] VERBOSE[20310][C-0000001e] pbx.c: Executing [801@from-internal:2] Set("SIP/102-0000001d", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=c3cf3537") in new stack
+[2018-05-10 15:08:10] VERBOSE[20310][C-0000001e] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-0000001d", "HelloWorld2") in new stack
+[2018-05-10 15:08:11] VERBOSE[20310][C-0000001e] file.c: <SIP/102-0000001d> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 15:08:13] VERBOSE[20310][C-0000001e] file.c: <SIP/102-0000001d> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 15:08:18] VERBOSE[20310][C-0000001e] file.c: <SIP/102-0000001d> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 15:08:24] NOTICE[20310][C-0000001e] res_stasis_playback.c: 1525975690.29: Playback stopped for sound:custom/Q1
+[2018-05-10 15:08:24] VERBOSE[20310][C-0000001e] file.c: <SIP/102-0000001d> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 15:08:26] NOTICE[20310][C-0000001e] res_stasis_playback.c: 1525975690.29: Playback stopped for sound:custom/Q1
+[2018-05-10 15:08:26] WARNING[20310][C-0000001e] file.c: File custom/introCielo does not exist in any format
+[2018-05-10 15:08:26] WARNING[20310][C-0000001e] file.c: Unable to open custom/introCielo (format (ulaw)): No such file or directory
+[2018-05-10 15:08:26] WARNING[20310][C-0000001e] res_stasis_playback.c: 1525975690.29: Playback failed for sound:custom/introCielo
+[2018-05-10 15:08:26] VERBOSE[20310][C-0000001e] file.c: <SIP/102-0000001d> Playing 'custom/Q2.slin' (language 'es')
+[2018-05-10 15:08:28] NOTICE[20310][C-0000001e] res_stasis_playback.c: 1525975690.29: Playback stopped for sound:custom/Q2
+[2018-05-10 15:08:28] VERBOSE[20310][C-0000001e] file.c: <SIP/102-0000001d> Playing 'custom/Q2.slin' (language 'es')
+[2018-05-10 15:08:30] NOTICE[20310][C-0000001e] res_stasis_playback.c: 1525975690.29: Playback stopped for sound:custom/Q2
+[2018-05-10 15:08:30] VERBOSE[20310][C-0000001e] file.c: <SIP/102-0000001d> Playing 'custom/goodbye.slin' (language 'es')
+[2018-05-10 15:08:33] VERBOSE[20310][C-0000001e] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-0000001d", "hangupcall") in new stack
+[2018-05-10 15:08:33] VERBOSE[20310][C-0000001e] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-0000001d", "1?theend") in new stack
+[2018-05-10 15:08:33] VERBOSE[20310][C-0000001e] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 15:08:33] VERBOSE[20310][C-0000001e] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-0000001d", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 15:08:33] VERBOSE[20310][C-0000001e] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-0000001d", "") in new stack
+[2018-05-10 15:08:33] VERBOSE[20310][C-0000001e] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-0000001d' in macro 'hangupcall'
+[2018-05-10 15:08:33] VERBOSE[20310][C-0000001e] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-0000001d'
+[2018-05-10 15:09:25] VERBOSE[20425] stasis/app.c: Replacing Stasis app 'HelloWorld2'
+[2018-05-10 15:09:25] VERBOSE[20425] res_http_websocket.c: WebSocket connection from '192.168.0.118:4754' for protocol '' accepted using version '13'
+[2018-05-10 15:09:25] VERBOSE[20425] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 15:09:28] VERBOSE[1804][C-0000001f] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 15:09:28] VERBOSE[1804][C-0000001f] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 15:09:28] VERBOSE[20428][C-0000001f] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-0000001e", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=3adc7b53") in new stack
+[2018-05-10 15:09:28] VERBOSE[20428][C-0000001f] pbx.c: Executing [801@from-internal:2] Set("SIP/102-0000001e", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=3adc7b53") in new stack
+[2018-05-10 15:09:28] VERBOSE[20428][C-0000001f] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-0000001e", "HelloWorld2") in new stack
+[2018-05-10 15:09:57] ERROR[20425] res_http_websocket.c: Error reading from web socket: Connection reset by peer
+[2018-05-10 15:09:57] WARNING[20425] ari/ari_websockets.c: WebSocket read error: Connection reset by peer
+[2018-05-10 15:09:57] VERBOSE[20425] stasis/app.c: Deactivating Stasis app 'HelloWorld2'
+[2018-05-10 15:09:57] ERROR[20425] utils.c: fwrite() returned error: Broken pipe
+[2018-05-10 15:09:57] VERBOSE[20425] res_http_websocket.c: WebSocket connection from '192.168.0.118:4754' forcefully closed due to fatal write error
+[2018-05-10 15:10:00] VERBOSE[20307] stasis/app.c: Inactive Stasis app 'HelloWorld2' missed message
+[2018-05-10 15:10:00] VERBOSE[20428][C-0000001f] res_stasis.c: Shutting down application 'HelloWorld2'
+[2018-05-10 15:10:00] VERBOSE[20428][C-0000001f] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-0000001e", "hangupcall") in new stack
+[2018-05-10 15:10:00] VERBOSE[20428][C-0000001f] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-0000001e", "1?theend") in new stack
+[2018-05-10 15:10:00] VERBOSE[20428][C-0000001f] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 15:10:00] VERBOSE[20307] stasis/app.c: Inactive Stasis app 'HelloWorld2' missed message
+[2018-05-10 15:10:00] VERBOSE[20307] stasis/app.c: Destroying Stasis app HelloWorld2
+[2018-05-10 15:10:00] VERBOSE[20428][C-0000001f] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-0000001e", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 15:10:00] VERBOSE[20428][C-0000001f] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-0000001e", "") in new stack
+[2018-05-10 15:10:00] VERBOSE[20428][C-0000001f] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-0000001e' in macro 'hangupcall'
+[2018-05-10 15:10:00] VERBOSE[20428][C-0000001f] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-0000001e'
+[2018-05-10 15:10:11] VERBOSE[1804] chan_sip.c: Registered SIP '102' at 192.168.0.106:62601
+[2018-05-10 15:10:11] VERBOSE[1804] chan_sip.c: Unregistered SIP '102'
+[2018-05-10 15:10:11] VERBOSE[1804] chan_sip.c: Registered SIP '102' at 192.168.0.106:62601
+[2018-05-10 15:11:22] VERBOSE[20612] stasis/app.c: Creating Stasis app 'HelloWorld2'
+[2018-05-10 15:11:22] VERBOSE[20612] res_http_websocket.c: WebSocket connection from '192.168.0.118:4802' for protocol '' accepted using version '13'
+[2018-05-10 15:11:22] VERBOSE[20612] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 15:11:25] VERBOSE[1804][C-00000020] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 15:11:25] VERBOSE[1804][C-00000020] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 15:11:25] VERBOSE[20617][C-00000020] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-0000001f", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=05d02c03") in new stack
+[2018-05-10 15:11:25] VERBOSE[20617][C-00000020] pbx.c: Executing [801@from-internal:2] Set("SIP/102-0000001f", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=05d02c03") in new stack
+[2018-05-10 15:11:25] VERBOSE[20617][C-00000020] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-0000001f", "HelloWorld2") in new stack
+[2018-05-10 15:11:39] ERROR[20612] res_http_websocket.c: Error reading from web socket: Connection reset by peer
+[2018-05-10 15:11:39] WARNING[20612] ari/ari_websockets.c: WebSocket read error: Connection reset by peer
+[2018-05-10 15:11:39] VERBOSE[20612] stasis/app.c: Deactivating Stasis app 'HelloWorld2'
+[2018-05-10 15:11:39] ERROR[20612] utils.c: fwrite() returned error: Broken pipe
+[2018-05-10 15:11:39] VERBOSE[20612] res_http_websocket.c: WebSocket connection from '192.168.0.118:4802' forcefully closed due to fatal write error
+[2018-05-10 15:12:24] VERBOSE[20693] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 15:12:24] VERBOSE[20693] res_http_websocket.c: WebSocket connection from '192.168.0.118:4850' for protocol '' accepted using version '13'
+[2018-05-10 15:12:24] VERBOSE[20693] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 15:12:28] VERBOSE[1804][C-00000021] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 15:12:28] VERBOSE[1804][C-00000021] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 15:12:28] VERBOSE[20709][C-00000021] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000020", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=f3865106") in new stack
+[2018-05-10 15:12:28] VERBOSE[20709][C-00000021] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000020", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=f3865106") in new stack
+[2018-05-10 15:12:28] VERBOSE[20709][C-00000021] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000020", "HelloWorld2") in new stack
+[2018-05-10 15:12:39] ERROR[20693] res_http_websocket.c: Error reading from web socket: Connection reset by peer
+[2018-05-10 15:12:39] WARNING[20693] ari/ari_websockets.c: WebSocket read error: Connection reset by peer
+[2018-05-10 15:12:39] VERBOSE[20693] stasis/app.c: Deactivating Stasis app 'HelloWorld2'
+[2018-05-10 15:12:39] ERROR[20693] utils.c: fwrite() returned error: Broken pipe
+[2018-05-10 15:12:39] VERBOSE[20693] res_http_websocket.c: WebSocket connection from '192.168.0.118:4850' forcefully closed due to fatal write error
+[2018-05-10 15:17:00] VERBOSE[21055] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 15:17:00] VERBOSE[21055] res_http_websocket.c: WebSocket connection from '192.168.0.118:4911' for protocol '' accepted using version '13'
+[2018-05-10 15:17:00] VERBOSE[21055] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 15:17:06] VERBOSE[20617][C-00000020] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-0000001f", "hangupcall") in new stack
+[2018-05-10 15:17:06] VERBOSE[20617][C-00000020] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-0000001f", "1?theend") in new stack
+[2018-05-10 15:17:06] VERBOSE[20617][C-00000020] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 15:17:06] VERBOSE[20617][C-00000020] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-0000001f", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 15:17:06] VERBOSE[20617][C-00000020] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-0000001f", "") in new stack
+[2018-05-10 15:17:06] VERBOSE[20617][C-00000020] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-0000001f' in macro 'hangupcall'
+[2018-05-10 15:17:06] VERBOSE[20617][C-00000020] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-0000001f'
+[2018-05-10 15:17:07] VERBOSE[20709][C-00000021] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000020", "hangupcall") in new stack
+[2018-05-10 15:17:07] VERBOSE[20709][C-00000021] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000020", "1?theend") in new stack
+[2018-05-10 15:17:07] VERBOSE[20709][C-00000021] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 15:17:07] VERBOSE[20709][C-00000021] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000020", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 15:17:07] VERBOSE[20709][C-00000021] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000020", "") in new stack
+[2018-05-10 15:17:07] VERBOSE[20709][C-00000021] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000020' in macro 'hangupcall'
+[2018-05-10 15:17:07] VERBOSE[20709][C-00000021] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000020'
+[2018-05-10 15:17:11] VERBOSE[1804][C-00000022] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 15:17:11] VERBOSE[1804][C-00000022] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 15:17:11] VERBOSE[21111][C-00000022] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000021", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=f163212f") in new stack
+[2018-05-10 15:17:11] VERBOSE[21111][C-00000022] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000021", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=f163212f") in new stack
+[2018-05-10 15:17:11] VERBOSE[21111][C-00000022] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000021", "HelloWorld2") in new stack
+[2018-05-10 15:17:14] VERBOSE[21111][C-00000022] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000021", "hangupcall") in new stack
+[2018-05-10 15:17:14] VERBOSE[21111][C-00000022] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000021", "1?theend") in new stack
+[2018-05-10 15:17:14] VERBOSE[21111][C-00000022] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 15:17:14] VERBOSE[21111][C-00000022] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000021", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 15:17:14] VERBOSE[21111][C-00000022] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000021", "") in new stack
+[2018-05-10 15:17:14] VERBOSE[21111][C-00000022] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000021' in macro 'hangupcall'
+[2018-05-10 15:17:14] VERBOSE[21111][C-00000022] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000021'
+[2018-05-10 15:19:04] ERROR[21055] res_http_websocket.c: Error reading from web socket: Connection reset by peer
+[2018-05-10 15:19:04] WARNING[21055] ari/ari_websockets.c: WebSocket read error: Connection reset by peer
+[2018-05-10 15:19:04] VERBOSE[21055] stasis/app.c: Deactivating Stasis app 'HelloWorld2'
+[2018-05-10 15:19:04] VERBOSE[21055] res_stasis.c: Shutting down application 'HelloWorld2'
+[2018-05-10 15:19:04] ERROR[21055] utils.c: fwrite() returned error: Broken pipe
+[2018-05-10 15:19:04] VERBOSE[21055] res_http_websocket.c: WebSocket connection from '192.168.0.118:4911' forcefully closed due to fatal write error
+[2018-05-10 15:19:04] VERBOSE[20613] stasis/app.c: Destroying Stasis app HelloWorld2
+[2018-05-10 15:19:07] VERBOSE[21273] stasis/app.c: Creating Stasis app 'HelloWorld2'
+[2018-05-10 15:19:07] VERBOSE[21273] res_http_websocket.c: WebSocket connection from '192.168.0.118:4984' for protocol '' accepted using version '13'
+[2018-05-10 15:19:07] VERBOSE[21273] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 15:19:11] VERBOSE[1804][C-00000023] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 15:19:11] VERBOSE[1804][C-00000023] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 15:19:11] VERBOSE[21298][C-00000023] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000022", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=d8ffbf77") in new stack
+[2018-05-10 15:19:11] VERBOSE[21298][C-00000023] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000022", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=d8ffbf77") in new stack
+[2018-05-10 15:19:11] VERBOSE[21298][C-00000023] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000022", "HelloWorld2") in new stack
+[2018-05-10 15:19:17] VERBOSE[21298][C-00000023] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000022", "hangupcall") in new stack
+[2018-05-10 15:19:17] VERBOSE[21298][C-00000023] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000022", "1?theend") in new stack
+[2018-05-10 15:19:17] VERBOSE[21298][C-00000023] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 15:19:17] VERBOSE[21298][C-00000023] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000022", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 15:19:17] VERBOSE[21298][C-00000023] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000022", "") in new stack
+[2018-05-10 15:19:17] VERBOSE[21298][C-00000023] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000022' in macro 'hangupcall'
+[2018-05-10 15:19:17] VERBOSE[21298][C-00000023] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000022'
+[2018-05-10 15:19:24] ERROR[21273] res_http_websocket.c: Error reading from web socket: Connection reset by peer
+[2018-05-10 15:19:24] WARNING[21273] ari/ari_websockets.c: WebSocket read error: Connection reset by peer
+[2018-05-10 15:19:24] VERBOSE[21273] stasis/app.c: Deactivating Stasis app 'HelloWorld2'
+[2018-05-10 15:19:24] VERBOSE[21273] res_stasis.c: Shutting down application 'HelloWorld2'
+[2018-05-10 15:19:24] ERROR[21273] utils.c: fwrite() returned error: Broken pipe
+[2018-05-10 15:19:24] VERBOSE[21273] res_http_websocket.c: WebSocket connection from '192.168.0.118:4984' forcefully closed due to fatal write error
+[2018-05-10 15:19:24] VERBOSE[21274] stasis/app.c: Destroying Stasis app HelloWorld2
+[2018-05-10 15:19:30] VERBOSE[21315] stasis/app.c: Creating Stasis app 'HelloWorld2'
+[2018-05-10 15:19:30] VERBOSE[21315] res_http_websocket.c: WebSocket connection from '192.168.0.118:5025' for protocol '' accepted using version '13'
+[2018-05-10 15:19:30] VERBOSE[21315] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 15:19:33] VERBOSE[1804][C-00000024] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 15:19:33] VERBOSE[1804][C-00000024] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 15:19:33] VERBOSE[21319][C-00000024] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000023", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=ed784535") in new stack
+[2018-05-10 15:19:33] VERBOSE[21319][C-00000024] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000023", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=ed784535") in new stack
+[2018-05-10 15:19:33] VERBOSE[21319][C-00000024] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000023", "HelloWorld2") in new stack
+[2018-05-10 15:19:36] VERBOSE[21319][C-00000024] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000023", "hangupcall") in new stack
+[2018-05-10 15:19:36] VERBOSE[21319][C-00000024] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000023", "1?theend") in new stack
+[2018-05-10 15:19:36] VERBOSE[21319][C-00000024] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 15:19:36] VERBOSE[21319][C-00000024] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000023", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 15:19:36] VERBOSE[21319][C-00000024] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000023", "") in new stack
+[2018-05-10 15:19:36] VERBOSE[21319][C-00000024] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000023' in macro 'hangupcall'
+[2018-05-10 15:19:36] VERBOSE[21319][C-00000024] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000023'
+[2018-05-10 15:19:49] VERBOSE[1804][C-00000025] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 15:19:49] VERBOSE[1804][C-00000025] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 15:19:49] VERBOSE[21321][C-00000025] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000024", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=81955465") in new stack
+[2018-05-10 15:19:49] VERBOSE[21321][C-00000025] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000024", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=81955465") in new stack
+[2018-05-10 15:19:49] VERBOSE[21321][C-00000025] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000024", "HelloWorld2") in new stack
+[2018-05-10 15:19:49] VERBOSE[21321][C-00000025] file.c: <SIP/102-00000024> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 15:19:50] WARNING[21321][C-00000025] res_stasis_playback.c: 1525976389.36: Playback failed for sound:custom/buenastardes
+[2018-05-10 15:19:50] VERBOSE[21321][C-00000025] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000024", "hangupcall") in new stack
+[2018-05-10 15:19:50] VERBOSE[21321][C-00000025] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000024", "1?theend") in new stack
+[2018-05-10 15:19:50] VERBOSE[21321][C-00000025] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 15:19:50] VERBOSE[21321][C-00000025] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000024", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 15:19:50] VERBOSE[21321][C-00000025] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000024", "") in new stack
+[2018-05-10 15:19:50] VERBOSE[21321][C-00000025] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000024' in macro 'hangupcall'
+[2018-05-10 15:19:50] VERBOSE[21321][C-00000025] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000024'
+[2018-05-10 15:21:03] ERROR[21315] res_http_websocket.c: Error reading from web socket: Connection reset by peer
+[2018-05-10 15:21:03] WARNING[21315] ari/ari_websockets.c: WebSocket read error: Connection reset by peer
+[2018-05-10 15:21:03] VERBOSE[21315] stasis/app.c: Deactivating Stasis app 'HelloWorld2'
+[2018-05-10 15:21:03] VERBOSE[21315] res_stasis.c: Shutting down application 'HelloWorld2'
+[2018-05-10 15:21:03] ERROR[21315] utils.c: fwrite() returned error: Broken pipe
+[2018-05-10 15:21:03] VERBOSE[21315] res_http_websocket.c: WebSocket connection from '192.168.0.118:5025' forcefully closed due to fatal write error
+[2018-05-10 15:21:03] VERBOSE[21316] stasis/app.c: Destroying Stasis app HelloWorld2
+[2018-05-10 15:25:02] VERBOSE[1720] asterisk.c: Remote UNIX connection
+[2018-05-10 15:25:02] VERBOSE[21809] asterisk.c: Remote UNIX connection disconnected
+[2018-05-10 15:25:02] VERBOSE[1720] asterisk.c: Remote UNIX connection
+[2018-05-10 15:25:02] VERBOSE[21811] asterisk.c: Remote UNIX connection disconnected
+[2018-05-10 15:25:02] VERBOSE[1720] asterisk.c: Remote UNIX connection
+[2018-05-10 15:25:02] VERBOSE[21813] asterisk.c: Remote UNIX connection disconnected
+[2018-05-10 15:36:33] VERBOSE[1804] chan_sip.c: Unregistered SIP '102'
+[2018-05-10 15:36:33] VERBOSE[1804] chan_sip.c: Registered SIP '102' at 192.168.0.106:62601
+[2018-05-10 15:47:04] VERBOSE[1804][C-00000026] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 15:47:04] VERBOSE[1804][C-00000026] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 15:47:04] VERBOSE[23680][C-00000026] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000025", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=49143312") in new stack
+[2018-05-10 15:47:04] VERBOSE[23680][C-00000026] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000025", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=49143312") in new stack
+[2018-05-10 15:47:04] VERBOSE[23680][C-00000026] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000025", "HelloWorld2") in new stack
+[2018-05-10 15:47:04] ERROR[23680][C-00000026] res_stasis.c: Stasis app 'HelloWorld2' not registered
+[2018-05-10 15:47:04] VERBOSE[23680][C-00000026] pbx.c: Executing [801@from-internal:4] Hangup("SIP/102-00000025", "") in new stack
+[2018-05-10 15:47:04] VERBOSE[23680][C-00000026] pbx.c: Spawn extension (from-internal, 801, 4) exited non-zero on 'SIP/102-00000025'
+[2018-05-10 15:47:04] VERBOSE[23680][C-00000026] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000025", "hangupcall") in new stack
+[2018-05-10 15:47:04] VERBOSE[23680][C-00000026] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000025", "1?theend") in new stack
+[2018-05-10 15:47:04] VERBOSE[23680][C-00000026] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 15:47:04] VERBOSE[23680][C-00000026] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000025", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 15:47:04] VERBOSE[23680][C-00000026] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000025", "") in new stack
+[2018-05-10 15:47:04] VERBOSE[23680][C-00000026] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000025' in macro 'hangupcall'
+[2018-05-10 15:47:04] VERBOSE[23680][C-00000026] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000025'
+[2018-05-10 15:47:09] VERBOSE[23682] stasis/app.c: Creating Stasis app 'HelloWorld2'
+[2018-05-10 15:47:09] VERBOSE[23682] res_http_websocket.c: WebSocket connection from '192.168.0.106:19960' for protocol '' accepted using version '13'
+[2018-05-10 15:47:09] VERBOSE[23682] stasis/app.c: Activating Stasis app 'HelloWorld2'
+[2018-05-10 15:47:13] VERBOSE[1804][C-00000027] netsock2.c: Using SIP RTP TOS bits 184
+[2018-05-10 15:47:13] VERBOSE[1804][C-00000027] netsock2.c: Using SIP RTP CoS mark 5
+[2018-05-10 15:47:13] VERBOSE[23686][C-00000027] pbx.c: Executing [801@from-internal:1] NoOp("SIP/102-00000026", "Inicio llamada al 801 - Sip Header : <sip:102@192.168.0.66:5160>;tag=b4f07741") in new stack
+[2018-05-10 15:47:13] VERBOSE[23686][C-00000027] pbx.c: Executing [801@from-internal:2] Set("SIP/102-00000026", "MISIPFROMFIELD=<sip:102@192.168.0.66:5160>;tag=b4f07741") in new stack
+[2018-05-10 15:47:13] VERBOSE[23686][C-00000027] pbx.c: Executing [801@from-internal:3] Stasis("SIP/102-00000026", "HelloWorld2") in new stack
+[2018-05-10 15:47:14] VERBOSE[23686][C-00000027] file.c: <SIP/102-00000026> Playing 'custom/buenastardes.slin' (language 'es')
+[2018-05-10 15:47:16] VERBOSE[23686][C-00000027] file.c: <SIP/102-00000026> Playing 'custom/welcome.slin' (language 'es')
+[2018-05-10 15:47:19] NOTICE[23686][C-00000027] res_stasis_playback.c: 1525978033.38: Playback stopped for sound:custom/welcome
+[2018-05-10 15:47:19] VERBOSE[23686][C-00000027] file.c: <SIP/102-00000026> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 15:47:23] NOTICE[23686][C-00000027] res_stasis_playback.c: 1525978033.38: Playback stopped for sound:custom/Q1
+[2018-05-10 15:47:23] VERBOSE[23686][C-00000027] file.c: <SIP/102-00000026> Playing 'custom/Q1.slin' (language 'es')
+[2018-05-10 15:47:28] NOTICE[23686][C-00000027] res_stasis_playback.c: 1525978033.38: Playback stopped for sound:custom/Q1
+[2018-05-10 15:47:28] WARNING[23686][C-00000027] file.c: File custom/introCielo does not exist in any format
+[2018-05-10 15:47:28] WARNING[23686][C-00000027] file.c: Unable to open custom/introCielo (format (ulaw)): No such file or directory
+[2018-05-10 15:47:28] WARNING[23686][C-00000027] res_stasis_playback.c: 1525978033.38: Playback failed for sound:custom/introCielo
+[2018-05-10 15:47:28] VERBOSE[23686][C-00000027] file.c: <SIP/102-00000026> Playing 'custom/Q2.slin' (language 'es')
+[2018-05-10 15:47:28] NOTICE[23686][C-00000027] res_stasis_playback.c: 1525978033.38: Playback stopped for sound:custom/Q2
+[2018-05-10 15:47:28] VERBOSE[23686][C-00000027] file.c: <SIP/102-00000026> Playing 'custom/Q3.slin' (language 'es')
+[2018-05-10 15:47:40] VERBOSE[23686][C-00000027] file.c: <SIP/102-00000026> Playing 'custom/Q3.slin' (language 'es')
+[2018-05-10 15:47:52] VERBOSE[23686][C-00000027] file.c: <SIP/102-00000026> Playing 'custom/goodbye.slin' (language 'es')
+[2018-05-10 15:47:56] VERBOSE[23686][C-00000027] pbx.c: Executing [h@from-internal:1] Macro("SIP/102-00000026", "hangupcall") in new stack
+[2018-05-10 15:47:56] VERBOSE[23686][C-00000027] pbx.c: Executing [s@macro-hangupcall:1] GotoIf("SIP/102-00000026", "1?theend") in new stack
+[2018-05-10 15:47:56] VERBOSE[23686][C-00000027] pbx_builtins.c: Goto (macro-hangupcall,s,3)
+[2018-05-10 15:47:56] VERBOSE[23686][C-00000027] pbx.c: Executing [s@macro-hangupcall:3] ExecIf("SIP/102-00000026", "0?Set(CDR(recordingfile)=)") in new stack
+[2018-05-10 15:47:56] VERBOSE[23686][C-00000027] pbx.c: Executing [s@macro-hangupcall:4] Hangup("SIP/102-00000026", "") in new stack
+[2018-05-10 15:47:56] VERBOSE[23686][C-00000027] app_macro.c: Spawn extension (macro-hangupcall, s, 4) exited non-zero on 'SIP/102-00000026' in macro 'hangupcall'
+[2018-05-10 15:47:56] VERBOSE[23686][C-00000027] pbx.c: Spawn extension (from-internal, h, 1) exited non-zero on 'SIP/102-00000026'
