@@ -25,8 +25,12 @@
 		<div class="wrapper d-flex align-items-stretch">
 			
 			<?php if (isset($userlogged))  {
-				include 'navbar_logged_in.php';
+				include 'sidebar_logged_in.php';
+				echo '<div id="content" class="p-4 p-md-5">';
+				include 'content_topnavbar.php';
 				include 'content_index.php';
+				echo '</div>';
+				
 			}
 			
 			elseif (!isset($userlogged))  {
