@@ -29,9 +29,7 @@
 				echo '
 			    <h2 class="mb-4">Certius Projects</h2>
 				<p>In this page you will find all non-Avaya project documentation</p>
-				</div>
-			
-		';}
+				</div>';}
 			
 			elseif (isset($userlogged))   {
 				include 'usernotlogged.php';} 
@@ -39,6 +37,7 @@
 			endif;
 			
 			?>
+		
 		</div>
 		
 

@@ -1,5 +1,5 @@
 <?php
- session_start();
+
 
 echo '	<nav id="sidebar">
 				<div class="p-4 pt-5">
