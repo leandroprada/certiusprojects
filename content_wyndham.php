@@ -5,7 +5,7 @@
  
 	echo '
 	 <h2 class="mb-4">18tp0001 Wyndham Project</h2>
-        <p><?php var_dump($_SESSION['login']); ?></p>
+        
         <p>In this page you will find all documentation for Wyndham hotels</p>
 		<h2>Scope of work</h2>
 
