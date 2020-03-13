@@ -28,7 +28,7 @@
 				include 'sidebar_logged_in.php';
 				echo '<div id="content" class="p-4 p-md-5">';
 				include 'content_topnavbar.php';
-				include 'content_ansesIvr.php';
+				include 'content_wyndham.php';
 				echo '</div>';
 				
 			}

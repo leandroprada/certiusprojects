@@ -2,7 +2,8 @@
  session_start();
  $userlogged = $_SESSION['name'];
  
- 
+ // <--This is the main skeleton for the website, what varies is the "content_index" pages which will contain the actual content to be shown in the right hand side. -->
+		
  
 ?>
 
@@ -20,8 +21,7 @@
   </head>
   <body>
 		
-	<--This is the main skeleton for the website, what varies is the "content_index" pages which will contain the actual content to be shown in the right hand side. -->
-		
+	
 		<div class="wrapper d-flex align-items-stretch">
 			
 			<?php if (isset($userlogged))  {
