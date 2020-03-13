@@ -11,8 +11,8 @@
 	
     <h3 class="mb-4">Documentation</h3>
 		<ul>
-		<li>Project Notes: - <a href="="../files/teleperformance/"</li>
-		<li>Customer acceptance: - <a href="="../files/teleperformance/project_acceptance.msg"</li>
+		<li>Project Notes: - <a href="="../files/teleperformance/">Project Notes</a></li>
+		<li>Customer acceptance: - <a href="="../files/teleperformance/project_acceptance.msg">Acceptance Email</a></li>
 		
 		</ul>
 
