@@ -25,7 +25,7 @@
 		<div class="wrapper d-flex align-items-stretch">
 			
 			<?php if (isset($userlogged))  {
-				include './content/sidebar_logged_in.php';
+				include './content/content_sidebar_logged_in.php';
 				echo '<div id="content" class="p-4 p-md-5">';
 				include './content/content_topnavbar.php';
 				include './content/content_wyndham.php';
