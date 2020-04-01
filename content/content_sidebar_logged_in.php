@@ -12,7 +12,26 @@
 	          <li>
 	            <a href="./index.php" aria-expanded="false" >Home &nbsp; <i class="fa fa-home"></i></a>
 	          </li>
-			  <li>
+			  
+        	  <li>
+	            <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Waterfield Projects</a>
+	            <ul class="collapse list-unstyled" id="homeSubmenu2">
+                <li>
+                    <a href="./wyndham.php">20WT0001 - Wyndham Hotels</a>
+                </li>               
+	            </ul>
+	          </li>
+	         
+			 <li>
+              <a href="#homeSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Teleperformance Projects</a>
+              <ul class="collapse list-unstyled" id="homeSubmenu3">
+                <li>
+                    <a href="./anses_ivr.php">18TP0001 - Teleperformance Anses IVR</a>
+                </li>
+              </ul>
+	         </li>
+	         
+			 <li>
 	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Internal Projects</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu">
                 <li>
@@ -32,39 +51,7 @@
                 </li>
 	            </ul>
 	          </li>
-			   <li>
-	            <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Waterfield Projects</a>
-	            <ul class="collapse list-unstyled" id="homeSubmenu2">
-                <li>
-                    <a href="./wyndham.php">20WT0001 - Wyndham Hotels</a>
-                </li>
-                <li>
-                    <a href="#">Internal Project 2</a>
-                </li>
-                <li>
-                    <a href="#">Internal Project 3</a>
-                </li>
-				 <li>
-                    <a href="#">Internal Project 4</a>
-                </li>
-	            </ul>
-	          </li>
-	         
-			 <li>
-              <a href="#homeSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Teleperformance Projects</a>
-              <ul class="collapse list-unstyled" id="homeSubmenu3">
-                <li>
-                    <a href="./anses_ivr.php">18TP0001 - Teleperformance Anses IVR</a>
-                </li>
-                <li>
-                    <a href="#">Page 2</a>
-                </li>
-                <li>	
-                    <a href="#">Page 3</a>
-                </li>
-              </ul>
-	          </li>
-	          
+			   
 	        </ul>
 
 	        <div class="footer" >
