@@ -46,15 +46,15 @@
 				<ul>
 				<li><a href="../files/teleperformance/audios/audios.zip">Audio files</a></li>
 				<li><a href="../files/teleperformance/audios/audios/AUH.wav">AUH</a></li>
-				<li><a href="../files/teleperformance/audios/audios/desempleo.wav">desempleo</a></li>
-				<li><a href="../files/teleperformance/audios/audios/garrafa.wav">garrafa</a></li>
-				<li><a href="../files/teleperformance/audios/audios/jubilacion.wav">jubilacion</a></li>
-				<li><a href="../files/teleperformance/audios/audios/pagoUnico.wav">pagoUnico</a></li>
-				<li><a href="../files/teleperformance/audios/audios/pension.wav">pension</a></li>
-				<li><a href="../files/teleperformance/audios/audios/pnc.wav">pnc</a></li>
-				<li><a href="../files/teleperformance/audios/audios/proJefesDeHogar.wav">proJefesDeHogar</a></li>
-				<li><a href="../files/teleperformance/audios/audios/sistemaUnicoAaff.wav">sistemaUnicoAaff</a></li>
-				<li><a href="../files/teleperformance/audios/audios/subsidio.wav">subsidio</a></li>
+				<li><a href="../files/teleperformance/audios/desempleo.wav">desempleo</a></li>
+				<li><a href="../files/teleperformance/audios/garrafa.wav">garrafa</a></li>
+				<li><a href="../files/teleperformance/audios/jubilacion.wav">jubilacion</a></li>
+				<li><a href="../files/teleperformance/audios/pagoUnico.wav">pagoUnico</a></li>
+				<li><a href="../files/teleperformance/audios/pension.wav">pension</a></li>
+				<li><a href="../files/teleperformance/audios/pnc.wav">pnc</a></li>
+				<li><a href="../files/teleperformance/audios/proJefesDeHogar.wav">proJefesDeHogar</a></li>
+				<li><a href="../files/teleperformance/audios/sistemaUnicoAaff.wav">sistemaUnicoAaff</a></li>
+				<li><a href="../files/teleperformance/audios/subsidio.wav">subsidio</a></li>
 				
 				</ul>
 			</li>
