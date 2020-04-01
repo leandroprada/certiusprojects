@@ -7,10 +7,46 @@
 	 <h2 class="mb-4">20WT0001 Wyndham Project</h2>
         
         <p>In this page you will find all documentation for Wyndham hotels</p>
-		<h2>Scope of work</h2>
+		
+		
+		<h3 class="mb-4">Documentation</h3>
+		<ul>
+			<li> <h3 class="mb-4">Sent by Waterfield</h3>
+				<ul>
+				<li><a href="../files/waterfield/Wyndhamcallflow3.5.20.pdf">Call Flow Version 3.5.20</a></li>
+				<li><a href="../files/waterfield/WyndhamUtterances.xlsx">WyndhamUtterances.xlsx</a></li>
+				<li><a href="../files/waterfield/Wyndham_VUI_20200302.docx">Wyndham_VUI_20200302.docx</a></li>
+				<li><a href="../files/waterfield/Wyndhamphraselistv5.xlsx">Wyndhamphraselistv5.xlsx</a></li>
+				<li><a href="../files/waterfield/alpha.xml">alpha.xml</a></li>
+				
+				
+				</ul>
+				</li>
+				
+			<li><h3 class="mb-4">Certius</h3>
+				<ul>
+				<li><a href="../files/waterfield/tech_proposal_revC.docx">Certius Quotation Tech Only Rev C</a></li>
+				<li><a href="../files/waterfield/20WT0001-PL-0001_2.1.xlsx">20WT0001-PL-0001_2.1.xlsx</a></li>
+				<li><a href="../files/waterfield/CertiusTechnologies-TranslationsToPorgutueseRevA.docx">CertiusTechnologies-TranslationsToPortuguese RevA.docx</a></li>
+				
+				
+				
+				</ul>
+				
+			</li>
+				
+				
+			
+		</ul>
+		
+	
+		
+		
+		
+		<h3 class="mb-4">Scope of work</h3>
 
 
-<h4>1  Scope</h4>
+<h3>1  Scope</h3>
         <p>This proposal describes the professional services to be provided by Certius for the Wyndham project, in relation to the voice self-service application specifications received from Waterfield on December 30, 2019.</p>
 		<ul><li>WVO call flow draft.pdf</li></ul>
 
