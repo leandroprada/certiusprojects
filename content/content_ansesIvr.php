@@ -30,7 +30,7 @@
 				</ul>
 			</li>
 			
-			<li> <h3 class="mb-4">Design</h3>
+			<li> <h3 class="mb-4">Design</h3> 
 				<ul>
 				<li><a href="../files/teleperformance/design/JavaCodingIdeasRevH.docx">JavaCodingIdeasRevH.docx</a></li>
 				<li><a href="../files/teleperformance/design/Teleperformance-IvrBeneficiosVUIv0.0.6.pdf">Teleperformance-IvrBeneficiosVUIv0.0.6.pdf</a></li>

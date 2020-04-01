@@ -38,7 +38,7 @@
 			</li>
 				
 			<li><h3 class="mb-4">Certius</h3>
-				<ul>
+				<ul> 
 				<li><a href="../files/waterfield/tech_proposal_revC.docx">Certius Quotation Tech Only Rev C</a></li>
 				<li><a href="../files/waterfield/20WT0001-PL-0001_2.1.xlsx">20WT0001-PL-0001_2.1.xlsx</a></li>
 				<li><a href="../files/waterfield/CertiusTechnologies-TranslationsToPorgutueseRevA.docx">CertiusTechnologies-TranslationsToPortuguese RevA.docx</a></li>
