@@ -40,7 +40,7 @@
 			<li><h3 class="mb-4">Certius</h3>
 				<ul> 
 				<li><a href="../files/waterfield/tech_proposal_revC.docx">Certius Quotation Tech Only Rev C</a></li>
-				<li><a href="../files/waterfield/20WT0001-PL-0001_2.3.xlsx">20WT0001-PL-0001_2.3.xlsx</a></li>
+				<li><a href="../files/waterfield/20WT0001-PL-0001_2.4.xlsx">20WT0001-PL-0001_2.4.xlsx</a></li>
 				<li><a href="../files/waterfield/AlphaFile.zip">Alphas grammars (English Spanish Portuguese)</a></li>
 				
 				<li><h4 class="mb-4">Superseded</h4>
@@ -48,6 +48,7 @@
 				<li><a href="../files/waterfield/old/20WT0001-PL-0001_01.xlsx">20WT0001-PL-0001_01.xlsx</a></li>
 				<li><a href="../files/waterfield/20WT0001-PL-0001_2.1.xlsx">20WT0001-PL-0001_2.1.xlsx</a></li>
 				<li><a href="../files/waterfield/20WT0001-PL-0001_2.2.xlsx">20WT0001-PL-0001_2.2.xlsx</a></li>
+				<li><a href="../files/waterfield/20WT0001-PL-0001_2.3.xlsx">20WT0001-PL-0001_2.3.xlsx</a></li>
 				
 				<li><a href="../files/waterfield/CertiusTechnologies-TranslationsToPorgutuesePart2RevA.docx">CertiusTechnologies-TranslationsToPorgutuesePart2RevA.docx</a></li>
 				
