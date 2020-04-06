@@ -15,7 +15,8 @@
 				<ul>
 				<li><a href="../files/waterfield/Wyndhamcallflow3.5.20.pdf">Call Flow Version 3.5.20</a></li>
 				<li><a href="../files/waterfield/WyndhamUtterances.xlsx">WyndhamUtterances.xlsx</a></li>
-				<li><a href="../files/waterfield/Wyndham_VUI_20200302.docx">Wyndham_VUI_20200302.docx</a></li>
+				<li><a href="../files/waterfield/Wyndham_VUI_20200403.docx">Wyndham_VUI_20200403.docx</a></li>
+				
 				<li><a href="../files/waterfield/Wyndhamphraselistv5.xlsx">Wyndhamphraselistv5.xlsx</a></li>
 				<li><a href="../files/waterfield/alpha.xml">alpha.xml</a></li>
 				
@@ -29,6 +30,7 @@
 				<li><a href="../files/waterfield/old/Wyndhamcallflow1.22.20.pdf">Wyndham call flow 1.22.20.pdf</a></li>
 				<li><a href="../files/waterfield/old/Wyndhamcallflow2.4.20.pdf">Wyndham call flow 2.4.20.pdf</a></li>
 				<li><a href="../files/waterfield/old/Wyndham_VUI_20200102.docx">Wyndham_VUI_20200102.docx</a></li>
+				<li><a href="../files/waterfield/old/Wyndham_VUI_20200302.docx">Wyndham_VUI_20200302.docx</a></li>
 				
 				
 				
