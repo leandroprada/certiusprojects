@@ -25,7 +25,7 @@
 				
 				
 				
-				<li><h5 class="mb-4">Superseded</h5>
+				<li><h5>Superseded</h5>
 				<ul>
 				<li><a href="../files/waterfield/old/WVO.vsd">Initial Call Flow Visio</a></li>
 				<li><a href="../files/waterfield/old/Wyndhamcallflow1.22.20.pdf">Wyndham call flow 1.22.20.pdf</a></li>
@@ -47,7 +47,7 @@
 				<li><a href="../files/waterfield/AlphaFile.zip">Alphas grammars (English Spanish Portuguese)</a></li>
 				<li><a href="../files/waterfield/Wyndham_VUI_20200403_ES.docx">Wyndham_VUI_20200403_ES.docx</a></li>
 				
-				<li><h5 class="mb-4">Superseded</h5>
+				<li><h5>Superseded</h5>
 				<ul>
 				<li><a href="../files/waterfield/old/20WT0001-PL-0001_01.xlsx">20WT0001-PL-0001_01.xlsx</a></li>
 				<li><a href="../files/waterfield/old/20WT0001-PL-0001_2.1.xlsx">20WT0001-PL-0001_2.1.xlsx</a></li>
