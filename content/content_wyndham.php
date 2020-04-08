@@ -17,6 +17,7 @@
 				<li><a href="../files/waterfield/WyndhamUtterances.xlsx">WyndhamUtterances.xlsx</a></li>
 				<li><a href="../files/waterfield/Wyndham_VUI_20200403.docx">Wyndham_VUI_20200403.docx</a></li>
 				
+				
 				<li><a href="../files/waterfield/Wyndhamphraselistv5.xlsx">Wyndhamphraselistv5.xlsx</a></li>
 				<li><a href="../files/waterfield/alpha.xml">alpha.xml</a></li>
 				
@@ -24,7 +25,7 @@
 				
 				
 				
-				<li><h4 class="mb-4">Superseded</h4>
+				<li><h5 class="mb-4">Superseded</h5>
 				<ul>
 				<li><a href="../files/waterfield/old/WVO.vsd">Initial Call Flow Visio</a></li>
 				<li><a href="../files/waterfield/old/Wyndhamcallflow1.22.20.pdf">Wyndham call flow 1.22.20.pdf</a></li>
@@ -42,15 +43,17 @@
 			<li><h3 class="mb-4">Certius</h3>
 				<ul> 
 				<li><a href="../files/waterfield/tech_proposal_revC.docx">Certius Quotation Tech Only Rev C</a></li>
-				<li><a href="../files/waterfield/20WT0001-PL-0001_2.4.xlsx">20WT0001-PL-0001_2.4.xlsx</a></li>
+				<li><a href="../files/waterfield/20WT0001-PL-0001_2.5.xlsx">20WT0001-PL-0001_2.5.xlsx</a></li>
 				<li><a href="../files/waterfield/AlphaFile.zip">Alphas grammars (English Spanish Portuguese)</a></li>
+				<li><a href="../files/waterfield/Wyndham_VUI_20200403_ES.docx">Wyndham_VUI_20200403_ES.docx</a></li>
 				
-				<li><h4 class="mb-4">Superseded</h4>
+				<li><h5 class="mb-4">Superseded</h5>
 				<ul>
 				<li><a href="../files/waterfield/old/20WT0001-PL-0001_01.xlsx">20WT0001-PL-0001_01.xlsx</a></li>
-				<li><a href="../files/waterfield/20WT0001-PL-0001_2.1.xlsx">20WT0001-PL-0001_2.1.xlsx</a></li>
-				<li><a href="../files/waterfield/20WT0001-PL-0001_2.2.xlsx">20WT0001-PL-0001_2.2.xlsx</a></li>
-				<li><a href="../files/waterfield/20WT0001-PL-0001_2.3.xlsx">20WT0001-PL-0001_2.3.xlsx</a></li>
+				<li><a href="../files/waterfield/old/20WT0001-PL-0001_2.1.xlsx">20WT0001-PL-0001_2.1.xlsx</a></li>
+				<li><a href="../files/waterfield/old/20WT0001-PL-0001_2.2.xlsx">20WT0001-PL-0001_2.2.xlsx</a></li>
+				<li><a href="../files/waterfield/old/20WT0001-PL-0001_2.3.xlsx">20WT0001-PL-0001_2.3.xlsx</a></li>
+				<li><a href="../files/waterfield/old/20WT0001-PL-0001_2.4.xlsx">20WT0001-PL-0001_2.4.xlsx</a></li>
 				
 				<li><a href="../files/waterfield/CertiusTechnologies-TranslationsToPorgutuesePart2RevA.docx">CertiusTechnologies-TranslationsToPorgutuesePart2RevA.docx</a></li>
 				
