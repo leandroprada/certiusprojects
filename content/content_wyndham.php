@@ -46,6 +46,7 @@
 				<ul> 
 				<li><a href="../files/waterfield/tech_proposal_revC.docx">Certius Quotation Tech Only Rev C</a></li>
 				<li><a href="../files/waterfield/20WT0001-PL-0001_3.0.xlsx">20WT0001-PL-0001_3.0.xlsx</a></li>
+				<li><a href="../files/waterfield/20WT0001-PL-0001_3.1.xlsx">20WT0001-PL-0001_3.1.xlsx</a></li>
 				<li><a href="../files/waterfield/AlphaFile.zip">Alphas grammars (English Spanish Portuguese)</a></li>
 				<li><a href="../files/waterfield/Wyndham_VUI_20200403_ES.docx">Wyndham_VUI_20200403_ES.docx</a></li>
 				<li><a href="../files/waterfield/Wyndham_VUI_20200403_PT.docx">Wyndham_VUI_20200403_PT.docx</a></li>
@@ -58,6 +59,7 @@
 				<li><a href="../files/waterfield/old/20WT0001-PL-0001_2.3.xlsx">20WT0001-PL-0001_2.3.xlsx</a></li>
 				<li><a href="../files/waterfield/old/20WT0001-PL-0001_2.4.xlsx">20WT0001-PL-0001_2.4.xlsx</a></li>
 				<li><a href="../files/waterfield/old/20WT0001-PL-0001_2.5.xlsx">20WT0001-PL-0001_2.5.xlsx</a></li>
+				<li><a href="../files/waterfield/old/20WT0001-PL-0001_3.0.xlsx">20WT0001-PL-0001_3.0.xlsx</a></li>
 				
 				<li><a href="../files/waterfield/CertiusTechnologies-TranslationsToPorgutuesePart2RevA.docx">CertiusTechnologies-TranslationsToPorgutuesePart2RevA.docx</a></li>
 				
