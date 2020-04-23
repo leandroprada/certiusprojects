@@ -38,7 +38,7 @@
 			<li><h3 class="mb-4">Certius</h3>
 				<ul> 
 				<li><a href="../files/waterfield/tech_proposal_revC.docx">Certius Quotation Tech Only Rev C</a></li>
-				<li><a href="../files/waterfield/20WT0001-PL-0001_3.2.xlsx">20WT0001-PL-0001_3.2.xlsx</a></li>
+				<li><a href="../files/waterfield/20WT0001-PL-0001_4.0.xlsx">20WT0001-PL-0001_4.0.xlsx</a></li>
 				<li><a href="../files/waterfield/AlphaFile.zip">Alphas grammars (English Spanish Portuguese)</a></li>
 				<li><a href="../files/waterfield/Wyndham_VUI_20200415_ES.docx">Wyndham_VUI_20200415_ES.docx</a></li>
 				<li><a href="../files/waterfield/Wyndham_VUI_20200415_PT.docx">Wyndham_VUI_20200415_PT.docx</a></li>
