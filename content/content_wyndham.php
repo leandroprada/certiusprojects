@@ -73,7 +73,7 @@
 		</ul>
 		
 		<h3 class="mb-4">Submittal Email</h3>
-		<p>You can <a href="../files/waterfield/20WT0001 - Waterfield - Wyndham - Spanish and Portuguese Delivery.htm" target="_blank">view</a> or <a href="../files/waterfield/20WT0001-Waterfield-Wyndham-SpanishandPortugueseDelivery.eml" target="_blank">download</a>the email with submission of documents</p>
+		<p>You can <a href="../files/waterfield/20WT0001 - Waterfield - Wyndham - Spanish and Portuguese Delivery.htm" target="_blank">view</a> or <a href="../files/waterfield/20WT0001-Waterfield-Wyndham-SpanishandPortugueseDelivery.eml" target="_blank">download</a> the email with submission of documents</p>
 		<h3 class="mb-4">Scope of work</h3>
 
 
