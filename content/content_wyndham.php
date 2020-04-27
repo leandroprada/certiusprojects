@@ -18,6 +18,7 @@
 				<li><a href="../files/waterfield/Wyndham_VUI_20200415.docx">Wyndham_VUI_20200415.docx</a></li>
 				<li><a href="../files/waterfield/Wyndhamphraselistv8.xlsx">Wyndhamphraselistv8.xlsx</a></li>
 				<li><a href="../files/waterfield/alpha.xml">alpha.xml</a></li>
+				<li><a href="../files/waterfield/Wyndham Destinations_TestCaseOverview_V6_Template.xlsx">Wyndham Destinations_TestCaseOverview_V6_Template.xlsx</a></li>
 			
 				<li><h5>Superseded</h5>
 				<ul>
