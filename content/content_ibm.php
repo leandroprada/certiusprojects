@@ -4,7 +4,7 @@
  $userlogged = $_SESSION['name'];
  
 	echo '
-	 <h2 class="mb-4">20WT0001 Wyndham Project</h2>
+	 <h2 class="mb-4">20IB0001 IBM - Watson Project</h2>
         
         <p>In this page you will find all documentation for the IBM Watson pilot project</p>
 		
