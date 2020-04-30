@@ -19,7 +19,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="../index.php">Home &nbsp; <i class="fa fa-home"></i></a>
                 </li>
-                
+                <li class="nav-item">
+                    <a class="nav-link" href="../ibm.php">IBM</a>
+                </li>
 				<li class="nav-item">
                     <a class="nav-link" href="../lumenvox.php">Lumenvox</a>
                 </li>

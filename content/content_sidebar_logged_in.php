@@ -30,6 +30,15 @@
                 </li>
               </ul>
 	         </li>
+			 
+			 <li>
+              <a href="#homeSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Watson Projects</a>
+              <ul class="collapse list-unstyled" id="homeSubmenu4">
+                <li>
+                    <a href="./ibm.php">20IB0001 - Watson Prototype</a>
+                </li>
+              </ul>
+	         </li>
 	         
 			 <li>
 	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Internal Projects</a>
