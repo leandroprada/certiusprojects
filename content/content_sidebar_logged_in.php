@@ -41,6 +41,17 @@
 	         </li>
 	         
 			 <li>
+              <a href="#homeSubmenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Training Material</a>
+              <ul class="collapse list-unstyled" id="homeSubmenu5">
+                <li>
+                    <a href="./training.php">Training Videos</a>
+                </li>
+              </ul>
+	         </li>
+			 
+			 
+			 
+			 <li>
 	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Internal Projects</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu">
                 <li>
