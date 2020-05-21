@@ -16,7 +16,7 @@
 						A01 - Arquitectura Voice Portal RevB <a href="../content/tips/A01.ppt" class="btn btn-success btn-sm" style="color:white;">Ver</a>
 				</li>
 				<li style="text-decoration:none">
-						A02 - Instalacion Eclipse-Tomat RevD <a href="../content/tips/A02.ppt" class="btn btn-info" style="color:white;">Ver</a>
+						A02 - Instalacion Eclipse-Tomat RevD <a href="../content/tips/A02.ppt" class="btn btn-success btn-sm" style="color:white;">Ver</a>
 				</li>
 				
 				</ul>
