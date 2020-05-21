@@ -14,6 +14,7 @@
 				<div style="text-decoration:none">
 						<a href="../content/tips/A02.ppt" class="btn btn-info" style="color:white;">Tip A02</a><a  href="../content/tips/A02.ppt" target="_blank"> - Fuera del UL</a>
 				</div>
+										<a href="../content/tips/A01.ppt" class="btn btn-info" style="color:white;">Tip A01</a><a  href="../content/tips/A01.ppt" target="_blank"> - fuera del ul y NO EN UN DIV</a>
                 <ul >
 					<li style="text-decoration:none">
 						<a href="../content/tips/A01.ppt" class="btn btn-info" style="color:white;">Tip A01</a><a  href="../content/tips/A01.ppt" target="_blank"> - Arquitectura Voice Portal RevB</a>
