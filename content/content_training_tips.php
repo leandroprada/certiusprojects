@@ -9,7 +9,7 @@
 	<div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12">
-              <div class="video-promo-content text-center">
+              <div class="text-center">
                 <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Training Tips</h2>
                 <ul>
 					<li>
