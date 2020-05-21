@@ -12,10 +12,10 @@
               <div class="text-center">
                 <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Training Tips</h2>
 				<ul style="list-style:none">
-				<li style="text-decoration:none">
+				<li style="text-decoration:none;padding-bottom:10px;">
 						A01 - Arquitectura Voice Portal RevB <a href="../content/tips/A01.ppt" class="btn btn-success btn-sm" style="color:white;">Ver</a>
 				</li>
-				<li style="text-decoration:none">
+				<li style="text-decoration:none;padding-bottom:10px;">
 						A02 - Instalacion Eclipse-Tomat RevD <a href="../content/tips/A02.ppt" class="btn btn-success btn-sm" style="color:white;">Ver</a>
 				</li>
 				
