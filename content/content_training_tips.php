@@ -9,7 +9,7 @@
 	<div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12">
-              <div class="text-center">
+              <div class="text-left">
                 <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Training Tips</h2>
 				<ul style="list-style:none">
 				<li style="text-decoration:none;padding-bottom:10px;">
