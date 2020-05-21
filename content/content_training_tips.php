@@ -10,8 +10,20 @@
         <div class="row">
           <div class="col-md-12 col-sm-12">
               <div class="video-promo-content text-center">
-                <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Tomcat training</h2>
-                <object width="600px" height="450px" data="../files/training/tomcatTraining.mp4"></object>
+                <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Training Tips</h2>
+                <ul>
+					<li>
+						<a  href="./tips/A01.ppt" target="_blank">Tip A01 - Arquitectura Voice Portal RevB</a>
+					</li>
+				
+				
+				
+				
+				
+				
+				
+				
+				</ul>
 				
               </div>
           </div>
