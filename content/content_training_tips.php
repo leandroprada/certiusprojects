@@ -10,13 +10,13 @@
         <div class="row">
           <div class="col-md-12 col-sm-12">
               <div class="text-left">
-                <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Training Tips</h2>
+                <h4 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Training Tips</h4>
 				<ul style="list-style:none">
 				<li style="text-decoration:none;padding-bottom:10px;">
 						A01 - Arquitectura Voice Portal RevB <a href="../content/tips/A01.ppt" class="btn btn-success btn-sm" style="color:white;">Ver</a>
 				</li>
 				<li style="text-decoration:none;padding-bottom:10px;">
-						A02 - Instalacion Eclipse-Tomat RevD <a href="../content/tips/A02.ppt" class="btn btn-success btn-sm" style="color:white;">Ver</a>
+						A02 - Instalacion Eclipse-Tomcat RevD <a href="../content/tips/A02.ppt" class="btn btn-success btn-sm" style="color:white;">Ver</a>
 				</li>
 				
 				</ul>
