@@ -4,7 +4,7 @@
  $userlogged = $_SESSION['name'];
  
 	echo '
-	 <h2 class="mb-4">Training Videos</h2>
+	 <h2 class="mb-4">Training Material</h2>
      
 	<div class="container">
         <div class="row">

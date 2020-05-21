@@ -11,8 +11,7 @@
           <div class="col-md-12 col-sm-12">
               <div class="video-promo-content text-center">
                 <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Tomcat training</h2>
-                <object width="600px" height="450px" data="../files/training/tomcatTraining.mp4"></object>
-				
+				<iframe width="75%" height="450px" src="../files/training/tomcatTraining.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
           </div>
         </div>
