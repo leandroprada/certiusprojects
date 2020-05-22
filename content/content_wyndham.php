@@ -73,19 +73,21 @@
 			
 		</ul>
 		
+		<h4>1  Customer Environment</h4>
+			<p>Call 862 - 286-0133</p>
+			<p>Then select the following numbers for Spanish and Portuguese</p>
+			<ul>
+
+			<li>Spanish Main entry – 1002</li>
+			<li>Spanish Collections inbound – 1003</li>
+			<li>Portuguese main entry – 1004</li>
+			<li>Portuguese main Collections inbound - 1005</li>
+		
 		<h3 class="mb-4">Submittal Email</h3>
 		<p>You can <a href="../files/waterfield/20WT0001 - Waterfield - Wyndham - Spanish and Portuguese Delivery.htm" target="_blank">view</a> or <a href="../files/waterfield/20WT0001-Waterfield-Wyndham-SpanishandPortugueseDelivery.eml" target="_blank">download</a> the email with submission of documents</p>
 		<h3 class="mb-4">Scope of work</h3>
 
-<h3>1  Customer Environment</h3>
-<p>Call 862 - 286-0133</p>
-<p>Then select the following numbers for Spanish and Portuguese>/p>
-<ul>
 
-<li>Spanish Main entry – 1002</li>
-<li>Spanish Collections inbound – 1003</li>
-<li>Portuguese main entry – 1004</li>
-<li>Portuguese main Collections inbound - 1005</li>
 
 
 
