@@ -3,10 +3,10 @@
 require 'dbconn.inc.php';
  $email = $_POST['email'];
  $password = $_POST['password'];
- $sql = "SELECT email FROM usr WHERE email=?";
+ $sql = "SELECT email FROM users WHERE email=?";
  
  //this code is to get the user name
-	$query1 = "SELECT name FROM usr WHERE email=";
+	$query1 = "SELECT name FROM users WHERE email=";
 	$query2 = '"'.$email.'";';
 	$query = $query1.$query2;
 	$result = mysqli_query($conn,$query);
