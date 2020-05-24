@@ -1,7 +1,13 @@
 <?php
  session_start();
- $userlogged = $_SESSION['name'];
  
+$name = $_SESSION['name'];
+// This section sets the firstname to "usuario" if the name is not in the session variable
+if ($_SESSION['name'] == NULL) {
+	$_SESSION['name'] =  "usuario";
+	
+}
+
  // <--This is the main skeleton for the website, what varies is the "content_index" pages which will contain the actual content to be shown in the right hand side. -->
 		
  
@@ -24,7 +30,7 @@
 	
 		<div class="wrapper d-flex align-items-stretch">
 			
-			<?php if (isset($userlogged))  {
+			<?php if (isset($name))  {
 				include './content/content_sidebar_logged_in.php';
 				echo '<div id="content" class="p-4 p-md-5">';
 				include './content/content_topnavbar.php';
@@ -33,7 +39,7 @@
 				
 			}
 			
-			elseif (!isset($userlogged))  {
+			elseif (!isset($name))  {
 				include './content/usernotloggedin.php';
 					}
 			?>

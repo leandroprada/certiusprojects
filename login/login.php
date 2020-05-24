@@ -1,7 +1,5 @@
 <?php
  session_start();
-$_SESSION['email'] = $_POST['email'];
-
 
 ?>
 
@@ -62,7 +60,7 @@ $_SESSION['email'] = $_POST['email'];
         <div class="limiter">
 						<div class="container-login100">
 							<div class="wrap-login100 p-l-85 p-r-85 p-t-55 p-b-55">
-								<form class="login100-form validate-form flex-sb flex-w" action="signup.php" method="post">
+								<form class="login100-form validate-form flex-sb flex-w" action="login2.php" method="post">
 										<span class="login100-form-title p-b-32">
 										Login - <?php
 																	 if (($_SESSION['login']) != "validated") {
@@ -76,7 +74,7 @@ $_SESSION['email'] = $_POST['email'];
 										Email
 									</span>
 									<div class="wrap-input100 validate-input m-b-36" data-validate = "Email is required">
-										<input class="input100" type="text" name="email" >
+										<input class="input100" type="text" name="username" >
 										<span class="focus-input100"></span>
 									</div>
 
