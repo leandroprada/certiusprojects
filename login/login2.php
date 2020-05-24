@@ -18,7 +18,6 @@ require 'dbconn.inc.php';
 
  
  $stmt = mysqli_stmt_init($conn);
->>>>>>> a6c4818d25df909d377c881e9254d708dc0c5190:login/signup.php
 
 require 'dbconn.inc.php';
 $password = $_POST['password'];
