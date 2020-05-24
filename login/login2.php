@@ -1,23 +1,5 @@
 <?php
-<<<<<<< HEAD:login/login2.php
  session_start();
-=======
- session_start();		
-require 'dbconn.inc.php';
- $email = $_POST['email'];
- $password = $_POST['password'];
- $sql = "SELECT email FROM users WHERE email=?";
- 
- //this code is to get the user name
-	$query1 = "SELECT name FROM users WHERE email=";
-	$query2 = '"'.$email.'";';
-	$query = $query1.$query2;
-	$result = mysqli_query($conn,$query);
-	$row = mysqli_fetch_row($result);
-	$_SESSION['name'] = $row[0];
-
- 
- $stmt = mysqli_stmt_init($conn);
 
 require 'dbconn.inc.php';
 $password = $_POST['password'];
