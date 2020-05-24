@@ -8,6 +8,10 @@ if ($_SESSION['name'] == NULL) {
 	
 }
 
+if ($_SESSION['login'] == NULL) {
+ header("Location: ../login/login.php?error=notloggedin");
+}
+
  // <--This is the main skeleton for the website, what varies is the "content_index" pages which will contain the actual content to be shown in the right hand side. -->
 		
  
