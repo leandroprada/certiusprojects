@@ -54,10 +54,4 @@ foreach ($permissions as $p_id)
 	  ?>
 
 
-	echo '
-
-	  ';
-	  ?>
-		
-        
  
