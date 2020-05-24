@@ -1,9 +1,24 @@
 <?php
 
- session_start();
+  session_start();
+require 'dbconn.inc.php';
  $userlogged = $_SESSION['name'];
- 
-	echo '
+$permissions = $_SESSION['permissions'];
+	//The code below parses course list and loops through it	
+	$permissions = explode(",",$permissions);
+
+foreach ($permissions as $p_id) 
+	{
+		$querycd1 = "SELECT permission_description FROM permissions WHERE p_id=";
+		$querycd2 = '"'.$p_id.'";';	
+		$querycd = $querycd1.$querycd2;
+		$resultcd = mysqli_query($conn,$querycd);
+		$rowcd = mysqli_fetch_row($resultcd);
+		$permissionname = $rowcd[0];
+
+	if ($permissionname != NULL) {
+		if ($permissionname == "projects"){
+		echo '	
 	 <h2 class="mb-4">20WT0001 Wyndham Project</h2>
         
         <p>In this page you will find all documentation for Wyndham hotels</p>
@@ -138,6 +153,10 @@
 </ul>
 
 	  ';
+	  }
+		
+		}
+	}
 	  ?>
 		
         
