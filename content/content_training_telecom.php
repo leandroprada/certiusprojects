@@ -31,10 +31,10 @@ foreach ($permissions as $p_id)
 				
 					
 					<ul class="collapse list-unstyled" id="telecomSubmenu1">
-					<li>
-						<a href="./training_telecom.php">Training - Telecom Basics</a>
-					</li>
-					<object width="600px" height="450px" data="../content/telephony/ACD_Basics.pdf"></object>
+					<h3>
+						<a href="./training_telecom.php">Automatic Call Distribution (ACD) Basics </a>
+					</h3>
+					<object width="75%" height="450px" data="../content/telephony/ACD_Basics.pdf"></object>
 					</ul>
 				</ul>
 									
