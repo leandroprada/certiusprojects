@@ -41,11 +41,11 @@ foreach ($permissions as $p_id)
 					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu2" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
 					<a  class="btn btn-danger btn-sm " href="../content/telephony/bell_phones.pdf" target="_blank" style="color:white;background-color:#C26861">Abrir </a>
 					 Bell Phones - The Magic of Communication 
-						<div class="collapse list-unstyled" id="telecomSubmenu3">
+						<div class="collapse list-unstyled" id="telecomSubmenu2">
 						<h3>
 							<a href="./training_telecom.php">Bell Phones - The Magic of Communication </a>
 						</h3>
-						<object width="75%" height="450px" data="../content/telephony/ACD_Basics.pdf"></object>
+						<object width="75%" height="450px" data="../content/telephony/bell_phones.pdf"></object>
 						</div>
 					</li>
 					
@@ -60,36 +60,36 @@ foreach ($permissions as $p_id)
 						</div>
 					</li>
 					
-					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu4" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm" href="../content/telephony/ACD_Basics.pdf" style="color:white;background-color:#825EAB;">Ver </a>
-					<a  class="btn btn-danger btn-sm " href="../content/telephony/ACD_Basics.pdf" target="_blank" style="color:white;background-color:#C26861">Abrir </a>
-					 Automatic Call Distribution (ACD) Basics 
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu4" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+					<a  class="btn btn-danger btn-sm " href="../content/telephony/pbx.pdf" target="_blank" style="color:white;background-color:#C26861">Abrir </a>
+					 Centrales Privadas - PBX
 						<div class="collapse list-unstyled" id="telecomSubmenu4">
 						<h3>
-							<a href="./training_telecom.php">Automatic Call Distribution (ACD) Basics </a>
+							<a href="./training_telecom.php">Centrales Privadas - PBX </a>
 						</h3>
-						<object width="75%" height="450px" data="../content/telephony/ACD_Basics.pdf"></object>
+						<object width="75%" height="450px" data="../content/telephony/pbx.pdf"></object>
 						</div>
 					</li>
 					
-					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu5" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm" href="../content/telephony/ACD_Basics.pdf" style="color:white;background-color:#825EAB;">Ver </a>
-					<a  class="btn btn-danger btn-sm " href="../content/telephony/ACD_Basics.pdf" target="_blank" style="color:white;background-color:#C26861">Abrir </a>
-					 Automatic Call Distribution (ACD) Basics 
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu5" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+					<a  class="btn btn-danger btn-sm " href="../content/telephony/central_paso_a_paso.pdf" target="_blank" style="color:white;background-color:#C26861">Abrir </a>
+					 THE STEP-BY-STEP DIAL TELEPHONE SYSTEM
 						<div class="collapse list-unstyled" id="telecomSubmenu5">
 						<h3>
-							<a href="./training_telecom.php">Automatic Call Distribution (ACD) Basics </a>
+							<a href="./training_telecom.php"> THE STEP-BY-STEP DIAL TELEPHONE SYSTEM </a>
 						</h3>
-						<object width="75%" height="450px" data="../content/telephony/ACD_Basics.pdf"></object>
+						<object width="75%" height="450px" data="../content/telephony/central_paso_a_paso.pdf"></object>
 						</div>
 					</li>
 					
-					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu6" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm" href="../content/telephony/ACD_Basics.pdf" style="color:white;background-color:#825EAB;">Ver </a>
-					<a  class="btn btn-danger btn-sm " href="../content/telephony/ACD_Basics.pdf" target="_blank" style="color:white;background-color:#C26861">Abrir </a>
-					 Automatic Call Distribution (ACD) Basics 
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu6" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm" style="color:white;background-color:#825EAB;">Ver </a>
+					<a  class="btn btn-danger btn-sm " href="../content/telephony/Training-Telecom_Basics_I.pdf" target="_blank" style="color:white;background-color:#C26861">Abrir </a>
+					 Redmond - TELECOM BASICS PART I 
 						<div class="collapse list-unstyled" id="telecomSubmenu6">
 						<h3>
-							<a href="./training_telecom.php">Automatic Call Distribution (ACD) Basics </a>
+							<a href="./training_telecom.php">Redmond - TELECOM BASICS PART I </a>
 						</h3>
-						<object width="75%" height="450px" data="../content/telephony/ACD_Basics.pdf"></object>
+						<object width="75%" height="450px" data="../content/telephony/Training-Telecom_Basics_I.pdf"></object>
 						</div>
 					</li>
 					
