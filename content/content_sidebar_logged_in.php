@@ -107,6 +107,9 @@ $permissions = $_SESSION['permissions'];
               <a href="#homeSubmenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Training Material</a>
               <ul class="collapse list-unstyled" id="homeSubmenu5">
                 <li>
+                    <a href="./training_telecom.php">Training - Telecom Basics</a>
+                </li>
+				<li>
                     <a href="./training_videos.php">Training Videos</a>
                 </li>
 				<li>
