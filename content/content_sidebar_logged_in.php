@@ -117,9 +117,7 @@ $permissions = $_SESSION['permissions'];
                 </li>
               </ul>
 	         </li>
-			 <li>
-				<a href="./lumenvox.php">Lumenvox</a>
-			 </li>
+			
 			';
 			}
 			 
