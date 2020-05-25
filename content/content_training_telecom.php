@@ -27,7 +27,7 @@ foreach ($permissions as $p_id)
               <div class="text-left">
                 <h4 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Training Telecom Reference Material</h4>
 				<ul style="list-style:none">
-					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu1" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm" href="../content/telephony/ACD_Basics.pdf" style="color:white;background-color:#825EAB;">Ver </a>
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu1" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
 					<a  class="btn btn-danger btn-sm " href="../content/telephony/ACD_Basics.pdf" target="_blank" style="color:white;background-color:#C26861">Abrir </a>
 					 Automatic Call Distribution (ACD) Basics 
 						<div class="collapse list-unstyled" id="telecomSubmenu1">
@@ -38,25 +38,25 @@ foreach ($permissions as $p_id)
 						</div>
 					</li>
 					
-					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu2" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm" href="../content/telephony/" style="color:white;background-color:#825EAB;">Ver </a>
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu2" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
 					<a  class="btn btn-danger btn-sm " href="../content/telephony/bell_phones.pdf" target="_blank" style="color:white;background-color:#C26861">Abrir </a>
-					 Bob Edgar - PC TELEPHONY
+					 Bell Phones - The Magic of Communication 
 						<div class="collapse list-unstyled" id="telecomSubmenu3">
 						<h3>
-							<a href="./training_telecom.php">Bob Edgar - PC TELEPHONY</a>
+							<a href="./training_telecom.php">Bell Phones - The Magic of Communication </a>
 						</h3>
 						<object width="75%" height="450px" data="../content/telephony/ACD_Basics.pdf"></object>
 						</div>
 					</li>
 					
-					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu3" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm" href="../content/telephony/Bob_Edgar_PC-Telephony.pdf" style="color:white;background-color:#825EAB;">Ver </a>
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu3" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
 					<a  class="btn btn-danger btn-sm " href="../content/telephony/Bob_Edgar_PC-Telephony.pdf" target="_blank" style="color:white;background-color:#C26861">Abrir </a>
-					 Automatic Call Distribution (ACD) Basics 
+					  Bob Edgar - PC TELEPHONY
 						<div class="collapse list-unstyled" id="telecomSubmenu3">
 						<h3>
-							<a href="./training_telecom.php">Automatic Call Distribution (ACD) Basics </a>
+							<a href="./training_telecom.php"> Bob Edgar - PC TELEPHONY </a>
 						</h3>
-						<object width="75%" height="450px" data="../content/telephony/ACD_Basics.pdf"></object>
+						<object width="75%" height="450px" data="../content/telephony/Bob_Edgar_PC-Telephony.pdf"></object>
 						</div>
 					</li>
 					
