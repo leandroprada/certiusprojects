@@ -37,11 +37,65 @@ foreach ($permissions as $p_id)
 						<object width="75%" height="450px" data="../content/telephony/ACD_Basics.pdf"></object>
 						</div>
 					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu2" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm" href="../content/telephony/" style="color:white;background-color:#825EAB;">Ver </a>
+					<a  class="btn btn-danger btn-sm " href="../content/telephony/bell_phones.pdf" target="_blank" style="color:white;background-color:#C26861">Abrir </a>
+					 Bob Edgar - PC TELEPHONY
+						<div class="collapse list-unstyled" id="telecomSubmenu3">
+						<h3>
+							<a href="./training_telecom.php">Bob Edgar - PC TELEPHONY</a>
+						</h3>
+						<object width="75%" height="450px" data="../content/telephony/ACD_Basics.pdf"></object>
+						</div>
+					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu3" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm" href="../content/telephony/Bob_Edgar_PC-Telephony.pdf" style="color:white;background-color:#825EAB;">Ver </a>
+					<a  class="btn btn-danger btn-sm " href="../content/telephony/Bob_Edgar_PC-Telephony.pdf" target="_blank" style="color:white;background-color:#C26861">Abrir </a>
+					 Automatic Call Distribution (ACD) Basics 
+						<div class="collapse list-unstyled" id="telecomSubmenu3">
+						<h3>
+							<a href="./training_telecom.php">Automatic Call Distribution (ACD) Basics </a>
+						</h3>
+						<object width="75%" height="450px" data="../content/telephony/ACD_Basics.pdf"></object>
+						</div>
+					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu4" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm" href="../content/telephony/ACD_Basics.pdf" style="color:white;background-color:#825EAB;">Ver </a>
+					<a  class="btn btn-danger btn-sm " href="../content/telephony/ACD_Basics.pdf" target="_blank" style="color:white;background-color:#C26861">Abrir </a>
+					 Automatic Call Distribution (ACD) Basics 
+						<div class="collapse list-unstyled" id="telecomSubmenu4">
+						<h3>
+							<a href="./training_telecom.php">Automatic Call Distribution (ACD) Basics </a>
+						</h3>
+						<object width="75%" height="450px" data="../content/telephony/ACD_Basics.pdf"></object>
+						</div>
+					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu5" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm" href="../content/telephony/ACD_Basics.pdf" style="color:white;background-color:#825EAB;">Ver </a>
+					<a  class="btn btn-danger btn-sm " href="../content/telephony/ACD_Basics.pdf" target="_blank" style="color:white;background-color:#C26861">Abrir </a>
+					 Automatic Call Distribution (ACD) Basics 
+						<div class="collapse list-unstyled" id="telecomSubmenu5">
+						<h3>
+							<a href="./training_telecom.php">Automatic Call Distribution (ACD) Basics </a>
+						</h3>
+						<object width="75%" height="450px" data="../content/telephony/ACD_Basics.pdf"></object>
+						</div>
+					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu6" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm" href="../content/telephony/ACD_Basics.pdf" style="color:white;background-color:#825EAB;">Ver </a>
+					<a  class="btn btn-danger btn-sm " href="../content/telephony/ACD_Basics.pdf" target="_blank" style="color:white;background-color:#C26861">Abrir </a>
+					 Automatic Call Distribution (ACD) Basics 
+						<div class="collapse list-unstyled" id="telecomSubmenu6">
+						<h3>
+							<a href="./training_telecom.php">Automatic Call Distribution (ACD) Basics </a>
+						</h3>
+						<object width="75%" height="450px" data="../content/telephony/ACD_Basics.pdf"></object>
+						</div>
+					</li>
+					
 				</ul>				
               </div>
-          </div>
-		  
-		  
+          </div>  
         </div>
 	</div>
         
