@@ -27,7 +27,7 @@ foreach ($permissions as $p_id)
               <div class="text-left">
                 <h4 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Training Tips</h4>
 				<ul style="list-style:none">
-				<li style="text-decoration:none;padding-bottom:10px;"><a href="../content/tips/A01.ppt" class="btn btn-success btn-sm" style="color:white;">Ver</a>  A01 - Arquitectura Voice Portal RevB </li>
+				<li style="text-decoration:none;padding-bottom:10px;"><a href="../../files/tips/A01.ppt" class="btn btn-success btn-sm" style="color:white;">Ver</a>  A01 - Arquitectura Voice Portal RevB </li>
 				<li style="text-decoration:none;padding-bottom:10px;"><a href="../content/tips/A02.ppt" class="btn btn-success btn-sm" style="color:white;">Ver</a> A02 - Instalacion Eclipse-Tomcat RevD </li>
 				<li style="text-decoration:none;padding-bottom:10px;"><a href="../content/tips/A07.pptx" class="btn btn-success btn-sm" style="color:white;">Ver</a> A07 - Tip - Envío de email - RevA </li>
 				<li style="text-decoration:none;padding-bottom:10px;"><a href="../content/tips/B11.pptx" class="btn btn-success btn-sm" style="color:white;">Ver</a> B11 - Eclipse. Data folder RevC.pptx </li>
