@@ -6,7 +6,7 @@ require 'dbconn.inc.php';
 $permissions = $_SESSION['permissions'];
 	//The code below parses course list and loops through it	
 	$permissions = explode(",",$permissions);
- 
+  
 foreach ($permissions as $p_id) 
 	{
 		$querycd1 = "SELECT permission_description FROM permissions WHERE p_id=";
