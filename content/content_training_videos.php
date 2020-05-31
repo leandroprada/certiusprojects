@@ -25,7 +25,7 @@ foreach ($permissions as $p_id)
           <div class="col-md-12 col-sm-12">
               <div class="video-promo-content text-center">
                 <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Tomcat training</h2>
-				<video width="75%" height="450px" controls controlsList="nodownload" >
+				<video width="75%" height="450px" controls >
 					<source data-src="../files/training/tomcatTraining.mp4" type="video/mp4" >
 				</video>
 				
