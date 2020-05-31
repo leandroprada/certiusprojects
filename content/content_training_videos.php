@@ -25,11 +25,7 @@ foreach ($permissions as $p_id)
           <div class="col-md-12 col-sm-12">
               <div class="video-promo-content text-center">
                 <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Tomcat training</h2>
-				<video width="75%" height="450px" controls >
-					<source data-src="../files/training/tomcatTraining.mp4" type="video/mp4" >
-				</video>
-				
-				
+				<iframe width="75%" height="450px" src="../files/training/tomcatTraining.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Tomcat training - otros materiales de soporte</h3>
 				<ul >
 					<li style="text-decoration:none">
