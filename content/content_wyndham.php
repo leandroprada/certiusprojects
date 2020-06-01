@@ -34,7 +34,8 @@ foreach ($permissions as $p_id)
 				<li><a href="../files/waterfield/Wyndhamphraselistv8.xlsx">Wyndhamphraselistv8.xlsx</a></li>
 				<li><a href="../files/waterfield/alpha.xml">alpha.xml</a></li>
 				<li><a href="../files/waterfield/Wyndham Destinations_TestCaseOverview_V6_Template.xlsx">Wyndham Destinations_TestCaseOverview_V6_Template.xlsx</a></li>
-				<li><a href="../files/waterfield/BlueworxDataRequest.xls">Test Data: BlueworxDataRequest.xls</a></li>
+				<li><a href="../files/waterfield/BlueworxDataRequest05262020.xls">Test Data: BlueworxDataRequest05262020.xls</a></li>
+				
 			
 				<li><h5>Superseded</h5>
 				<ul>
@@ -47,6 +48,7 @@ foreach ($permissions as $p_id)
 				<li><a href="../files/waterfield/old/Wyndham_VUI_20200403.docx">Wyndham_VUI_20200403.docx</a></li>
 				<li><a href="../files/waterfield/old/Wyndhamcallflow3.5.20.pdf">Call Flow Version 3.5.20</a></li>
 				<li><a href="../files/waterfield/old/Wyndhamphraselistv5.xlsx">Wyndhamphraselistv5.xlsx</a></li>
+				<li><a href="../files/waterfield/old/BlueworxDataRequest.xls">Test Data: BlueworxDataRequest.xls</a></li>
 				</ul>
 				</li>
 				</ul>
