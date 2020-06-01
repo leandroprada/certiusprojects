@@ -42,11 +42,21 @@ foreach ($permissions as $p_id)
 		
 		<h3>Videos</h3>
 		<h4>Speech Tuner Training</h4>
-		<object width="600px" height="450px" data="../files/lumenvox/LumenVox_Tuner_Training.mp4"></object>
+		<video  width="600px" height="450px" controls>
+				  <source src="../files/lumenvox/LumenVox_Tuner_Training.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+		</video>
+		
 		<h4>Partner Skill Certification - Day 1</h4>
-		<object width="600px" height="450px" data="../files/lumenvox/GMT20191210-160125_LumenVox-P_1600x900.mp4"></object>
+		<video width="600px" height="450px"  controls>
+				  <source src="../files/lumenvox/GMT20191210-160125_LumenVox-P_1600x900.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+		</video>
 		<h4>Partner Skill Certification - Day 2</h4>
-		<object width="600px" height="450px" data="../files/lumenvox/GMT20191211-155053_LumenVox-P_1920x1080.mp4"></object>
+		<video width="600px" height="450px"  controls>
+				  <source src="../files/lumenvox/GMT20191211-155053_LumenVox-P_1920x1080.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>
 		
 	  
 	  ';
