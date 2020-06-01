@@ -29,8 +29,7 @@ foreach ($permissions as $p_id)
 				  <source src="../files/training/tomcatTraining.mp4" type="video/mp4">
 				Your browser does not support the video tag.
 				</video>
-				
-				<video width="75%" height="450px">Test Video<source src="../files/training/tomcatTraining.mp4" type="video/mp4"></video>
+			
 				<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Tomcat training - otros materiales de soporte</h3>
 				<ul >
 					<li style="text-decoration:none">
