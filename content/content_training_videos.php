@@ -25,10 +25,8 @@ foreach ($permissions as $p_id)
           <div class="col-md-12 col-sm-12">
               <div class="video-promo-content text-center">
                 <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Tomcat training</h2>
-				<iframe width="75%" height="450px" src="../files/training/tomcatTraining.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<video width="320" height="240" controls>
+				<video width="75%" height="450px"  controls>
 				  <source src="../files/training/tomcatTraining.mp4" type="video/mp4">
-				  <source src="movie.ogg" type="video/ogg">
 				Your browser does not support the video tag.
 				</video>
 				
@@ -46,12 +44,19 @@ foreach ($permissions as $p_id)
 			  
 			  <div class="video-promo-content text-center">
                 <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Avaya CPaaS API webinar</h2>
-				<iframe width="75%" height="450px" src="../files/cpaas/AVAYA_Webinar_APIs_CPaaS_FernandezLopez_210520.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen controlsList="nodownload"></iframe>
+				<video width="75%" height="450px"  controls>
+				  <source src="../files/cpaas/AVAYA_Webinar_APIs_CPaaS_FernandezLopez_210520.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>
 			  </div>
 			  
 			  <div class="video-promo-content text-center">
                 <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Black Duck Hub Fundamentals</h2>
-				<iframe width="75%" height="450px" src="../files/training/blackDuckHub06012020.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<video width="75%" height="450px"  controls>
+				  <source src="../files/training/blackDuckHub06012020.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>
+			
 				<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Black Duck Hub - otro material de soporte </h3>
 				<ul >
 					<li style="text-decoration:none">
