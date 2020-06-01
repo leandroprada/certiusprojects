@@ -26,7 +26,7 @@ foreach ($permissions as $p_id)
               <div class="video-promo-content text-center">
                 <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Tomcat training</h2>
 				<iframe width="75%" height="450px" src="../files/training/tomcatTraining.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<video width="320" height="240" >
+				<video width="320" height="240" controls>
 				  <source src="../files/training/tomcatTraining.mp4" type="video/mp4">
 				  <source src="movie.ogg" type="video/ogg">
 				Your browser does not support the video tag.
