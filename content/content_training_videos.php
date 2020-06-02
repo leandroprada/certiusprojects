@@ -125,8 +125,8 @@ foreach ($permissions as $p_id)
 										<li style="text-decoration:none">
 											<a  href="../files/training/AvayaSpecsforUUITransport_COMPAS.pdf" target="_blank">Avaya Specs for UUI Transport COMPAS </a>
 											<a href="../files/training/AvayaSpecsforUUITransport_COMPAS.pdf" class="btn btn-info" style="color:white;">Ver</a> 
-											<a  href="../files/training/UUIExplained v1.docx" target="_blank">UUI Explained v1</a>
-											<a href="../files/training/UUIExplained v1.docx" class="btn btn-info" style="color:white;">Ver</a> 
+											<a  href="../files/training/UUIExplainedv1.docx" target="_blank">UUI Explained v1</a>
+											<a href="../files/training/UUIExplainedv1.docx" class="btn btn-info" style="color:white;">Ver</a> 
 											
 										</li>
 										
