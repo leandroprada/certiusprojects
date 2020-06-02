@@ -34,7 +34,7 @@ foreach ($permissions as $p_id)
 							</video>
 						
 							<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Tomcat training - otros materiales de soporte</h3>
-							<ul >
+							<ul>
 								<li style="text-decoration:none">
 									<a  href="../content/soportevideos/TomcatConfiguration.pptx" target="_blank">Presentaci&oacute;n Tomcat Configuration </a><a href="../content/soportevideos/TomcatConfiguration.pptx" class="btn btn-info" style="color:white;">Ver</a>
 								</li>
@@ -66,7 +66,7 @@ foreach ($permissions as $p_id)
 							</video>
 							
 							<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Black Duck Hub - otro material de soporte </h3>
-							<ul >
+							<ul>
 								<li style="text-decoration:none">
 									<a  href="../content/soportevideos/TrainingBlackDuckHub.pdf" target="_blank">Presentaci&oacute;n Black Duck Hub </a>
 									<a href="../content/soportevideos/TrainingBlackDuckHub.pdf" class="btn btn-info" style="color:white;">PDF</a> &oacute; <a href="../content/soportevideos/TrainingBlackDuckHub.pptx" class="btn btn-info" style="color:white;">PPT</a>
@@ -119,9 +119,9 @@ foreach ($permissions as $p_id)
 					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu7" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
 						UUI explained
 							<div class="collapse list-unstyled" id="telecomSubmenu7">
-								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">UUI Explained<h3>
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">UUI Explained</h3>
 									
-									<ul >
+									<ul>
 										<li style="text-decoration:none">
 											<a  href="../files/training/AvayaSpecsforUUITransport_COMPAS.pdf" target="_blank">Avaya Specs for UUI Transport COMPAS </a>
 											<a href="../files/training/AvayaSpecsforUUITransport_COMPAS.pdf" class="btn btn-info" style="color:white;">Ver</a> 
