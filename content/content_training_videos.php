@@ -136,6 +136,23 @@ foreach ($permissions as $p_id)
 							
 							</div>
 					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu7" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						CCXML
+							<div class="collapse list-unstyled" id="telecomSubmenu7">
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">CCXML Explained</h3>
+									
+									<ul>
+										<li style="text-decoration:none">
+											<a  href="../files/training/CCXML.zip" target="_blank">CCXML incluye ejercicios </a>
+											<a href="../files/training/CCXML.zip" class="btn btn-info" style="color:white;">Ver</a> 
+										</li>
+										
+									</ul>
+
+							
+							</div>
+					</li>
 		  
 		  
 				</ul>
