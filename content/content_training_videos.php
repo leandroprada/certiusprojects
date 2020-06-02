@@ -119,17 +119,18 @@ foreach ($permissions as $p_id)
 					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu7" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
 						UUI explained
 							<div class="collapse list-unstyled" id="telecomSubmenu7">
-								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">U<h3>
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">UUI Explained<h3>
 									
 									<ul >
 										<li style="text-decoration:none">
 											<a  href="../files/training/AvayaSpecsforUUITransport_COMPAS.pdf" target="_blank">Avaya Specs for UUI Transport COMPAS </a>
 											<a href="../files/training/AvayaSpecsforUUITransport_COMPAS.pdf" class="btn btn-info" style="color:white;">Ver</a> 
-											<a  href="../files/training/UUIExplainedv1.docx" target="_blank">UUI Explained v1</a>
-											<a href="../files/training/UUIExplainedv1.docx" class="btn btn-info" style="color:white;">Ver</a> 
-											
 										</li>
 										
+										<li style="text-decoration:none">
+											<a  href="../files/training/UUIExplainedv1.docx" target="_blank">UUI Explained v1</a>
+											<a href="../files/training/UUIExplainedv1.docx" class="btn btn-info" style="color:white;">Ver</a> 
+										</li>
 									</ul>
 
 							
