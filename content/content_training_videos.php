@@ -36,10 +36,10 @@ foreach ($permissions as $p_id)
 							<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Tomcat training - otros materiales de soporte</h3>
 							<ul>
 								<li style="text-decoration:none">
-									<a  href="../content/soportevideos/TomcatConfiguration.pptx" target="_blank">Presentaci&oacute;n Tomcat Configuration </a><a href="../content/soportevideos/TomcatConfiguration.pptx" class="btn btn-info" style="color:white;">Ver</a>
+									<a  href="../files/training/TomcatConfiguration.pptx" target="_blank">Presentaci&oacute;n Tomcat Configuration </a><a href="../files/training/TomcatConfiguration.pptx" class="btn btn-info" style="color:white;">Ver</a>
 								</li>
 								<li style="text-decoration:none">
-									<a  href="../content/soportevideos/TomcatConfig.zip" target="_blank">Otra informaci&oacute;n &Uacute;til - Tomcat Configuration </a><a href="../content/soportevideos/TomcatConfig.zip" class="btn btn-info" style="color:white;">Ver</a>
+									<a  href="../files/training/TomcatConfig.zip" target="_blank">Otra informaci&oacute;n &Uacute;til - Tomcat Configuration </a><a href="../files/training/TomcatConfig.zip" class="btn btn-info" style="color:white;">Ver</a>
 								</li>
 							</ul>
 						</div>
@@ -68,8 +68,8 @@ foreach ($permissions as $p_id)
 							<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Black Duck Hub - otro material de soporte </h3>
 							<ul>
 								<li style="text-decoration:none">
-									<a  href="../content/soportevideos/TrainingBlackDuckHub.pdf" target="_blank">Presentaci&oacute;n Black Duck Hub </a>
-									<a href="../content/soportevideos/TrainingBlackDuckHub.pdf" class="btn btn-info" style="color:white;">PDF</a> &oacute; <a href="../content/soportevideos/TrainingBlackDuckHub.pptx" class="btn btn-info" style="color:white;">PPT</a>
+									<a  href="../files/training/TrainingBlackDuckHub.pdf" target="_blank">Presentaci&oacute;n Black Duck Hub </a>
+									<a href="../files/training/TrainingBlackDuckHub.pdf" class="btn btn-info" style="color:white;">PDF</a> &oacute; <a href="../files/training/TrainingBlackDuckHub.pptx" class="btn btn-info" style="color:white;">PPT</a>
 									
 								</li>
 								
