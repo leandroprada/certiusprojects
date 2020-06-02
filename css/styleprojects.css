@@ -5665,6 +5665,15 @@ button.bg-dark:focus {
     display: -ms-inline-flexbox !important;
     display: inline-flex !important; } }
 
+.video-promo-content {
+	margin-bottom: 20px;
+}
+
+.video-promo-content ul {
+	list-style: none;
+	text-decoration: none;
+	}
+}
 .embed-responsive {
   position: relative;
   display: block;
