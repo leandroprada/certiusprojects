@@ -68,7 +68,8 @@ foreach ($permissions as $p_id)
 							<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Black Duck Hub - otro material de soporte </h3>
 							<ul >
 								<li style="text-decoration:none">
-									<a  href="../content/soportevideos/TomcatConfiguration.pptx" target="_blank">Presentaci&oacute;n Black Duck Hub </a><a href="../content/soportevideos/TrainingBlackDuckHub.pdf" class="btn btn-info" style="color:white;">PDF</a> ó <a href="../content/soportevideos/TrainingBlackDuckHub.pptx" class="btn btn-info" style="color:white;">PPT</a>
+									<a  href="../content/soportevideos/TrainingBlackDuckHub.pdf" target="_blank">Presentaci&oacute;n Black Duck Hub </a>
+									<a href="../content/soportevideos/TrainingBlackDuckHub.pdf" class="btn btn-info" style="color:white;">PDF</a> &oacute; <a href="../content/soportevideos/TrainingBlackDuckHub.pptx" class="btn btn-info" style="color:white;">PPT</a>
 									
 								</li>
 								
@@ -77,7 +78,7 @@ foreach ($permissions as $p_id)
 					</li>
 		  
 					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu4" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
-							QA Training
+							QA
 						<div class="collapse list-unstyled" id="telecomSubmenu4">
 						<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">QA Training</h3>
 							<video width="75%" height="450px"  controls>
@@ -103,17 +104,37 @@ foreach ($permissions as $p_id)
 					</li>
 
 					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu6" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
-												Breeze Setup
-											<div class="collapse list-unstyled" id="telecomSubmenu6">
-												<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Introduction to Breeze - Setup<h3>
-													<video width="75%" height="450px"  controls>
-													  <source src="../files/training/IntroductiontoBreeze-Setup.mp4" type="video/mp4">
-													Your browser does not support the video tag.
-													</video>
+						Breeze Setup
+							<div class="collapse list-unstyled" id="telecomSubmenu6">
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Introduction to Breeze - Setup<h3>
+									<video width="75%" height="450px"  controls>
+									  <source src="../files/training/IntroductiontoBreeze-Setup.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+									</video>
 
+							
+							</div>
+					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu7" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						UUI explained
+							<div class="collapse list-unstyled" id="telecomSubmenu7">
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">U<h3>
+									
+									<ul >
+										<li style="text-decoration:none">
+											<a  href="../files/training/AvayaSpecsforUUITransport_COMPAS.pdf" target="_blank">Avaya Specs for UUI Transport COMPAS </a>
+											<a href="../files/training/AvayaSpecsforUUITransport_COMPAS.pdf" class="btn btn-info" style="color:white;">Ver</a> 
+											<a  href="../files/training/UUIExplained v1.docx" target="_blank">UUI Explained v1</a>
+											<a href="../files/training/UUIExplained v1.docx" class="btn btn-info" style="color:white;">Ver</a> 
 											
-											</div>
 										</li>
+										
+									</ul>
+
+							
+							</div>
+					</li>
 		  
 		  
 				</ul>
