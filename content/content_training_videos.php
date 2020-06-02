@@ -57,71 +57,71 @@ foreach ($permissions as $p_id)
 					</li>
 			
 					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu3" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
-							Avaya CPaaS API webinar
+							Black Duck Hub Fundamentals
 						<div class="collapse list-unstyled" id="telecomSubmenu3">
+							<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Black Duck Hub Fundamentals</h3>
+							<video width="75%" height="450px"  controls>
+							  <source src="../files/training/blackDuckHub06012020.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
 							
+							<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Black Duck Hub - otro material de soporte </h3>
+							<ul >
+								<li style="text-decoration:none">
+									<a  href="../content/soportevideos/TomcatConfiguration.pptx" target="_blank">Presentaci&oacute;n Black Duck Hub </a><a href="../content/soportevideos/TrainingBlackDuckHub.pdf" class="btn btn-info" style="color:white;">PDF</a> ó <a href="../content/soportevideos/TrainingBlackDuckHub.pptx" class="btn btn-info" style="color:white;">PPT</a>
+									
+								</li>
+								
+							</ul>
 						</div>
 					</li>
 		  
 					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu4" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
-							Avaya CPaaS API webinar
+							QA Training
 						<div class="collapse list-unstyled" id="telecomSubmenu4">
-							
+						<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">QA Training</h3>
+							<video width="75%" height="450px"  controls>
+							  <source src="../files/training/QAofVXMLApp.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+
+						
 						</div>
 					</li>
 					
 					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu5" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
-							Avaya CPaaS API webinar
+							Test Cases KT
 						<div class="collapse list-unstyled" id="telecomSubmenu5">
-							
+							<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Test Cases KT <h3>
+								<video width="75%" height="450px"  controls>
+								  <source src="../files/training/TestCasesKT.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+								</video>
+
+						
 						</div>
 					</li>
+
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu6" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+												Breeze Setup
+											<div class="collapse list-unstyled" id="telecomSubmenu6">
+												<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Introduction to Breeze - Setup<h3>
+													<video width="75%" height="450px"  controls>
+													  <source src="../files/training/IntroductiontoBreeze-Setup.mp4" type="video/mp4">
+													Your browser does not support the video tag.
+													</video>
+
+											
+											</div>
+										</li>
 		  
 		  
 				</ul>
-		</div>	
-             
-			  
-			  <div class="video-promo-content text-center">
-                
-			  </div>
-			  
-			  <div class="video-promo-content text-center">
-                <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Black Duck Hub Fundamentals</h2>
-				<video width="75%" height="450px"  controls>
-				  <source src="../files/training/blackDuckHub06012020.mp4" type="video/mp4">
-				Your browser does not support the video tag.
-				</video>
-			
-				<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Black Duck Hub - otro material de soporte </h3>
-				<ul >
-					<li style="text-decoration:none">
-						<a  href="../content/soportevideos/TomcatConfiguration.pptx" target="_blank">Presentaci&oacute;n Black Duck Hub </a><a href="../content/soportevideos/TrainingBlackDuckHub.pdf" class="btn btn-info" style="color:white;">PDF</a> ó <a href="../content/soportevideos/TrainingBlackDuckHub.pptx" class="btn btn-info" style="color:white;">PPT</a>
-						
-					</li>
-					
-				</ul>
-              </div>
-			  
-			  	  <div class="video-promo-content text-center">
-                <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">QA training</h2>
-				<video width="75%" height="450px"  controls>
-				  <source src="../files/training/blackDuckHub06012020.mp4" type="video/mp4">
-				Your browser does not support the video tag.
-				</video>
-			
-				<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Black Duck Hub - otro material de soporte </h3>
-				<ul >
-					<li style="text-decoration:none">
-						<a  href="../content/soportevideos/TomcatConfiguration.pptx" target="_blank">Presentaci&oacute;n Black Duck Hub </a><a href="../content/soportevideos/TrainingBlackDuckHub.pdf" class="btn btn-info" style="color:white;">PDF</a> ó <a href="../content/soportevideos/TrainingBlackDuckHub.pptx" class="btn btn-info" style="color:white;">PPT</a>
-						
-					</li>
-					
-				</ul>
-              </div>
-          </div>
+			</div>	
+         </div>
         </div>
-	</div>
+    </div>
+
         
 
 		';
