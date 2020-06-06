@@ -25,7 +25,7 @@ foreach ($permissions as $p_id)
 		
 		
 		<h3 class="mb-4">Documentation</h3>
-		<ul>
+		
 			<li> <h3 class="mb-4">Base Documentation</h3>
 				<ul>
 				<li><a href="https://www.ibm.com/watson/how-to-build-a-chatbot" target="_blank">How to build a chatbot for your business</a></li>
@@ -38,10 +38,6 @@ foreach ($permissions as $p_id)
 				</li>
 				</ul>
 			</li>
-					
-				
-			
-		</ul>
 		
 		<h3 class="mb-4">Additional Information</h3>
 		<ul>
