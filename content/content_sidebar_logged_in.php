@@ -123,7 +123,7 @@ $permissions = $_SESSION['permissions'];
 			else if ($permissionname == "confidential"){
 			echo '
 			<li>
-              <a href="#homeSubmenu6" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Training Material</a>
+              <a href="#homeSubmenu6" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Confidential</a>
               <ul class="collapse list-unstyled" id="homeSubmenu6">
                 <li>
                     <a href="./confidential_tollfree.php">Toll Free FOrwarding</a>
