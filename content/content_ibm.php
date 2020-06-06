@@ -47,7 +47,7 @@ foreach ($permissions as $p_id)
 		<ul>
 				<li>The Bot in English can be seen here: <a href="https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=92314200-7ed4-485e-8091-99cdf3a244ed&serviceInstanceID=966a2a1b-0c62-4e7b-b18e-7ba427a55514" target="_blank">Certius Bot</a>
 				</li>
-				<li>Bot Design first draft <a href="../files/ibm/IBM-FirstConcept-v1.0.vsdx">Certius Bot</a>
+				<li>Bot Design first draft <a href="../files/ibm/IBM-FirstConcept-v1.0.pdf" target="_blank"> Certius Bot </a>
 				</li>
 		</ul>	
 		';
