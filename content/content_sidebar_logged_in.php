@@ -101,7 +101,7 @@ $permissions = $_SESSION['permissions'];
 			'; 
 			}
 			
-			else if ($permissionname == "training"){
+			 if ($permissionname == "training"){
 			echo '
 			<li>
               <a href="#homeSubmenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Training Material</a>
@@ -115,6 +115,21 @@ $permissions = $_SESSION['permissions'];
 				<li>
                     <a href="./training_tips.php">Tips</a>
                 </li>
+              </ul>
+	         </li>
+			
+			';
+			}
+			else if ($permissionname == "confidential"){
+			echo '
+			<li>
+              <a href="#homeSubmenu6" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Training Material</a>
+              <ul class="collapse list-unstyled" id="homeSubmenu6">
+                <li>
+                    <a href="./confidential_tollfree.php">Toll Free FOrwarding</a>
+                </li>
+				
+				
               </ul>
 	         </li>
 			
