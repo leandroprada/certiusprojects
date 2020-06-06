@@ -26,7 +26,7 @@ foreach ($permissions as $p_id)
 		
 		<h3 class="mb-4">Documentation</h3>
 		
-			<li> <h3 class="mb-4">Base Documentation</h3>
+		 <h4 class="mb-4">Base Documentation</h4>
 				<ul>
 				<li><a href="https://www.ibm.com/watson/how-to-build-a-chatbot" target="_blank">How to build a chatbot for your business</a></li>
 				<li><a href="https://cloud.ibm.com/docs/services/assistant?topic=assistant-getting-started#getting-started" target="_blank">Getting started with Watson Assistant</a></li>
@@ -37,9 +37,8 @@ foreach ($permissions as $p_id)
 				</ul>
 				</li>
 				</ul>
-			</li>
 		
-		<h3 class="mb-4">Additional Information</h3>
+		<h4 class="mb-4">Additional Information</h4>
 		<ul>
 				<li>The Bot in English can be seen here: <a href="https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=92314200-7ed4-485e-8091-99cdf3a244ed&serviceInstanceID=966a2a1b-0c62-4e7b-b18e-7ba427a55514" target="_blank">Certius Bot</a>
 				</li>
