@@ -35,6 +35,9 @@ foreach ($permissions as $p_id)
 				<li><a href="../files/waterfield/alpha.xml">alpha.xml</a></li>
 				<li><a href="../files/waterfield/Wyndham Destinations_TestCaseOverview_V6_Template.xlsx">Wyndham Destinations_TestCaseOverview_V6_Template.xlsx</a></li>
 				<li><a href="../files/waterfield/BlueworxDataRequest05262020.xls">Test Data: BlueworxDataRequest05262020.xls</a></li>
+				<li><a href="../files/waterfield/154049.docx">154049 - Waterfield - Wyndham Alma (ENG  SPA) to Record FINAL</a></li>
+				<li><a href="../files/waterfield/154051.docx">154051 - Waterfield - Wyndham Senna (Portuguese) to Record FINAL</a></li>
+				<li><a href="../files/waterfield/154633.docx">154633 - Waterfield - Wyndham Senna (Portuguese Brazilian) to Record FINAL</a></li>
 				
 			
 				<li><h5>Superseded</h5>
@@ -57,10 +60,10 @@ foreach ($permissions as $p_id)
 			<li><h3 class="mb-4">Certius</h3>
 				<ul> 
 				<li><a href="../files/waterfield/tech_proposal_revC.docx">Certius Quotation Tech Only Rev C</a></li>
-				<li><a href="../files/waterfield/20WT0001-PL-0001_4.0.xlsx">20WT0001-PL-0001_4.0.xlsx</a></li>
+				<li><a href="../files/waterfield/20WT0001-PL-0001_5.0.xlsx">20WT0001-PL-0001_5.0.xlsx</a></li>
 				<li><a href="../files/waterfield/AlphaFile.zip">Alphas grammars (English Spanish Portuguese)</a></li>
-				<li><a href="../files/waterfield/Wyndham_VUI_20200415_ES.docx">Wyndham_VUI_20200415_ES.docx</a></li>
-				<li><a href="../files/waterfield/Wyndham_VUI_20200415_PT.docx">Wyndham_VUI_20200415_PT.docx</a></li>
+				<li><a href="../files/waterfield/Wyndham_VUI_20200415-2_ES.docx">Wyndham_VUI_20200415_ES.docx</a></li>
+				<li><a href="../files/waterfield/Wyndham_VUI_20200415-2_PT.docx">Wyndham_VUI_20200415_PT.docx</a></li>
 				
 				<li><h5>Superseded</h5>
 				<ul>
@@ -73,8 +76,11 @@ foreach ($permissions as $p_id)
 				<li><a href="../files/waterfield/old/20WT0001-PL-0001_3.0.xlsx">20WT0001-PL-0001_3.0.xlsx</a></li>
 				<li><a href="../files/waterfield/old/20WT0001-PL-0001_3.1.xlsx">20WT0001-PL-0001_3.1.xlsx</a></li>
 				<li><a href="../files/waterfield/old/20WT0001-PL-0001_3.1.xlsx">20WT0001-PL-0001_3.2.xlsx</a></li>
+				<li><a href="../files/waterfield/old/20WT0001-PL-0001_4.0.xlsx">20WT0001-PL-0001_4.0.xlsx</a></li>
 				<li><a href="../files/waterfield/old7Wyndham_VUI_20200403_ES.docx">Wyndham_VUI_20200403_ES.docx</a></li>
 				<li><a href="../files/waterfield/old7Wyndham_VUI_20200403_PT.docx">Wyndham_VUI_20200403_PT.docx</a></li>
+				<li><a href="../files/waterfield/old/Wyndham_VUI_20200415_ES.docx">Wyndham_VUI_20200415_ES.docx</a></li>
+				<li><a href="../files/waterfield/old/Wyndham_VUI_20200415_PT.docx">Wyndham_VUI_20200415_PT.docx</a></li>
 				<li><a href="../files/waterfield/CertiusTechnologies-TranslationsToPorgutuesePart2RevA.docx">CertiusTechnologies-TranslationsToPorgutuesePart2RevA.docx</a></li>
 				
 				
