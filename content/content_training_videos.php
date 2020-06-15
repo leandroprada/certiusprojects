@@ -171,6 +171,11 @@ foreach ($permissions as $p_id)
 						HTTPS - SSL
 							<div class="collapse list-unstyled" id="trainingVidSubmenu10">
 								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">HTTPS y SSL</h3>
+								
+									<video width="75%" height="450px"  controls>
+									  <source src="../files/training/httpsTraining.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+									</video>
 									
 									<ul>
 										<li style="text-decoration:none">
