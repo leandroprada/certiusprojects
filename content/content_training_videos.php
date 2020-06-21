@@ -188,7 +188,28 @@ foreach ($permissions as $p_id)
 							
 							</div>
 					</li>
-		  
+
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#trainingVidSubmenu11" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						Interacting with Context Store - Oceana
+							<div class="collapse list-unstyled" id="trainingVidSubmenu11">
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Context Store y Oceana</h3>
+								
+									<video width="75%" height="450px"  controls>
+									  <source src="../files/training/httpsTraining.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+									</video>
+									
+									<ul>
+										<li style="text-decoration:none">
+										Presentaci&oacute;n Send Information to Context Store through Oceana <a href="../files/training/SendInformationtoContextStorethroughOceana.pdf" class="btn btn-info" style="color:white;">PDF</a> &oacute; <a href="../files/training/SendInformationtoContextStorethroughOceana.pptx" class="btn btn-info" style="color:white;">PPT</a>
+										</li>
+										
+									</ul>
+
+							
+							</div>
+					</li>
+
 				</ul>
 			</div>	
          </div>
