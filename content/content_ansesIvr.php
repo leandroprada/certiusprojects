@@ -19,7 +19,7 @@ foreach ($permissions as $p_id)
 	if ($permissionname != NULL) {
 		if ($permissionname == "projects"){
 		echo '	
-	<img src="../files/teleperformance/tp_logo.jpg">
+	<img src="../files/teleperformance/tp_logo.jpg" style="width:100%">
 	
 	 <h2 class="mb-4">18TP0001 - Teleperformance Anses IVR</h2>
         <p>In this page you will find all documentation Teleperformance Anses IVR</p>

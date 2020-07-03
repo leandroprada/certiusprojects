@@ -19,6 +19,9 @@ foreach ($permissions as $p_id)
 	if ($permissionname != NULL) {
 		if ($permissionname == "projects"){
 		echo '	
+		
+		<img src="../files/waterfield/wyndham/wyndham_logo.png" style="width:100%">
+		
 	 <h2 class="mb-4">20WT0001 Wyndham Project</h2>
         
         <p>In this page you will find all documentation for Wyndham hotels</p>
