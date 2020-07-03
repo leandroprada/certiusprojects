@@ -41,11 +41,9 @@ foreach ($permissions as $p_id)
 				
 			<li><h3 class="mb-4">Certius</h3>
 				<ul> 
-				<li><a href="../files/waterfield/finishline/tech_proposal_revC.docx">Certius Quotation Tech Only Rev C</a></li>
-				<li><a href="../files/waterfield/finishline/20WT0001-PL-0001_5.0.xlsx">20WT0001-PL-0001_5.0.xlsx</a></li>
-				<li><a href="../files/waterfield/finishline/AlphaFile.zip">Alphas grammars (English Spanish Portuguese)</a></li>
-				<li><a href="../files/waterfield/finishline/finishline_VUI_20200415-2_ES.docx">finishline_VUI_20200415_ES.docx</a></li>
-				<li><a href="../files/waterfield/finishline/finishline_VUI_20200415-2_PT.docx">finishline_VUI_20200415_PT.docx</a></li>
+				<li><a href="../files/waterfield/finishline/ServicesForFinishLineprojectRevA.pdf">Certius Quotation Rev A</a></li>
+				<li><a href="../files/waterfield/finishline/20WT0002-PLAN-SC-0001_1.0.doc">Initial Schedule - 20WT0002-PLAN-SC-0001_1.0.doc</a></li>
+				<li><a href="../files/waterfield/finishline/20WT0002-TEAM-TM-0001_1.0.doc">Project Team - 20WT0002-TEAM-TM-0001_1.0.doc</a></li>
 				
 				<li><h5>Superseded</h5>
 				<ul>
