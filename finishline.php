@@ -10,7 +10,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<title>Certius Projects - TP - AnsesIVR</title>
+  	<title>Certius Projects - Finishline</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -28,7 +28,7 @@
 				include './content/content_sidebar_logged_in.php';
 				echo '<div id="content" class="p-4 p-md-5">';
 				include './content/content_topnavbar.php';
-				include './content/content_ansesIvr.php';
+				include './content/content_finishline.php';
 				echo '</div>';
 				
 			}

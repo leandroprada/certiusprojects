@@ -56,6 +56,7 @@ $permissions = $_SESSION['permissions'];
 	            <ul class="collapse list-unstyled" id="homeSubmenu2">
                 <li>
                     <a href="./wyndham.php">20WT0001 - Wyndham Hotels</a>
+                    <a href="./finishline.php">20WT0002 - Finish Line</a>
                 </li>               
 	            </ul>
 	          </li>
