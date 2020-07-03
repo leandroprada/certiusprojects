@@ -19,7 +19,7 @@ foreach ($permissions as $p_id)
 	if ($permissionname != NULL) {
 		if ($permissionname == "projects"){
 		echo '	
-		<div class="col-xs-12 col-lg-6" style="width:75%"><img src="../files/teleperformance/tp_logo.jpg"> </div>
+		<div class="col-xs-12 col-lg-6" ><img src="../files/teleperformance/tp_logo.jpg" style="width:75%"> </div>
 		
 		
 	 <h2 class="mb-4">20WT0002 Finish Line Project</h2>
