@@ -46,11 +46,11 @@ foreach ($permissions as $p_id)
 				<ul> 
 				<li><a href="../files/waterfield/finishline/ServicesForFinishLineprojectRevA.pdf">Certius Quotation Rev A</a></li>
 				<li><a href="../files/waterfield/finishline/20WT0002-PLAN-SC-0001_1.0.doc">Initial Schedule - 20WT0002-PLAN-SC-0001_1.0.doc</a></li>
-				<li><a href="../files/waterfield/finishline/20WT0002-TEAM-TM-0001_1.0.doc">Project Team - 20WT0002-TEAM-TM-0001_1.0.doc</a></li>
+				<li><a href="../files/waterfield/finishline/20WT0002-TEAM-TM-0001_1.1.doc">Project Team - 20WT0002-TEAM-TM-0001_1.1.doc</a></li>
 				
 				<li><h5>Superseded</h5>
 				<ul>
-				<li><a href="../files/waterfield/finishline/old/20WT0001-PL-0001_01.xlsx">TO BE COMPLETED</a></li>
+				<li><a href="../files/waterfield/finishline/old/20WT0002-TEAM-TM-0001_1.0.doc">Project Team - 20WT0002-TEAM-TM-0001_1.0.doc</a></li>
 
 				
 				</ul>
