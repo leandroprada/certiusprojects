@@ -31,12 +31,16 @@ foreach ($permissions as $p_id)
 		<ul>
 			<li> <h3 class="mb-4">Sent by Waterfield</h3>
 				<ul>
-				<li><a href="../files/waterfield/finishline/finishlinecallflow4.17.20.pdf">TO BE COMPLETED</a></li>
+				<li><a href="../files/waterfield/finishline/FinishLineVUIv1.1.docx">Finish Line VUI Customer approved Version 1.1</a></li>
+				<li><a href="../files/waterfield/finishline/FLIVA_MainStart.pdf">Main Start Call Flow</a></li>
+				<li><a href="../files/waterfield/finishline/FLIVA_GiftCard.pdf">Gift Card Call Flow</a></li>
+				<li><a href="../files/waterfield/finishline/FLIVA_Loyalty.pdf">Loyalty Call Flow</a></li>
+				<li><a href="../files/waterfield/finishline/FLIVA_OrderStatus.pdf">Order Status Call Flow</a></li>
 				
 			
 				<li><h5>Superseded</h5>
 				<ul>
-				<li><a href="../files/waterfield/finishline/old/WVO.vsd">TO BE COMPLETED</a></li>
+				<li><a href="../files/waterfield/finishline/old/FinishLineVUIv1.0.docx">Finish Line VUI Initial draft</a></li>
 				</ul>
 				</li>
 				</ul>
@@ -44,6 +48,7 @@ foreach ($permissions as $p_id)
 				
 			<li><h3 class="mb-4">Certius</h3>
 				<ul> 
+				<li><a href="../files/waterfield/finishline/FinishLineVUI_SPAv1.1.1.docx">Finish Line VUI Spanish Version 1.1.1</a></li>
 				<li><a href="../files/waterfield/finishline/ServicesForFinishLineprojectRevA.pdf">Certius Quotation Rev A</a></li>
 				<li><a href="../files/waterfield/finishline/20WT0002-PLAN-SC-0001_1.1.doc">Initial Schedule - 20WT0002-PLAN-SC-0001_1.1.doc</a></li>
 				<li><a href="../files/waterfield/finishline/20WT0002-TEAM-TM-0001_1.1.doc">Project Team - 20WT0002-TEAM-TM-0001_1.1.doc</a></li>
