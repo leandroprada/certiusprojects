@@ -49,6 +49,7 @@ foreach ($permissions as $p_id)
 			<li><h3 class="mb-4">Certius</h3>
 				<ul> 
 				<li><a href="../files/waterfield/finishline/FinishLineVUI_SPAv1.1.1.docx">Finish Line VUI Spanish Version 1.1.1</a></li>
+				<li><a href="../files/waterfield/finishline/20WT0002-Waterfield-FinishLine-DeliveryofTranslatedVUI.eml">20WT0002 - Waterfield - Finish Line - Delivery of Translated VUI</a></li>
 				
 				<li><a href="../files/waterfield/finishline/20WT0002-PLAN-SC-0001_1.1.doc">Initial Schedule - 20WT0002-PLAN-SC-0001_1.1.doc</a></li>
 				<li><a href="../files/waterfield/finishline/20WT0002-TEAM-TM-0001_1.1.doc">Project Team - 20WT0002-TEAM-TM-0001_1.1.doc</a></li>
