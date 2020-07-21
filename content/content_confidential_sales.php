@@ -20,7 +20,10 @@ foreach ($permissions as $p_id)
 		if ($permissionname == "sales"){
 		echo '	
 	 <h2 class="mb-4">Sales Main Page</h2>
-     
+	 
+	 
+	 <h3 class="mb-4" id="zappix">Zappix</h3>
+	 
 	 <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12">
@@ -41,9 +44,9 @@ foreach ($permissions as $p_id)
 						</div>
 					</li>
 					
-					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#salesSubmenu1" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">See </a>
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#salesSubmenu2" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">See </a>
 							Certius - Zappix presentation meeting
-						<div class="collapse list-unstyled" id="salesSubmenu1">
+						<div class="collapse list-unstyled" id="salesSubmenu2">
 							<video width="75%" height="450px"  controls>
 							  <source src="../files/zappix/discoveryMeeting.mp4" type="video/mp4">
 							Your browser does not support the video tag.

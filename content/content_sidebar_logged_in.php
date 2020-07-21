@@ -108,7 +108,22 @@ $permissions = $_SESSION['permissions'];
               <a href="#homeSubmenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Training Material</a>
               <ul class="collapse list-unstyled" id="homeSubmenu5">
                 <li>
-                    <a href="./training_telecom.php">Telecom Basics</a>
+                    <a href="./training_telecom.php#zappix">Telecom Basics</a>
+                </li>
+				
+              </ul>
+	         </li>
+			
+			';
+			}
+			
+			if ($permissionname == "sales"){
+			echo '
+			<li>
+              <a href="#homeSubmenu6" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Sales Material</a>
+              <ul class="collapse list-unstyled" id="homeSubmenu6">
+                <li>
+                    <a href="./confidential_sales.php">Zappix</a>
                 </li>
 				<li>
                     <a href="./training_videos.php">Videos and more</a>
@@ -124,8 +139,8 @@ $permissions = $_SESSION['permissions'];
 			else if ($permissionname == "confidential"){
 			echo '
 			<li>
-              <a href="#homeSubmenu6" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Confidential</a>
-              <ul class="collapse list-unstyled" id="homeSubmenu6">
+              <a href="#homeSubmenu7" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Confidential</a>
+              <ul class="collapse list-unstyled" id="homeSubmenu7">
                 <li>
                     <a href="./confidential_tollfree.php">Toll Free FOrwarding</a>
                 </li>
