@@ -122,6 +122,16 @@ $permissions = $_SESSION['permissions'];
 			';
 			}
 			
+			if ($permissionname == "transfer"){
+			echo '
+			<li>
+              <a href="./confidential_transfer.php">Transfer Page</a>
+              
+	         </li>
+			
+			';
+			}
+			
 			if ($permissionname == "sales"){
 			echo '
 			<li>
