@@ -21,7 +21,7 @@ foreach ($permissions as $p_id)
 		echo '	
 	 <h2 class="mb-4">Transfer Page</h2>
 	 
-	 <a  href="../files/zappix/VisualIVRZappixFactSheet2019.pdf" target="_blank">Visual IVR Fact Sheet </a>
+	 <a  href="../files/transfer/AAA-Bundle-07-21-20.zip" target="_blank">RTM bundle</a>
 	 
 	 
 		';
