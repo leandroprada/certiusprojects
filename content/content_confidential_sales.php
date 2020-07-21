@@ -28,7 +28,7 @@ foreach ($permissions as $p_id)
         <div class="row">
           <div class="col-md-12 col-sm-12">
 			<div class="text-left">
-				<ul style="list-style:none">
+				<ul style="list-style:none"> 
 				
 				
 				
