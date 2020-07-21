@@ -17,7 +17,7 @@ foreach ($permissions as $p_id)
 		$permissionname = $rowcd[0];
 
 	if ($permissionname != NULL) {
-		if ($permissionname == "sales"){
+		if ($permissionname == "transfer"){
 		echo '	
 	 <h2 class="mb-4">Transfer Page</h2>
 	 
