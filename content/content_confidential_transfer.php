@@ -21,7 +21,7 @@ foreach ($permissions as $p_id)
 		echo '	
 	 <h2 class="mb-4">Transfer Page</h2>
 	 
-	 <a  href="../files/transfer/AAA-Bundle-07-21-20.zip" target="_blank">RTM bundle</a>
+	 <a  href="../files/transfer/AAA-Bundle-07-21-20.zip" target="_blank" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;"> Download AAA RTM bundle</a>
 	 
 	 
 		';
