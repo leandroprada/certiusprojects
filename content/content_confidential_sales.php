@@ -36,7 +36,7 @@ foreach ($permissions as $p_id)
 							The Power of Visual IVR
 						<div class="collapse list-unstyled" id="salesSubmenu1">
 							<video width="75%" height="450px"  controls>
-							  <source src="../../files/zappix/ThePowerofVisualIVR.mp4" type="video/mp4">
+							  <source src="./../files/zappix/ThePowerofVisualIVR.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 							</video>
 						
@@ -48,7 +48,7 @@ foreach ($permissions as $p_id)
 							Certius - Zappix presentation meeting
 						<div class="collapse list-unstyled" id="salesSubmenu2">
 							<video width="75%" height="450px"  controls>
-							  <source src="../../files/zappix/discoveryMeeting.mp4" type="video/mp4">
+							  <source src="./../files/zappix/discoveryMeeting.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 							</video>
 						
