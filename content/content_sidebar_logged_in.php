@@ -110,7 +110,12 @@ $permissions = $_SESSION['permissions'];
                 <li>
                     <a href="./training_telecom.php#zappix">Telecom Basics</a>
                 </li>
-				
+				<li>
+                    <a href="./training_videos.php">Videos and more</a>
+                </li>
+				<li>
+                    <a href="./training_tips.php">Tips</a>
+                </li>
               </ul>
 	         </li>
 			
