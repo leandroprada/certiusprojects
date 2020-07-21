@@ -125,12 +125,7 @@ $permissions = $_SESSION['permissions'];
                 <li>
                     <a href="./confidential_sales.php">Zappix</a>
                 </li>
-				<li>
-                    <a href="./training_videos.php">Videos and more</a>
-                </li>
-				<li>
-                    <a href="./training_tips.php">Tips</a>
-                </li>
+				
               </ul>
 	         </li>
 			
