@@ -235,7 +235,7 @@ foreach ($permissions as $p_id)
 					</li>
 					
 					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#trainingVidSubmenu14" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
-						Avaya Tools: Sonar, Coverity, etc.
+						Avaya Tools: Forge, Confluence, Jira, Sonar, Coverity, etc.
 							<div class="collapse list-unstyled" id="trainingVidSubmenu14">
 								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Avaya Tools</h3>
 								
