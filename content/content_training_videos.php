@@ -219,10 +219,42 @@ foreach ($permissions as $p_id)
 									  <source src="../files/training/timezonesInJava.mp4" type="video/mp4">
 									Your browser does not support the video tag.
 									</video>
-									
-									
-
-							
+							</div>
+					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#trainingVidSubmenu13" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						Auditor&iacute;as de Avaya
+							<div class="collapse list-unstyled" id="trainingVidSubmenu13">
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Auditor&iacute;as</h3>
+								
+									<video width="75%" height="450px"  controls>
+									  <source src="../files/training/auditoria.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+									</video>
+							</div>
+					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#trainingVidSubmenu14" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						Avaya Tools: Sonar, Coverity, etc.
+							<div class="collapse list-unstyled" id="trainingVidSubmenu14">
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Avaya Tools</h3>
+								
+									<video width="75%" height="450px"  controls>
+									  <source src="../files/training/Sonar-Coverity-etc.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+									</video>
+							</div>
+					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#trainingVidSubmenu15" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						Security Assessment parte 1
+							<div class="collapse list-unstyled" id="trainingVidSubmenu15">
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Security Assessment P.1</h3>
+								
+									<video width="75%" height="450px"  controls>
+									  <source src="../files/training/securityAssesmentPart1.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+									</video>
 							</div>
 					</li>
 
