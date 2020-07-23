@@ -257,6 +257,32 @@ foreach ($permissions as $p_id)
 									</video>
 							</div>
 					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#trainingVidSubmenu16" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						Security Assessment parte 2
+							<div class="collapse list-unstyled" id="trainingVidSubmenu16">
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Security Assessment P.2</h3>
+								
+									<video width="75%" height="450px"  controls>
+									  <source src="../files/training/securityAssesmentPart2.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+									</video>
+							</div>
+					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#trainingVidSubmenu16" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						Conflictos en nombres de archivos Windows vs. Linux
+							<div class="collapse list-unstyled" id="trainingVidSubmenu16">
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">OS Naming Conventions</h3>
+								
+									<video width="75%" height="450px"  controls>
+									  <source src="../files/training/namingConventions.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+									</video>
+							</div>
+					</li>
+
+
 
 				</ul>
 			</div>	

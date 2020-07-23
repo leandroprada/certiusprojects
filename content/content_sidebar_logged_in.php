@@ -152,7 +152,7 @@ $permissions = $_SESSION['permissions'];
               <a href="#homeSubmenu7" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Confidential</a>
               <ul class="collapse list-unstyled" id="homeSubmenu7">
                 <li>
-                    <a href="./confidential_tollfree.php">Toll Free FOrwarding</a>
+                    <a href="./confidential_tollfree.php">Toll Free Forwarding</a>
                 </li>
 				
 				
