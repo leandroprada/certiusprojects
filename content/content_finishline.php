@@ -31,7 +31,8 @@ foreach ($permissions as $p_id)
 		<ul>
 			<li> <h3 class="mb-4">Sent by Waterfield</h3>
 				<ul>
-				<li><a href="../files/waterfield/finishline/FinishLineVUIv1.1.docx">Finish Line VUI Customer approved Version 1.1</a></li>
+				<li><a href="../files/waterfield/finishline/FinishLineVUI_1.4.docx">Finish Line VUI Customer approved Version 1.4</a></li>
+				<li><a href="../files/waterfield/finishline/IVRCustomPhraseList.xlsx">IVR Custom Phrase List</a></li>
 				<li><a href="../files/waterfield/finishline/FLIVA_MainStart.pdf">Main Start Call Flow</a></li>
 				<li><a href="../files/waterfield/finishline/FLIVA_GiftCard.pdf">Gift Card Call Flow</a></li>
 				<li><a href="../files/waterfield/finishline/FLIVA_Loyalty.pdf">Loyalty Call Flow</a></li>
@@ -41,6 +42,7 @@ foreach ($permissions as $p_id)
 				<li><h5>Superseded</h5>
 				<ul>
 				<li><a href="../files/waterfield/finishline/old/FinishLineVUIv1.0.docx">Finish Line VUI Initial draft</a></li>
+				<li><a href="../files/waterfield/finishline/old/FinishLineVUIv1.1.docx">Finish Line VUI Customer approved Version 1.1</a></li>
 				</ul>
 				</li>
 				</ul>
