@@ -281,6 +281,18 @@ foreach ($permissions as $p_id)
 									</video>
 							</div>
 					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#trainingVidSubmenu18" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						Pantallazo General de POM y restricciones custom en Java
+							<div class="collapse list-unstyled" id="trainingVidSubmenu18">
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">POM Overview and custom Restricts</h3>
+								
+									<video width="75%" height="450px"  controls>
+									  <source src="../files/training/pomOverviewAndCustomRestricts.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+									</video>
+							</div>
+					</li>
 
 
 
