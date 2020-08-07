@@ -32,7 +32,9 @@ foreach ($permissions as $p_id)
 			<li> <h3 class="mb-4">Sent by Waterfield</h3>
 				<ul>
 				<li><a href="../files/waterfield/finishline/FinishLineVUI_1.4.docx">Finish Line VUI Customer approved Version 1.4</a></li>
-				<li><a href="../files/waterfield/finishline/IVRCustomPhraseList.xlsx">IVR Custom Phrase List</a></li>
+				
+				<li><a href="../files/waterfield/finishline/IVRCustomPhraseListv1.2.xlsx">IVR Custom Phrase List Version 1.2</a></li>
+				<li><a href="../files/waterfield/finishline/specialrecordings.xlsx">Special Recordings</a></li>
 				<li><a href="../files/waterfield/finishline/FLIVA_MainStart.pdf">Main Start Call Flow</a></li>
 				<li><a href="../files/waterfield/finishline/FLIVA_GiftCard.pdf">Gift Card Call Flow</a></li>
 				<li><a href="../files/waterfield/finishline/FLIVA_Loyalty.pdf">Loyalty Call Flow</a></li>
@@ -43,6 +45,8 @@ foreach ($permissions as $p_id)
 				<ul>
 				<li><a href="../files/waterfield/finishline/old/FinishLineVUIv1.0.docx">Finish Line VUI Initial draft</a></li>
 				<li><a href="../files/waterfield/finishline/old/FinishLineVUIv1.1.docx">Finish Line VUI Customer approved Version 1.1</a></li>
+				
+				<li><a href="../files/waterfield/finishline/old/IVRCustomPhraseList.xlsx">IVR Custom Phrase List</a></li>
 				</ul>
 				</li>
 				</ul>
@@ -51,7 +55,8 @@ foreach ($permissions as $p_id)
 			<li><h3 class="mb-4">Certius</h3>
 				<ul> 
 				<li><a href="../files/waterfield/finishline/FinishLineVUIv1.4.1_SPA.docx">Finish Line VUI Spanish Version 1.4.1</a></li>
-				<li><a href="../files/waterfield/finishline/IVRCustomPhraseList_SPA.xlsx">Finish Line IVR Custom PhraseList Spanish</a></li>
+				<li><a href="../files/waterfield/finishline/IVRCustomPhraseListv1.2.1.xlsx">Finish Line IVR Custom PhraseList Spanish Version 1.2.1</a></li>
+				<li><a href="../files/waterfield/finishline/specialrecordings_SPA.xlsx">Special Recordings Spanish Version</a></li>
 				
 				
 				<li><a href="../files/waterfield/finishline/20WT0002-PLAN-SC-0001_1.1.doc">Initial Schedule - 20WT0002-PLAN-SC-0001_1.1.doc</a></li>
@@ -63,6 +68,7 @@ foreach ($permissions as $p_id)
 				<li><a href="../files/waterfield/finishline/old/20WT0002-TEAM-TM-0001_1.0.doc">Project Team - 20WT0002-TEAM-TM-0001_1.0.doc</a></li>
 				<li><a href="../files/waterfield/finishline/old/20WT0002-PLAN-SC-0001_1.0.doc">Initial Schedule - 20WT0002-PLAN-SC-0001_1.0.doc</a></li>
 				<li><a href="../files/waterfield/finishline/old/FinishLineVUI_SPAv1.1.1.docx">Finish Line VUI Spanish Version 1.1.1</a></li>
+				<li><a href="../files/waterfield/finishline/old/IVRCustomPhraseList_SPA.xlsx">Finish Line IVR Custom PhraseList Spanish</a></li>
 				
 				
 				</ul>
