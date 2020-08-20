@@ -33,8 +33,7 @@ foreach ($permissions as $p_id)
 		echo '	
 	 <h2 class="mb-4">Transfer Page</h2>
 	 
-	 <!-- <a  href="#" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;"> Download CVS Health POM bundle</a> -->
-	 <a  href="../files/transfer/cvs.zip" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;"> Download Prudential RTM bundle Meet Me</a>
+	 <a  href="../files/transfer/cvs.zip" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;"> Download CVS Health POM bundle</a>
 	 
 	 
 	 
