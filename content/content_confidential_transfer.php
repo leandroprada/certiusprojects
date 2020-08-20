@@ -29,7 +29,7 @@ foreach ($permissions as $p_id)
 		';
 	  }
 	  
-	  ELSE if ($permissionname == "transferCVS"){
+	  	  ELSE if ($permissionname == "transferCVS"){
 		echo '	
 	 <h2 class="mb-4">Transfer Page</h2>
 	 
@@ -40,6 +40,8 @@ foreach ($permissions as $p_id)
 	 
 		';
 	  }
+
+	  
 		
 		}
 	}
