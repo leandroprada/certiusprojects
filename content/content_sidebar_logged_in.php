@@ -150,7 +150,7 @@ $permissions = $_SESSION['permissions'];
 			if ($permissionname == "transferCVS"){
 			echo '
 			<li>
-              <a href="./confidential_transfer.php">Transfer Page</a>
+              <a href="./confidential_transfer.php">CVS Transfer Page</a>
               
 	         </li>
 			

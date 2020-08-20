@@ -305,6 +305,32 @@ foreach ($permissions as $p_id)
 									</video>
 							</div>
 					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#trainingVidSubmenu20" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+							DSS development fundamentals
+						<div class="collapse list-unstyled" id="trainingVidSubmenu20">
+							<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">DSS design</h3>
+							<video width="75%" height="450px"  controls>
+							  <source src="../files/training/dss.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+							
+							<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Black Duck Hub - otro material de soporte </h3>
+							<ul>
+								<li style="text-decoration:none">
+									<a  href="../files/training/Administering_Avaya_Dynamic_Self_Service_application_2_9_3_2.pdf" target="_blank">Administering Avaya Dynamic Self Service Applicatin 2.9.3.2</a>
+									<a href="../files/training/Administering_Avaya_Dynamic_Self_Service_application_2_9_3_2.pdf" class="btn btn-info" style="color:white;">PDF</a>
+									
+								</li>
+								<li style="text-decoration:none">
+									<a  href="../files/training/Avaya_Dynamic_Self_Service_application_developers_guide_2_9_3_2_Issue_3" target="_blank">Avaya Dynamic Self Service Developers Guide 2.9.3.2 Issue 3</a>
+									<a href="../files/training/Avaya_Dynamic_Self_Service_application_developers_guide_2_9_3_2_Issue_3" class="btn btn-info" style="color:white;">PDF</a> 
+									
+								</li>
+								
+							</ul>
+						</div>
+					</li>
 
 
 
