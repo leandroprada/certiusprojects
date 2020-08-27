@@ -368,7 +368,17 @@ foreach ($permissions as $p_id)
 							</div>
 					</li>
 
-
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#trainingVidSubmenu24" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						Arquitectura VoIP SiP Vs. H.323 c/AES
+							<div class="collapse list-unstyled" id="trainingVidSubmenu24">
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">SiP / H323</h3>
+								
+									<video width="75%" height="450px"  controls>
+									  <source src="../files/training/sipH323aes.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+									</video>
+							</div>
+					</li>
 				</ul>
 			</div>	
          </div>
