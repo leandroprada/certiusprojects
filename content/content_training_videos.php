@@ -331,7 +331,42 @@ foreach ($permissions as $p_id)
 							</ul>
 						</div>
 					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#trainingVidSubmenu21" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						C&oacute;mo realizar un Tag en Git
+							<div class="collapse list-unstyled" id="trainingVidSubmenu21">
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Git Tags</h3>
+								
+									<video width="75%" height="450px"  controls>
+									  <source src="../files/training/gitTagging.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+									</video>
+							</div>
+					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#trainingVidSubmenu22" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						Grammar Tags and Options - Nombre de los Gotos en los nodos
+							<div class="collapse list-unstyled" id="trainingVidSubmenu22">
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Grammar Tags and Gotos</h3>
+								
+									<video width="75%" height="450px"  controls>
+									  <source src="../files/training/grammarTagsandGotos.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+									</video>
+							</div>
+					</li>
 
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#trainingVidSubmenu23" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						Security Assessment en Desarrollos Web
+							<div class="collapse list-unstyled" id="trainingVidSubmenu23">
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Security Test Cases Web</h3>
+								
+									<video width="75%" height="450px"  controls>
+									  <source src="../files/training/securityTestCasesWeb.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+									</video>
+							</div>
+					</li>
 
 
 				</ul>
