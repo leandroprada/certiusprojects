@@ -379,6 +379,19 @@ foreach ($permissions as $p_id)
 									</video>
 							</div>
 					</li>
+					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#trainingVidSubmenu25" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						Bases de Datos Oracle Grandes Clientes
+							<div class="collapse list-unstyled" id="trainingVidSubmenu25">
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Nuestra experiencia con Telecom</h3>
+								
+									<video width="75%" height="450px"  controls>
+									  <source src="../files/training/bdOracleExperienciaTelecom.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+									</video>
+							</div>
+					</li>
+					
 				</ul>
 			</div>	
          </div>
