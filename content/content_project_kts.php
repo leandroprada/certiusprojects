@@ -52,8 +52,16 @@ foreach ($permissions as $p_id)
 							</video>
 						</div>
 					</li>
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#projectktsVidSubmenu4" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						 Parallon Inbound - Enclave IVR -  Internal KT (Sep 2020)
+						<div class="collapse list-unstyled" id="projectktsVidSubmenu4">
+							<video width="75%" height="450px"  controls>
+							  <source src="../files/kts/parallonKT-Enclave.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+						</div>
+					</li>
 					
-
 
 				</ul>
 			</div>	
