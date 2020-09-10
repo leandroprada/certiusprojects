@@ -392,6 +392,17 @@ foreach ($permissions as $p_id)
 							</div>
 					</li>
 					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#trainingVidSubmenu26" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						Como hacer un mock sencillo con json en la carpeta data
+							<div class="collapse list-unstyled" id="trainingVidSubmenu26">
+								<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Json en Carpeta Data</h3>
+								
+									<video width="75%" height="450px"  controls>
+									  <source src="../files/training/jsonSimpleMocking.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+									</video>
+							</div>
+					</li>
 				</ul>
 			</div>	
          </div>
