@@ -26,35 +26,44 @@ foreach ($permissions as $p_id)
 			<div class="text-left">
 				<ul style="list-style:none">
 					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#projectktsVidSubmenu1" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
-						 ACP - Advantage Care Physicians - KT to CAS (Aug 2020)
+						 Datamark - KT to CAS (Jun 2020)
 						<div class="collapse list-unstyled" id="projectktsVidSubmenu1">
+							<video width="75%" height="450px"  controls>
+							  <source src="../files/kts/datamarkKTaCAS.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+						</div>
+					</li>
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#projectktsVidSubmenu2" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						 ACP - Advantage Care Physicians - KT to CAS (Aug 2020)
+						<div class="collapse list-unstyled" id="projectktsVidSubmenu2">
 							<video width="75%" height="450px"  controls>
 							  <source src="../files/kts/ACP_Physicians_KT_ToCAS.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 							</video>
 						</div>
 					</li>
-					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#projectktsVidSubmenu2" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#projectktsVidSubmenu3" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
 						 Parallon Inbound Payment IVR Internal KT (Sep 2020)
-						<div class="collapse list-unstyled" id="projectktsVidSubmenu2">
+						<div class="collapse list-unstyled" id="projectktsVidSubmenu3">
 							<video width="75%" height="450px"  controls>
 							  <source src="../files/kts/parallonKT-inboundPayment.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 							</video>
 						</div>
 					</li>
-					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#projectktsVidSubmenu3" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#projectktsVidSubmenu4" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
 						 Parallon Inbound - Payment Options -  Internal KT (Sep 2020)
-						<div class="collapse list-unstyled" id="projectktsVidSubmenu3">
+						<div class="collapse list-unstyled" id="projectktsVidSubmenu4">
 							<video width="75%" height="450px"  controls>
 							  <source src="../files/kts/parallonKT-PaymentOptions.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 							</video>
 						</div>
 					</li>
-					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#projectktsVidSubmenu4" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#projectktsVidSubmenu5" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
 						 Parallon Inbound - Enclave IVR -  Internal KT (Sep 2020)
-						<div class="collapse list-unstyled" id="projectktsVidSubmenu4">
+						<div class="collapse list-unstyled" id="projectktsVidSubmenu5">
 							<video width="75%" height="450px"  controls>
 							  <source src="../files/kts/parallonKT-Enclave.mp4" type="video/mp4">
 							Your browser does not support the video tag.
