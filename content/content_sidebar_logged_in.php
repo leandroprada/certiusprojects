@@ -57,6 +57,7 @@ $permissions = $_SESSION['permissions'];
                 <li>
                     <a href="./wyndham.php">20WT0001 - Wyndham Hotels</a>
                     <a href="./finishline.php">20WT0002 - Finish Line</a>
+                    <a href="./lacare.php">20WT0003 - L.A. Care</a>
                 </li>               
 	            </ul>
 	          </li>
