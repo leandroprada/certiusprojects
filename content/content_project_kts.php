@@ -45,6 +45,16 @@ foreach ($permissions as $p_id)
 						</div>
 					</li>
 					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#projectktsVidSubmenu1-3" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						 Datamark - KT Interno parte 2 (Codigo fuente) (Sep 2020)
+						<div class="collapse list-unstyled" id="projectktsVidSubmenu1-3">
+							<video width="75%" height="450px"  controls>
+							  <source src="../files/kts/datamarkKTinternoCodigoFuente.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+						</div>
+					</li>
+					
 					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#projectktsVidSubmenu2" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
 						 ACP - Advantage Care Physicians - KT to CAS (Aug 2020)
 						<div class="collapse list-unstyled" id="projectktsVidSubmenu2">
