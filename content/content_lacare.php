@@ -51,6 +51,8 @@ foreach ($permissions as $p_id)
 				
 			<li><h3 class="mb-4">Certius</h3>
 				<ul> 
+				<li><a href="../files/waterfield/lacare/LACare_BIlling_PhraseList 9.2_ES.xlsx">LACare_BIlling_PhraseList 9.2 (Spanish)</a></li>
+				<li><a href="../files/waterfield/lacare/LACare_VUI 9.20_ES.docx">VUI LA CARE Version 1.1 (Spanish)</a></li>
 				<li><a href="../files/waterfield/lacare/Waterfield-ServicesforLACareprojectRevB.pdf">Waterfield - Services for LA Care project RevB</a></li>
 				
 				
