@@ -84,7 +84,7 @@ foreach ($permissions as $p_id)
 		
 		
 		<h3 class="mb-4">Submittal Email</h3>
-		<p>You can <a href="../files/waterfield/lacare/20WT0001 - Waterfield - lacare - Spanish and Portuguese Delivery.htm" target="_blank">view</a> or <a href="../files/waterfield/lacare/20WT0001-Waterfield-lacare-SpanishandPortugueseDelivery.eml" target="_blank">download</a> the email with submission of documents</p>
+		<p>You can <a href="../files/waterfield/lacare/20WT0003-WT-LACare-Submittaloftranslations.msg" target="_blank">view</a> or <a href="../files/waterfield/lacare/20WT0003-WT-LACare-Submittaloftranslations.msg" target="_blank">download</a> the email with submission of documents</p>
 		<h3 class="mb-4">Scope of work</h3>
 
 
