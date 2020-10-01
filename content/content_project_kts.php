@@ -55,6 +55,16 @@ foreach ($permissions as $p_id)
 						</div>
 					</li>
 					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#projectktsVidSubmenu1-4" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						 Datamark - KT Interno parte 3 (Codigo fuente (CFN/SSN, REV, PROC y otros Codes) + Business Layer(Sep 2020)
+						<div class="collapse list-unstyled" id="projectktsVidSubmenu1-4">
+							<video width="75%" height="450px"  controls>
+							  <source src="../files/kts/datamarkKTinternoCodigoFuenteyBusiness.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+						</div>
+					</li>
+					
 					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#projectktsVidSubmenu2" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
 						 ACP - Advantage Care Physicians - KT to CAS (Aug 2020)
 						<div class="collapse list-unstyled" id="projectktsVidSubmenu2">
