@@ -36,6 +36,7 @@ foreach ($permissions as $p_id)
 					<li><a href="../files/waterfield/lacare/LACare_BIlling_PhraseList9.20.xlsx">LACare_BIlling_PhraseList 9.20.xlsx</a></li>
 					<li><a href="../files/waterfield/lacare/LACare_VUI9.20.docx">LACare_VUI 9.20.docx</a></li>
 					<li><a href="../files/waterfield/lacare/LaCareGrammars.zip">English and DTMF Grammars</a></li>
+					<li><a href="../files/waterfield/lacare/LACare_TestCaseOverview_DRAFT.xlsx">English Test Cases</a></li>
 								
 			
 					<li><h5>Superseded</h5>
@@ -52,14 +53,16 @@ foreach ($permissions as $p_id)
 				
 			<li><h3 class="mb-4">Certius</h3>
 				<ul> 
-				<li><a href="../files/waterfield/lacare/LACare_BIlling_PhraseList9.2_ES.xlsx">LACare_BIlling_PhraseList 9.2 (Spanish)</a></li>
-				<li><a href="../files/waterfield/lacare/LACare_VUI9.20_ES.docx">VUI LA CARE Version 1.1 (Spanish)</a></li>
+				<li><a href="../files/waterfield/lacare/LACare_BIlling_PhraseList9.28_ES.xlsx">LACare_BIlling_PhraseList 9.28 (Spanish)</a></li>
+				<li><a href="../files/waterfield/lacare/LACare_VUI9.28_ES.docx">VUI LA CARE Version 1.2 (Spanish) 9.28</a></li>
 				<li><a href="../files/waterfield/lacare/Waterfield-ServicesforLACareprojectRevB.pdf">Waterfield - Services for LA Care project RevB</a></li>
 				
 				
 				<li><h5>Superseded</h5>
 				<ul>
-				<li><a href="../files/waterfield/lacare/old/20WT0001-PL-0001_01.xlsx">20WT0001-PL-0001_01.xlsx</a></li>
+				<li><a href="../files/waterfield/lacare/old/LACare_BIlling_PhraseList9.2_ES.xlsx">LACare_BIlling_PhraseList 9.2 (Spanish)</a></li>
+				<li><a href="../files/waterfield/lacare/old/LACare_VUI9.20_ES.docx">VUI LA CARE Version 1.1 (Spanish)</a></li>
+				
 				
 				
 				
