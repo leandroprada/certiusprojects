@@ -39,6 +39,7 @@ foreach ($permissions as $p_id)
 				<li><a href="../files/waterfield/finishline/FLIVA_GiftCard.pdf">Gift Card Call Flow</a></li>
 				<li><a href="../files/waterfield/finishline/FLIVA_Loyalty.pdf">Loyalty Call Flow</a></li>
 				<li><a href="../files/waterfield/finishline/FLIVA_OrderStatus.pdf">Order Status Call Flow</a></li>
+				<li><a href="../files/waterfield/finishline/SpanishTestDataRequest.xlsx">Spanish Test Data Request- COMPLETE 9.25.20 (1)</a></li>
 				
 			
 				<li><h5>Superseded</h5>
@@ -87,7 +88,12 @@ foreach ($permissions as $p_id)
 		</ul>
 		
 		<h4>Customer Environment</h4>
-			<p>TO BE COMPLETED</p>
+			<p>Dial in number for testing: 1.317.654.9229
+
+</br>
+When prompted for the DNIS please enter 1.888.777.3949 , to be directed to the Finish Line business unit.  
+
+</p>
 			
 		<!--Please uncomment the lines before when the email is uploaded -->
 		<h3 class="mb-4">Submittal Email</h3>
