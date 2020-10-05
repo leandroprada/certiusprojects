@@ -57,6 +57,8 @@ foreach ($permissions as $p_id)
 				<li><a href="../files/waterfield/lacare/LACare_BIlling_PhraseList9.28_ES.xlsx">LACare_BIlling_PhraseList 9.28 (Spanish)</a></li>
 				<li><a href="../files/waterfield/lacare/LACare_VUI9.28_ES.docx">VUI LA CARE Version 1.2 (Spanish) 9.28</a></li>
 				<li><a href="../files/waterfield/lacare/Waterfield-ServicesforLACareprojectRevB.pdf">Waterfield - Services for LA Care project RevB</a></li>
+				<li><a href="../files/waterfield/lacare/2020.10.02.lacare-spanish-grammars.rar">Spanish Grammars first submission</a></li>
+				<li><a href="../files/waterfield/lacare/2020.10.05.lacare-spanish-grammars.rar">Spanish Grammars Addenda after customer input</a></li>
 				
 				
 				<li><h5>Superseded</h5>
