@@ -20,7 +20,7 @@ foreach ($permissions as $p_id)
 		if ($permissionname == "projects"){
 		echo '	
 		
-		<img src="../files/waterfield/lacare/L.A._Care_Health_Plan_official_logo.png" style="height:75px">
+		<img src="../files/waterfield/lacare/L.A._Care_Health_Plan_official_logo.png" style="height:150px">
 		
 	 <h2 class="mb-4">20WT0003 L.A Care Project</h2>
         
