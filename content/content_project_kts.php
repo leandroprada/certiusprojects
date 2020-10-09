@@ -93,6 +93,15 @@ foreach ($permissions as $p_id)
 							</video>
 						</div>
 					</li>
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#projectktsVidSubmenu2-3" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+						 ACP - Advantage Care Physicians - KT to Customer Operations (CAVs and Hours of operations) (Oct 2020)
+						<div class="collapse list-unstyled" id="projectktsVidSubmenu2-3">
+							<video width="75%" height="450px"  controls>
+							  <source src="../files/kts/acpKTtoOperations.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+						</div>
+					</li>
 					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#projectktsVidSubmenu3" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
 						 Parallon Inbound Payment IVR Internal KT (Sep 2020)
 						<div class="collapse list-unstyled" id="projectktsVidSubmenu3">

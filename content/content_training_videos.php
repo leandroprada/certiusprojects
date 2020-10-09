@@ -428,6 +428,27 @@ foreach ($permissions as $p_id)
 							</div>
 					</li>
 					
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#trainingVidSubmenu29" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+							LDAP Fundamentals
+						<div class="collapse list-unstyled" id="trainingVidSubmenu29">
+							<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">LDAP Fundamentals</h3>
+							<video width="75%" height="450px"  controls>
+							  <source src="../files/training/ldap.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+							
+							<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">LDAP - otro material de soporte </h3>
+							<ul>
+								<li style="text-decoration:none">
+									<a  href="../files/training/ldap.pdf" target="_blank">Presentaci&oacute;n Black Duck Hub </a>
+									<a href="../files/training/ldap.pdf" class="btn btn-info" style="color:white;">PDF</a> &oacute; <a href="../files/training/ldap.pptx" class="btn btn-info" style="color:white;">PPT</a>
+									
+								</li>
+								
+							</ul>
+						</div>
+					</li>
+					
 				</ul>
 			</div>	
          </div>
