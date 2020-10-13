@@ -16,7 +16,9 @@ foreach ($permissions as $p_id)
 		$permissionname = $rowcd[0];
 
 	if ($permissionname != NULL) {
-		if ($permissionname == "kts"){
+		if ($permissionname == "training"){
+			echo '	
+	 <h2 class="mb-4">Project KTs to CAS and customers</h2>
 		
 		<div class="container">
         <div class="row">
