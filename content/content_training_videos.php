@@ -17,7 +17,7 @@ foreach ($permissions as $p_id)
 
 	if ($permissionname != NULL) {
 		if ($permissionname == "training"){
-			header('Location: https://certiustech.sharepoint.com/sites/KnowledgeDatabase/Documentos%20compartidos/Forms/AllItems.aspx?viewid=0ecd27b9%2D99be%2D4dbe%2Da1a3%2D874d70e7b535&id=%2Fsites%2FKnowledgeDatabase%2FDocumentos%20compartidos%2FKT%2DSessions%2FInternal%20Training%20KTs');
+			header("Location: https://certiustech.sharepoint.com/sites/KnowledgeDatabase/Documentos%20compartidos/Forms/AllItems.aspx?viewid=0ecd27b9%2D99be%2D4dbe%2Da1a3%2D874d70e7b535&id=%2Fsites%2FKnowledgeDatabase%2FDocumentos%20compartidos%2FKT%2DSessions%2FInternal%20Training%20KTs");
 exit;
 		/* echo '	
 	 <h2 class="mb-4">Training Videos and other material</h2>
