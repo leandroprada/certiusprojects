@@ -17,7 +17,9 @@ foreach ($permissions as $p_id)
 
 	if ($permissionname != NULL) {
 		if ($permissionname == "training"){
-		echo '	
+		header('Location: https://certiustech.sharepoint.com/sites/KnowledgeDatabase/Documentos%20compartidos/Forms/AllItems.aspx?viewid=0ecd27b9%2D99be%2D4dbe%2Da1a3%2D874d70e7b535&id=%2Fsites%2FKnowledgeDatabase%2FDocumentos%20compartidos%2FKT%2DSessions%2FktsToCASorCustomers');
+exit;
+		/* echo '	
 	 <h2 class="mb-4">Project KTs</h2>
      
 	<div class="container">
@@ -158,7 +160,8 @@ foreach ($permissions as $p_id)
 
         
 
-		';
+		'; */
+		
 	  }
 		
 		}
