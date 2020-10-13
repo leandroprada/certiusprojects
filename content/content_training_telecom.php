@@ -26,7 +26,7 @@ foreach ($permissions as $p_id)
           <div class="col-md-12 col-sm-12">
 			<div class="text-left">
 				<ul style="list-style:none">
-					<li style="text-decoration:none;padding-bottom:10px; "><a  href="https://certiustech.sharepoint.com/:f:/s/KnowledgeDatabase/Eug2CNGM6r1JleGtyWLQ8yoBGbkThYUFNoo4hCNZ_C5bvw?e=hntTSc" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
+					<li style="text-decoration:none;padding-bottom:10px; "><a  href="https://certiustech.sharepoint.com/:f:/s/KnowledgeDatabase/Eh6JPmMSrM1DkTsWGqlFYicB1c6JE48Dj4T_sB9ghGcAKg?e=i3eauK" aria-expanded="false" class="btn btn-info btn-sm"  style="color:white;background-color:#825EAB;">Ver </a>
 						Please visit the new sharepoint
 					</li>
 				</ul>
