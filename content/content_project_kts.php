@@ -16,7 +16,7 @@ foreach ($permissions as $p_id)
 		$permissionname = $rowcd[0];
 
 	if ($permissionname != NULL) {
-		if ($permissionname == "training"){
+		if ($permissionname == "kts"){
 		
 		<div class="container">
         <div class="row">
