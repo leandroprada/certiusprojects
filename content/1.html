@@ -1,60 +1,136 @@
-<h2 class="mb-4">20WT0002 Finish Line Project</h2>
-        
-        <p>In this page you will find all documentation for Finish Line</p>
-		
-		
-		<h3 class="mb-4">Documentation</h3>
-		<ul>
-			<li> <h3 class="mb-4">Sent by Waterfield</h3>
-				<ul>
-				<li><a href="../files/waterfield/finishline/finishlinecallflow4.17.20.pdf">TO BE COMPLETED</a></li>
-				
+        	  <!-- <li>
+	            <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Waterfield Projects</a>
+	            <ul class="collapse list-unstyled" id="homeSubmenu2">
+                <li>
+                    <a href="./wyndham.php">20WT0001 - Wyndham Hotels</a>
+                    <a href="./finishline.php">20WT0002 - Finish Line</a>
+                    <a href="./lacare.php">20WT0003 - L.A. Care</a>
+                </li>               
+	            </ul>
+	          </li>
+	         
+			 <li>
+              <a href="#homeSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Teleperformance Projects</a>
+              <ul class="collapse list-unstyled" id="homeSubmenu3">
+                <li>
+                    <a href="./anses_ivr.php">18TP0001 - Teleperformance Anses IVR</a>
+                </li>
+              </ul>
+	         </li> 
+			 
+			 <li>
+              <a href="#homeSubmenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Project KTs</a>
+              <ul class="collapse list-unstyled" id="homeSubmenu5">
+                <li>
+                    <a href="./project_kts.php">Project KTs</a>
+                </li>
+              </ul>
+	         </li>
+			 
+			 -->
+			 
+			 <li>
+              <a href="#homeSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">IBM Projects</a>
+              <ul class="collapse list-unstyled" id="homeSubmenu4">
+                <li>
+                    <a href="./ibm.php">20IB0001 - Watson Prototype</a>
+                </li>
+              </ul>
+	         </li>
+			  
+			<li>
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Internal Projects</a>
+	            <ul class="collapse list-unstyled" id="homeSubmenu">
+                <li>
+                    <a href="./lumenvox.php">Lumenvox</a>
+                </li>
+				<li>
+                    <a href="https://sites.google.com/view/certiusprojects/home/internalprojects/2018-1-crm" target="_blank">2018-1 CRM</a>
+                </li>
+                <li>
+                    <a href="https://sites.google.com/view/certiusprojects/home/internalprojects/2018-2-webhost" target="_blank">2018-2 Web Hosting</a>
+                </li>
+                <li>
+                    <a href="https://sites.google.com/view/certiusprojects/home/internalprojects/2018-3-blog" target="_blank">2018-3 Confluence Alternatives</a>
+                </li>
+				 <li>
+                    <a href="https://sites.google.com/view/certiusprojects/home/internalprojects/2018-4-email" target="_blank">2018-4 Email Service</a>
+                </li>
+	            </ul>
+	          </li> 
+			'; 
+			}
 			
-				<li><h5>Superseded</h5>
-				<ul>
-				<li><a href="../files/waterfield/finishline/old/WVO.vsd">TO BE COMPLETED</a></li>
-				</ul>
-				</li>
-				</ul>
-			</li>
-				
-			<li><h3 class="mb-4">Certius</h3>
-				<ul> 
-				<li><a href="../files/waterfield/finishline/tech_proposal_revC.docx">Certius Quotation Tech Only Rev C</a></li>
-				<li><a href="../files/waterfield/finishline/20WT0001-PL-0001_5.0.xlsx">20WT0001-PL-0001_5.0.xlsx</a></li>
-				<li><a href="../files/waterfield/finishline/AlphaFile.zip">Alphas grammars (English Spanish Portuguese)</a></li>
-				<li><a href="../files/waterfield/finishline/finishline_VUI_20200415-2_ES.docx">finishline_VUI_20200415_ES.docx</a></li>
-				<li><a href="../files/waterfield/finishline/finishline_VUI_20200415-2_PT.docx">finishline_VUI_20200415_PT.docx</a></li>
-				
-				<li><h5>Superseded</h5>
-				<ul>
-				<li><a href="../files/waterfield/finishline/old/20WT0001-PL-0001_01.xlsx">TO BE COMPLETED</a></li>
-
-				
-				</ul>
-				
-				</li>
-				
-				</ul>
-				
-			</li>
-				
-				
+			 if ($permissionname == "training"){
+			echo '
+			<!-- <li>
+              <a href="#homeSubmenu6" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Training Material</a>
+              <ul class="collapse list-unstyled" id="homeSubmenu6">
+                <li>
+                    <a href="./training_telecom.php#zappix">Telecom Basics</a>
+                </li>
+				<li>
+                    <a href="./training_videos.php">Videos and more</a>
+                </li>
+				<li>
+                    <a href="./training_tips.php">Tips</a>
+                </li>
+              </ul>
+	         </li> -->
 			
-		</ul>
-		
-		<h4>Customer Environment</h4>
-			<p>TO BE COMPLETED</p>
+			';
+			}
 			
-		<!--Please uncomment the lines before when the email is uploaded -->
-		<h3 class="mb-4">Submittal Email</h3>
-		<p>You can <!-- <a href="../files/waterfield/finishline/20WT0001 - Waterfield - finishline - Spanish and Portuguese Delivery.htm" target="_blank"> -->view<!-- </a> --> or<!--  <a href="../files/waterfield/finishline/20WT0001-Waterfield-finishline-SpanishandPortugueseDelivery.eml" target="_blank"> -->download<!-- </a> --> the email with submission of documents</p>
-		<h3 class="mb-4">Scope of work</h3>
+			if ($permissionname == "transfer"){
+			echo '
+			<li>
+              <a href="./confidential_transfer.php">Transfer Page</a>
+              
+	         </li>
+			
+			';
+			}
+			
+			if ($permissionname == "transferCVS"){
+			echo '
+			<li>
+              <a href="./confidential_transfer.php">CVS Transfer Page</a>
+              
+	         </li>
+			
+			';
+			}
+			
+			if ($permissionname == "sales"){
+			echo '
+			<!-- <li>
+              <a href="#homeSubmenu7" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Sales Material</a>
+              <ul class="collapse list-unstyled" id="homeSubmenu7">
+                <li>
+                    <a href="./confidential_sales.php">Zappix</a>
+                </li>
+				
+              </ul>
+	         </li>
+			 -->
+			';
+			}
+			else if ($permissionname == "confidential"){
+			echo '
+			<li>
+              <a href="#homeSubmenu8" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Confidential</a>
+              <ul class="collapse list-unstyled" id="homeSubmenu8">
+                <li>
+                    <a href="./confidential_tollfree.php">Toll Free Forwarding</a>
+                </li>
+				
+				
+              </ul>
+	         </li>
+			
+			';
+			}
+			 
+			}	
 
-
-
-
-
- 
-<h3>Scope</h3>
-<object width="600px" height="450px" data="../files/waterfield/finishline/ServicesForFinishLineprojectRevA.pdf"></object>
+}

@@ -51,7 +51,7 @@ $permissions = $_SESSION['permissions'];
 	if ($permissionname != NULL) {
 			if ($permissionname == "projects"){
 			echo '			
-        	  <li>
+        	  <!-- <li>
 	            <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Waterfield Projects</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu2">
                 <li>
@@ -69,7 +69,7 @@ $permissions = $_SESSION['permissions'];
                     <a href="./anses_ivr.php">18TP0001 - Teleperformance Anses IVR</a>
                 </li>
               </ul>
-	         </li>
+	         </li> -->
 			 
 			 <li>
               <a href="#homeSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">IBM Projects</a>

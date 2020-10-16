@@ -20,7 +20,7 @@ foreach ($permissions as $p_id)
 		if ($permissionname == "projects"){
 		echo '	
 		<h2 class="mb-4">Certius Projects</h2>
-		<p>In this page you will find all non-Avaya project documentation</p>	
+		<p>This information moved to Sharepoint</p>	
 		';
 		}
 		if ($permissionname == "transfer"){
@@ -33,7 +33,7 @@ foreach ($permissions as $p_id)
 		else if ($permissionname == "training"){
 		echo '		
 		<h2 class="mb-4">Certius Training Material</h2>
-		<p>Also you will find training session videos and tips</p>
+		<p>This information moved to Sharepoint</p>
 		';
 		}
 		}
