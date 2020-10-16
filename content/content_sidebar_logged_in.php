@@ -51,25 +51,7 @@ $permissions = $_SESSION['permissions'];
 	if ($permissionname != NULL) {
 			if ($permissionname == "projects"){
 			echo '			
-        	  <!-- <li>
-	            <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Waterfield Projects</a>
-	            <ul class="collapse list-unstyled" id="homeSubmenu2">
-                <li>
-                    <a href="./wyndham.php">20WT0001 - Wyndham Hotels</a>
-                    <a href="./finishline.php">20WT0002 - Finish Line</a>
-                    <a href="./lacare.php">20WT0003 - L.A. Care</a>
-                </li>               
-	            </ul>
-	          </li>
-	         
-			 <li>
-              <a href="#homeSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Teleperformance Projects</a>
-              <ul class="collapse list-unstyled" id="homeSubmenu3">
-                <li>
-                    <a href="./anses_ivr.php">18TP0001 - Teleperformance Anses IVR</a>
-                </li>
-              </ul>
-	         </li> -->
+        	 
 			 
 			 <li>
               <a href="#homeSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">IBM Projects</a>
@@ -120,20 +102,7 @@ $permissions = $_SESSION['permissions'];
 			
 			 if ($permissionname == "training"){
 			echo '
-			<li>
-              <a href="#homeSubmenu6" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Training Material</a>
-              <ul class="collapse list-unstyled" id="homeSubmenu6">
-                <li>
-                    <a href="./training_telecom.php#zappix">Telecom Basics</a>
-                </li>
-				<li>
-                    <a href="./training_videos.php">Videos and more</a>
-                </li>
-				<li>
-                    <a href="./training_tips.php">Tips</a>
-                </li>
-              </ul>
-	         </li>
+			
 			
 			';
 			}
